@@ -1,0 +1,901 @@
+id,mensaje,motivo,dificultad,alternativa,frase,grupo
+m0001,Necesito cambiar la tarjeta con la que pago. Es urgente. Quedo atento.,facturación,normal,,f07,f07-c4
+m0002,"Hola, me cobraron de más por el reloj. ¿Me ayudan?",facturación,normal,,f06,f06-c0
+m0003,El pago de la chaqueta sigue pendiente y nadie me responde. Por favor.,facturación,normal,,f05,f05-c2
+m0004,Buenas tardes. El pago del reloj sigue pendiente. Es urgente. Quedo atento.,facturación,normal,,f05,f05-c4
+m0005,Quiero saber cuándo llega la licuadora. ¿Me ayudan?,envío,normal,,e04,e04-c0
+m0006,Buenas tardes. Necesito cambiar la tarjeta con la que pago. ¿Qué debo hacer?,facturación,normal,,f07,f07-c3
+m0007,Buenas tardes. Aparece un cargo que no reconozco. Es urgente. Quedo atento.,facturación,normal,,f02,f02-c4
+m0008,Buenas tardes. No reconozco un inicio de sesión en mi cuenta.,acceso a la cuenta,normal,,a11,a11-c0
+m0009,La mochila sigue en camino. ¿Me ayudan?,envío,normal,,e02,e02-c0
+m0010,hola. mi usuario aparece como inactivo. es urgente. por favor.,acceso a la cuenta,normal,,a12,a12-c4
+m0011,El reloj quedó retenido en la bodega. Es urgente. ¿Me ayudan?,envío,normal,,e11,e11-c4
+m0012,la mochila no es lo que pedí. es urgente.,devolución,normal,,d06,d06-c4
+m0013,"Hola, me devolvieron menos dinero del que pagué y nadie me responde.",devolución,normal,,d08,d08-c2
+m0014,Hola. El despacho del libro esta retrasado y necesito ayuda. Por favor.,envío,normal,,e09,e09-c1
+m0015,El cobro salió por un valor distinto y necesito ayuda. Por favor.,facturación,normal,,f11,f11-c1
+m0016,Quiero saber cuándo llega el libro y necesito ayuda. ¿Me ayudan?,envío,normal,,e04,e04-c1
+m0017,Buenas tardes. Olvidé la contraseña y no me llega el correo para recuperarla. ¿Qué debo hacer?,acceso a la cuenta,normal,,a02,a02-c3
+m0018,Buenas tardes. Mi cuenta quedó bloqueada. Quedo atento.,acceso a la cuenta,normal,,a03,a03-c0
+m0019,"Buen día, la guía de envío no aparece. Quedo atento.",envío,normal,,e12,e12-c0
+m0020,Necesito cambiar la direccion de entrega. Es urgente. Por favor.,envío,normal,,e06,e06-c4
+m0021,"Hola, quiero solicitar la devolucion del teclado. Gracias.",devolución,normal,,d07,d07-c0
+m0022,"Hola, la devolucion de la lampara fue rechazada y nadie me responde.",devolución,normal,,d12,d12-c2
+m0023,"Buen día, la caja llegó abierta y falta uno de los productos y nadie me responde. ¿Me ayudan?",envío,ambiguo,devolución,x01,x01-c2
+m0024,Necesito cambiar la tarjeta con la que pago y nadie me responde. Gracias.,facturación,normal,,f07,f07-c2
+m0025,"Buen día, no llegó tarde: llegó con daños y quiero la devolución.",devolución,negación,,n04,n04-c0
+m0026,"Buen día, el despacho del pedido está retrasado.",envío,normal,,e09,e09-c0
+m0027,No puedo entrar a mi cuenta. ¿Que debo hacer?,acceso a la cuenta,normal,,a01,a01-c3
+m0028,"Hola, el teclado sigue en camino y nadie me responde. Por favor.",envío,normal,,e02,e02-c2
+m0029,Hola. El valor de la factura no coincide con lo que pagué. Gracias.,facturación,normal,,f03,f03-c0
+m0030,Hola. Me devolvieron menos dinero del que pagué y nadie me responde. Quedo atento.,devolución,normal,,d08,d08-c2
+m0031,"Hola, la sesión se cierra sola. ¿Qué debo hacer? Gracias.",acceso a la cuenta,normal,,a10,a10-c3
+m0032,"Buen día, el pedido llegó con un defecto y quiero la devolución. Quedo atento.",devolución,normal,,d02,d02-c0
+m0033,No tengo problemas con la cuenta; el cobro está repetido. Por favor.,facturación,negación,,n05,n05-c0
+m0034,Hola. Pague y el sistema dice que no hay pago y nadie me responde. Por favor.,facturación,normal,,f09,f09-c2
+m0035,El teclado sigue en camino. ¿Qué debo hacer?,envío,normal,,e02,e02-c3
+m0036,"Buen día, quiero que me devuelvan el dinero del teclado. Quedo atento.",devolución,normal,,d11,d11-c0
+m0037,Buenas tardes. Quiero cambiar el correo de mi cuenta. ¿Me ayudan?,acceso a la cuenta,normal,,a06,a06-c0
+m0038,"Hola, me devolvieron menos dinero del que pagué. ¿Qué debo hacer? Por favor.",devolución,normal,,d08,d08-c3
+m0039,Buenas tardes. El seguimiento del despacho no se actualiza y nadie me responde.,envío,normal,,e03,e03-c2
+m0040,Buenas tardes. Ya hice la devolución y no veo el dinero y nadie me responde. Gracias.,devolución,normal,,d04,d04-c2
+m0041,"Buen día, olvidé la contraseña y no me llega el correo para recuperarla. ¿Qué debo hacer?",acceso a la cuenta,normal,,a02,a02-c3
+m0042,Hola. El repartidor no pasó. ¿Qué debo hacer? Por favor.,envío,normal,,e10,e10-c3
+m0043,El envío figura como entregado pero no lo recibí y necesito ayuda. Gracias.,envío,normal,,e05,e05-c1
+m0044,Quiero cambiar el correo de mi cuenta. Es urgente. Por favor.,acceso a la cuenta,normal,,a06,a06-c4
+m0045,"Buen día, mi cuenta quedó bloqueada.",acceso a la cuenta,normal,,a03,a03-c0
+m0046,"No quiero el reembolso, quiero saber dónde está la licuadora. ¿Qué debo hacer?",envío,negación,,n06,n06-c3
+m0047,"Buen día, quiero la recibo electrónica de la licuadora. Es urgente. ¿Me ayudan?",facturación,normal,,f10,f10-c4
+m0048,Buenas tardes. El reloj llegó con daños.,devolución,normal,,d09,d09-c0
+m0049,"Buen día, quiero saber cuánto tarda el dinero y nadie me responde.",devolución,normal,,d03,d03-c2
+m0050,"Hola, la transportadora no encontró mi dirección. ¿Qué debo hacer? Quedo atento.",envío,normal,,e08,e08-c3
+m0051,"Buen día, me cobraron de más por la licuadora. Es urgente. Quedo atento.",facturación,normal,,f06,f06-c4
+m0052,"Buen día, el libro no me sirvió y quiero hacer un cambio. ¿Qué debo hacer? Quedo atento.",devolución,normal,,d10,d10-c3
+m0053,"Hola, me descontaron un cobro extra. Es urgente. Quedo atento.",facturación,normal,,f08,f08-c4
+m0054,Pagué y el sistema dice que no hay pago. Quedo atento.,facturación,normal,,f09,f09-c0
+m0055,El libro no ha llegado. ¿Qué debo hacer?,envío,normal,,e01,e01-c3
+m0056,Hola. Quiero devolver el teclado y nadie me responde. ¿Me ayudan?,devolución,normal,,d01,d01-c2
+m0057,"Hola, no puedo entrar a mi cuenta. ¿Qué debo hacer? Por favor.",acceso a la cuenta,normal,,a01,a01-c3
+m0058,"Hola, quiero saber cuánto tarda el reembolso. Es urgente. Por favor.",devolución,normal,,d03,d03-c4
+m0059,"hola, necesito cambiar la tarjeta con la que pago y necesito ayuda. por favor.",facturación,normal,,f07,f07-c1
+m0060,"Hola, quiero saber cuándo llega el teclado y nadie me responde. ¿Me ayudan?",envío,normal,,e04,e04-c2
+m0061,"Buen día, el valor de la factura no coincide con lo que pagué. Es urgente. Quedo atento.",facturación,normal,,f03,f03-c4
+m0062,Buenas tardes. Quiero solicitar la devolución del pedido y nadie me responde. Por favor.,devolución,normal,,d07,d07-c2
+m0063,Buenas tardes. El envío del pedido está retrasado. Es urgente.,envío,normal,,e09,e09-c4
+m0064,Me cobraron dos veces la chaqueta. Gracias.,facturación,normal,,f01,f01-c0
+m0065,Buenas tardes. No puedo entrar a mi cuenta y necesito ayuda.,acceso a la cuenta,normal,,a01,a01-c1
+m0066,La transportadora no encontró mi dirección. ¿Qué debo hacer? Gracias.,envío,normal,,e08,e08-c3
+m0067,"Buen día, mi cuenta quedó bloqueada. ¿Qué debo hacer?",acceso a la cuenta,normal,,a03,a03-c3
+m0068,"Hola, quiero solicitar la devolución de la lámpara.",devolución,normal,,d07,d07-c0
+m0069,Hola. El pago del pedido sigue pendiente y necesito ayuda. ¿Me ayudan?,facturación,normal,,f05,f05-c1
+m0070,"Hola, no es un problema de pago: no puedo entrar a mi cuenta y necesito ayuda.",acceso a la cuenta,negación,,n02,n02-c1
+m0071,El valor de la factura no coincide con lo que pagué y nadie me responde. Quedo atento.,facturación,normal,,f03,f03-c2
+m0072,Aparece un cobro que no reconozco. ¿Qué debo hacer? Quedo atento.,facturación,normal,,f02,f02-c3
+m0073,"Buen día, no me llega el código para iniciar sesión y necesito ayuda. Quedo atento.",acceso a la cuenta,normal,,a09,a09-c1
+m0074,Buenas tardes. El teclado no ha llegado y necesito ayuda.,envío,normal,,e01,e01-c1
+m0075,La sesión se cierra sola. Es urgente. ¿Me ayudan?,acceso a la cuenta,normal,,a10,a10-c4
+m0076,Hola. La transportadora no encontró mi dirección. Es urgente. ¿Me ayudan?,envío,normal,,e08,e08-c4
+m0077,el reloj no ha llegado y necesito ayuda. ¿me ayudan?,envío,normal,,e01,e01-c1
+m0078,"Hola, la transportadora no encontró mi dirección y necesito ayuda. ¿Me ayudan?",envío,normal,,e08,e08-c1
+m0079,"Hola, no llegó tarde: llegó con daños y quiero la devolución. ¿Qué debo hacer? Gracias.",devolución,negación,,n04,n04-c3
+m0080,El envío figura como entregado pero no lo recibí y necesito ayuda.,envío,normal,,e05,e05-c1
+m0081,el repartidor no pasó. ¿qué debo hacer?,envío,normal,,e10,e10-c3
+m0082,Hola. El envío de la mochila está retrasado y necesito ayuda. ¿Me ayudan?,envío,normal,,e09,e09-c1
+m0083,"hola, quiero saber cuánto tarda el dinero. es urgente. ¿me ayudan?",devolución,normal,,d03,d03-c4
+m0084,Quiero saber cuándo llega el teclado. ¿Qué debo hacer?,envío,normal,,e04,e04-c3
+m0085,La lámpara no ha llegado y necesito ayuda.,envío,normal,,e01,e01-c1
+m0086,Dice que mi contraseña es incorrecta. Es urgente.,acceso a la cuenta,normal,,a07,a07-c4
+m0087,La chaqueta no ha llegado. ¿Qué debo hacer?,envío,normal,,e01,e01-c3
+m0088,La lámpara no ha llegado. ¿Me ayudan?,envío,normal,,e01,e01-c0
+m0089,Hola. Dice que mi contraseña es incorrecta. Quedo atento.,acceso a la cuenta,normal,,a07,a07-c0
+m0090,Hola. Dice que mi contraseña es incorrecta y necesito ayuda.,acceso a la cuenta,normal,,a07,a07-c1
+m0091,"Buen día, la sesión se cierra sola. ¿Me ayudan?",acceso a la cuenta,normal,,a10,a10-c0
+m0092,"Hola, olvidé la contraseña y no me llega el correo para recuperarla. ¿Qué debo hacer? Quedo atento.",acceso a la cuenta,normal,,a02,a02-c3
+m0093,Hola. Me cobraron de más por la licuadora. Es urgente. Gracias.,facturación,normal,,f06,f06-c4
+m0094,"Hola, la chaqueta no ha llegado. ¿Qué debo hacer?",envío,normal,,e01,e01-c3
+m0095,"Buen día, dice que mi contraseña es incorrecta y nadie me responde.",acceso a la cuenta,normal,,a07,a07-c2
+m0096,"Hola. No quiero el reembolso, quiero saber donde esta la chaqueta. Gracias.",envío,negación,,n06,n06-c0
+m0097,El pago del pedido sigue pendiente y necesito ayuda.,facturación,normal,,f05,f05-c1
+m0098,"Buen dia, quiero devolver la chaqueta. Por favor.",devolución,normal,,d01,d01-c0
+m0099,"Hola, me llegó un código de verificación que no pedí y nadie me responde. Por favor.",acceso a la cuenta,normal,,a04,a04-c2
+m0100,La transportadora no encontró mi dirección. Gracias.,envío,normal,,e08,e08-c0
+m0101,Hola. Necesito cambiar la tarjeta con la que pago y necesito ayuda. Gracias.,facturación,normal,,f07,f07-c1
+m0102,"Hola, el teclado no ha llegado. Quedo atento.",envío,normal,,e01,e01-c0
+m0103,El pago de la chaqueta sigue pendiente. Es urgente.,facturación,normal,,f05,f05-c4
+m0104,Buenas tardes. Necesito cambiar la tarjeta con la que pago y nadie me responde.,facturación,normal,,f07,f07-c2
+m0105,"Hola, el despacho del pedido está retrasado y nadie me responde.",envío,normal,,e09,e09-c2
+m0106,Buenas tardes. La licuadora no es lo que pedí. Gracias.,devolución,normal,,d06,d06-c0
+m0107,"Buen dia, no necesito cambiar la direccion, necesito la recibo de la chaqueta.",facturación,negación,,n03,n03-c0
+m0108,Aparece un cargo que no reconozco y nadie me responde. Gracias.,facturación,normal,,f02,f02-c2
+m0109,"Buen día, la lámpara sigue en camino. ¿Qué debo hacer? Por favor.",envío,normal,,e02,e02-c3
+m0110,El envío figura como entregado pero no lo recibí. Por favor.,envío,normal,,e05,e05-c0
+m0111,"Hola. No quiero devolver nada, solo saber cuándo llega la chaqueta y nadie me responde.",envío,negación,,n01,n01-c2
+m0112,Hola. No llegó tarde: llegó con daños y quiero la devolución.,devolución,negación,,n04,n04-c0
+m0113,Me llegó un código de verificación que no pedí y nadie me responde. ¿Me ayudan?,acceso a la cuenta,normal,,a04,a04-c2
+m0114,no entiendo un cargo de 19.900 pesos. es urgente. por favor.,facturación,normal,,f12,f12-c4
+m0115,Hola. Quiero la recibo electrónica de la mochila y necesito ayuda. Gracias.,facturación,normal,,f10,f10-c1
+m0116,Mi cuenta quedó bloqueada. ¿Qué debo hacer?,acceso a la cuenta,normal,,a03,a03-c3
+m0117,"Buen día, el libro llegó con un defecto y quiero la devolución. Es urgente. Por favor.",devolución,normal,,d02,d02-c4
+m0118,"Hola, la devolución de la mochila fue rechazada. Es urgente. Gracias.",devolución,normal,,d12,d12-c4
+m0119,No tengo problemas con la cuenta; el cargo esta repetido. Es urgente. Por favor.,facturación,negación,,n05,n05-c4
+m0120,Necesito cambiar la tarjeta con la que pago. Quedo atento.,facturación,normal,,f07,f07-c0
+m0121,Buenas tardes. No entiendo un cobro de 8.500 pesos y nadie me responde. Por favor.,facturación,normal,,f12,f12-c2
+m0122,la devolucion de la chaqueta fue rechazada. ¿que debo hacer?,devolución,normal,,d12,d12-c3
+m0123,"Hola, el seguimiento del envío no se actualiza.",envío,normal,,e03,e03-c0
+m0124,No tengo problemas con la cuenta; el cobro está repetido. ¿Qué debo hacer?,facturación,negación,,n05,n05-c3
+m0125,Buenas tardes. Mi usuario aparece como inactivo. Es urgente. Quedo atento.,acceso a la cuenta,normal,,a12,a12-c4
+m0126,Buenas tardes. El despacho de la chaqueta está retrasado y necesito ayuda. Por favor.,envío,normal,,e09,e09-c1
+m0127,Hola. Necesito cambiar la tarjeta con la que pago. Es urgente. ¿Me ayudan?,facturación,normal,,f07,f07-c4
+m0128,Buenas tardes. Olvidé la contraseña y no me llega el correo para recuperarla y nadie me responde. ¿Me ayudan?,acceso a la cuenta,normal,,a02,a02-c2
+m0129,Me descontaron un cobro extra y nadie me responde. ¿Me ayudan?,facturación,normal,,f08,f08-c2
+m0130,"Buen día, me cobraron la lámpara pero nunca llegó y necesito ayuda.",envío,ambiguo,facturación,x02,x02-c1
+m0131,Hola. El pedido no me sirvió y quiero hacer un cambio y necesito ayuda. Gracias.,devolución,normal,,d10,d10-c1
+m0132,"Buen día, no entiendo un cargo de 19.900 pesos. ¿Qué debo hacer? Quedo atento.",facturación,normal,,f12,f12-c3
+m0133,Me cobraron dos veces el teclado. Por favor.,facturación,normal,,f01,f01-c0
+m0134,Buenas tardes. Quiero la factura electronica del teclado. Es urgente. Por favor.,facturación,normal,,f10,f10-c4
+m0135,buenas tardes. me cobraron de más por la lámpara. es urgente.,facturación,normal,,f06,f06-c4
+m0136,Necesito cambiar la tarjeta con la que pago. Es urgente. ¿Me ayudan?,facturación,normal,,f07,f07-c4
+m0137,hola. la aplicación no me deja iniciar sesión y nadie me responde. por favor.,acceso a la cuenta,normal,,a05,a05-c2
+m0138,el cargo salió por un valor distinto. ¿qué debo hacer?,facturación,normal,,f11,f11-c3
+m0139,quiero cambiar el correo de mi cuenta y nadie me responde.,acceso a la cuenta,normal,,a06,a06-c2
+m0140,"Hola, no quiero devolver nada, solo saber cuando llega el libro.",envío,negación,,n01,n01-c0
+m0141,"Buen día, necesito cambiar la tarjeta con la que pago y nadie me responde.",facturación,normal,,f07,f07-c2
+m0142,Hola. No entiendo un cobro de 19.900 pesos. Es urgente.,facturación,normal,,f12,f12-c4
+m0143,Quiero devolver la lámpara. Es urgente. Gracias.,devolución,normal,,d01,d01-c4
+m0144,Buenas tardes. La devolución de la lámpara fue rechazada y nadie me responde. ¿Me ayudan?,devolución,normal,,d12,d12-c2
+m0145,El repartidor no pasó y necesito ayuda. Gracias.,envío,normal,,e10,e10-c1
+m0146,"Hola, la licuadora no ha llegado y necesito ayuda. Quedo atento.",envío,normal,,e01,e01-c1
+m0147,Me cobraron dos veces el pedido. ¿Qué debo hacer? Quedo atento.,facturación,normal,,f01,f01-c3
+m0148,"Hola, la guía de envío no aparece y necesito ayuda. Gracias.",envío,normal,,e12,e12-c1
+m0149,"Buen día, la aplicación no me deja iniciar sesión.",acceso a la cuenta,normal,,a05,a05-c0
+m0150,Me devolvieron menos dinero del que pagué. ¿Qué debo hacer? ¿Me ayudan?,devolución,normal,,d08,d08-c3
+m0151,El seguimiento del despacho no se actualiza. Es urgente. Quedo atento.,envío,normal,,e03,e03-c4
+m0152,"Buen día, la sesión se cierra sola y nadie me responde. Quedo atento.",acceso a la cuenta,normal,,a10,a10-c2
+m0153,La guía de envío no aparece. Por favor.,envío,normal,,e12,e12-c0
+m0154,Hola. El despacho de la mochila está retrasado. Es urgente. ¿Me ayudan?,envío,normal,,e09,e09-c4
+m0155,Buenas tardes. Mi cuenta quedó bloqueada y nadie me responde. Gracias.,acceso a la cuenta,normal,,a03,a03-c2
+m0156,Hola. Me cobraron de más por el reloj. ¿Qué debo hacer? Gracias.,facturación,normal,,f06,f06-c3
+m0157,Quiero cancelar la compra y que no me cobren y nadie me responde.,facturación,ambiguo,devolución,x03,x03-c2
+m0158,"Buen día, aparece un cobro que no reconozco y necesito ayuda. ¿Me ayudan?",facturación,normal,,f02,f02-c1
+m0159,Hola. Quiero que me devuelvan el dinero de la chaqueta. ¿Que debo hacer? ¿Me ayudan?,devolución,normal,,d11,d11-c3
+m0160,Quiero que me devuelvan el dinero del teclado y necesito ayuda. Gracias.,devolución,normal,,d11,d11-c1
+m0161,"Hola, necesito cambiar la dirección de entrega y necesito ayuda.",envío,normal,,e06,e06-c1
+m0162,"Buen día, el teclado llegó con un defecto y quiero la devolución y nadie me responde. Gracias.",devolución,normal,,d02,d02-c2
+m0163,Hola. Ya pasó la fecha de entrega de la mochila y nadie me responde. Quedo atento.,envío,normal,,e07,e07-c2
+m0164,el envío figura como entregado pero no lo recibí. gracias.,envío,normal,,e05,e05-c0
+m0165,El reloj llego con un defecto y quiero la devolucion y necesito ayuda.,devolución,normal,,d02,d02-c1
+m0166,La devolución de la mochila fue rechazada y nadie me responde. Gracias.,devolución,normal,,d12,d12-c2
+m0167,"Buen dia, la guia de envio no aparece. Es urgente. Por favor.",envío,normal,,e12,e12-c4
+m0168,"Hola, quiero solicitar la devolución de la chaqueta y necesito ayuda.",devolución,normal,,d07,d07-c1
+m0169,No entiendo un cargo de 120.000 pesos. ¿Qué debo hacer? Gracias.,facturación,normal,,f12,f12-c3
+m0170,"Buen día, el teclado llegó con un defecto y quiero la devolución. Gracias.",devolución,normal,,d02,d02-c0
+m0171,Hola. Necesito cambiar el libro por otra referencia y nadie me responde.,devolución,normal,,d05,d05-c2
+m0172,No me llega el código para iniciar sesión y necesito ayuda. ¿Me ayudan?,acceso a la cuenta,normal,,a09,a09-c1
+m0173,"Hola, el envío figura como entregado pero no lo recibí.",envío,normal,,e05,e05-c0
+m0174,Hola. La lámpara no ha llegado. ¿Qué debo hacer? Por favor.,envío,normal,,e01,e01-c3
+m0175,Me devolvieron menos dinero del que pagué y necesito ayuda. Gracias.,devolución,normal,,d08,d08-c1
+m0176,Buenas tardes. La mochila llegó con daños y nadie me responde. ¿Me ayudan?,devolución,normal,,d09,d09-c2
+m0177,Me descontaron un cargo extra y nadie me responde.,facturación,normal,,f08,f08-c2
+m0178,Buenas tardes. Quiero cambiar el correo de mi cuenta y nadie me responde. ¿Me ayudan?,acceso a la cuenta,normal,,a06,a06-c2
+m0179,buenas tardes. olvidé la contraseña y no me llega el correo para recuperarla. es urgente. gracias.,acceso a la cuenta,normal,,a02,a02-c4
+m0180,Alguien entró a mi cuenta sin permiso y nadie me responde.,acceso a la cuenta,normal,,a08,a08-c2
+m0181,Buenas tardes. Necesito cambiar el reloj por otra referencia. Es urgente. Por favor.,devolución,normal,,d05,d05-c4
+m0182,"Hola, me descontaron un cargo extra. ¿Me ayudan?",facturación,normal,,f08,f08-c0
+m0183,El valor de la recibo no coincide con lo que pagué. ¿Qué debo hacer?,facturación,normal,,f03,f03-c3
+m0184,Buenas tardes. Ya pasó la fecha de entrega del libro. Es urgente. Gracias.,envío,normal,,e07,e07-c4
+m0185,Hola. Quiero saber cuánto tarda el reembolso y necesito ayuda. Quedo atento.,devolución,normal,,d03,d03-c1
+m0186,El reloj sigue en camino y nadie me responde.,envío,normal,,e02,e02-c2
+m0187,"Hola, alguien entró a mi cuenta sin permiso. Es urgente. Gracias.",acceso a la cuenta,normal,,a08,a08-c4
+m0188,Me llegó un código de verificación que no pedí. Gracias.,acceso a la cuenta,normal,,a04,a04-c0
+m0189,"Hola, ya pasó la fecha de entrega de la licuadora. Es urgente.",envío,normal,,e07,e07-c4
+m0190,El envío figura como entregado pero no lo recibí. ¿Qué debo hacer? Por favor.,envío,normal,,e05,e05-c3
+m0191,"hola, no me llega el código para iniciar sesión. por favor.",acceso a la cuenta,normal,,a09,a09-c0
+m0192,Buenas tardes. El pedido no ha llegado.,envío,normal,,e01,e01-c0
+m0193,"Hola, quiero solicitar la devolución de la licuadora. Es urgente. ¿Me ayudan?",devolución,normal,,d07,d07-c4
+m0194,Quiero cambiar el correo de mi cuenta y necesito ayuda. ¿Me ayudan?,acceso a la cuenta,normal,,a06,a06-c1
+m0195,"hola, quiero solicitar la devolución del libro. es urgente. quedo atento.",devolución,normal,,d07,d07-c4
+m0196,"Hola, no reconozco un inicio de sesión en mi cuenta. Es urgente. Gracias.",acceso a la cuenta,normal,,a11,a11-c4
+m0197,"Buen día, olvidé la contraseña y no me llega el correo para recuperarla. ¿Qué debo hacer? Por favor.",acceso a la cuenta,normal,,a02,a02-c3
+m0198,Hola. Pagué y el sistema dice que no hay pago. Es urgente.,facturación,normal,,f09,f09-c4
+m0199,buenas tardes. me cobraron dos veces el reloj y necesito ayuda. quedo atento.,facturación,normal,,f01,f01-c1
+m0200,Quiero saber cuánto tarda el reembolso. Quedo atento.,devolución,normal,,d03,d03-c0
+m0201,El reloj llegó con un defecto y quiero la devolución y nadie me responde.,devolución,normal,,d02,d02-c2
+m0202,"Hola, el envío figura como entregado pero no lo recibí y necesito ayuda. Gracias.",envío,normal,,e05,e05-c1
+m0203,Hola. No entiendo un cargo de 120.000 pesos. Es urgente. Por favor.,facturación,normal,,f12,f12-c4
+m0204,Buenas tardes. El pago del libro sigue pendiente y necesito ayuda. Por favor.,facturación,normal,,f05,f05-c1
+m0205,"Buen día, quiero saber cuánto tarda el reembolso y nadie me responde. Quedo atento.",devolución,normal,,d03,d03-c2
+m0206,quiero solicitar la devolución del pedido. es urgente. ¿me ayudan?,devolución,normal,,d07,d07-c4
+m0207,"Hola, no quiero el reembolso, quiero saber dónde está el pedido. ¿Qué debo hacer? Gracias.",envío,negación,,n06,n06-c3
+m0208,"Hola. No necesito cambiar la dirección, necesito la factura del reloj y necesito ayuda.",facturación,negación,,n03,n03-c1
+m0209,Hola. Necesito cambiar la tarjeta con la que pago. ¿Qué debo hacer? Quedo atento.,facturación,normal,,f07,f07-c3
+m0210,Hola. Mi cuenta quedó bloqueada. ¿Qué debo hacer?,acceso a la cuenta,normal,,a03,a03-c3
+m0211,Buenas tardes. Mi cuenta quedó bloqueada y necesito ayuda.,acceso a la cuenta,normal,,a03,a03-c1
+m0212,"Hola, me devolvieron menos dinero del que pagué y necesito ayuda.",devolución,normal,,d08,d08-c1
+m0213,La aplicación no me deja iniciar sesión. ¿Me ayudan?,acceso a la cuenta,normal,,a05,a05-c0
+m0214,Olvidé la contraseña y no me llega el correo para recuperarla y necesito ayuda.,acceso a la cuenta,normal,,a02,a02-c1
+m0215,"Hola, la guía de despacho no aparece y nadie me responde. ¿Me ayudan?",envío,normal,,e12,e12-c2
+m0216,Buenas tardes. El valor de la factura no coincide con lo que pagué. Quedo atento.,facturación,normal,,f03,f03-c0
+m0217,La lámpara quedó retenido en la bodega. ¿Qué debo hacer? ¿Me ayudan?,envío,normal,,e11,e11-c3
+m0218,"Buen día, me cobraron de más por la mochila. Es urgente. ¿Me ayudan?",facturación,normal,,f06,f06-c4
+m0219,hola. dice que mi contraseña es incorrecta. es urgente. por favor.,acceso a la cuenta,normal,,a07,a07-c4
+m0220,"Buen día, quiero solicitar la devolución de la lámpara y necesito ayuda. ¿Me ayudan?",devolución,normal,,d07,d07-c1
+m0221,Buenas tardes. Me llegó un código de verificación que no pedí y necesito ayuda.,acceso a la cuenta,normal,,a04,a04-c1
+m0222,No entiendo un cargo de 8.500 pesos. Por favor.,facturación,normal,,f12,f12-c0
+m0223,Hola. Olvidé la contraseña y no me llega el correo para recuperarla. Es urgente.,acceso a la cuenta,normal,,a02,a02-c4
+m0224,"Buen día, el reloj quedó retenido en la bodega. Por favor.",envío,normal,,e11,e11-c0
+m0225,Hola. La devolución del teclado fue rechazada y nadie me responde. Gracias.,devolución,normal,,d12,d12-c2
+m0226,El pago del reloj sigue pendiente. Es urgente. Quedo atento.,facturación,normal,,f05,f05-c4
+m0227,La licuadora no es lo que pedí. ¿Qué debo hacer?,devolución,normal,,d06,d06-c3
+m0228,No puedo entrar a mi cuenta y nadie me responde.,acceso a la cuenta,normal,,a01,a01-c2
+m0229,Quiero devolver el reloj. ¿Que debo hacer? Por favor.,devolución,normal,,d01,d01-c3
+m0230,"Hola, el valor de la factura no coincide con lo que pagué y necesito ayuda. ¿Me ayudan?",facturación,normal,,f03,f03-c1
+m0231,El cobro salió por un valor distinto. ¿Me ayudan?,facturación,normal,,f11,f11-c0
+m0232,buenas tardes. aparece un cobro que no reconozco.,facturación,normal,,f02,f02-c0
+m0233,Hola. Quiero cambiar el correo de mi cuenta y nadie me responde. Por favor.,acceso a la cuenta,normal,,a06,a06-c2
+m0234,"Hola, la sesion se cierra sola. ¿Que debo hacer? Quedo atento.",acceso a la cuenta,normal,,a10,a10-c3
+m0235,"Hola, necesito cambiar la dirección de entrega. Por favor.",envío,normal,,e06,e06-c0
+m0236,"Buen dia, no puedo entrar a mi cuenta y necesito ayuda. Gracias.",acceso a la cuenta,normal,,a01,a01-c1
+m0237,Pagué y el sistema dice que no hay pago y nadie me responde.,facturación,normal,,f09,f09-c2
+m0238,Hola. El libro no ha llegado. ¿Qué debo hacer? Quedo atento.,envío,normal,,e01,e01-c3
+m0239,El teclado no me sirvio y quiero hacer un cambio. Por favor.,devolución,normal,,d10,d10-c0
+m0240,Hola. Me cobraron de más por el reloj. Es urgente. Gracias.,facturación,normal,,f06,f06-c4
+m0241,"Buen día, me cobraron de más por la chaqueta. ¿Qué debo hacer? Gracias.",facturación,normal,,f06,f06-c3
+m0242,El envío de la chaqueta está retrasado y nadie me responde. Quedo atento.,envío,normal,,e09,e09-c2
+m0243,La transportadora no encontró mi dirección y nadie me responde.,envío,normal,,e08,e08-c2
+m0244,"Buen día, olvidé la contraseña y no me llega el correo para recuperarla. Es urgente.",acceso a la cuenta,normal,,a02,a02-c4
+m0245,Quiero cambiar el correo de mi cuenta.,acceso a la cuenta,normal,,a06,a06-c0
+m0246,Mi cuenta quedó bloqueada. Gracias.,acceso a la cuenta,normal,,a03,a03-c0
+m0247,me devolvieron menos dinero del que pagué. por favor.,devolución,normal,,d08,d08-c0
+m0248,Me cobraron de más por el pedido. Por favor.,facturación,normal,,f06,f06-c0
+m0249,El repartidor no pasó y nadie me responde. ¿Me ayudan?,envío,normal,,e10,e10-c2
+m0250,Hola. Necesito cambiar la tarjeta con la que pago y nadie me responde.,facturación,normal,,f07,f07-c2
+m0251,Hola. Ya paso la fecha de entrega del pedido. Quedo atento.,envío,normal,,e07,e07-c0
+m0252,Quiero cambiar el correo de mi cuenta y necesito ayuda. Gracias.,acceso a la cuenta,normal,,a06,a06-c1
+m0253,Buenas tardes. Alguien entró a mi cuenta sin permiso y nadie me responde. Gracias.,acceso a la cuenta,normal,,a08,a08-c2
+m0254,hola. el reloj llegó con un defecto y quiero la devolución. ¿qué debo hacer?,devolución,normal,,d02,d02-c3
+m0255,"Hola, ya hice la devolución y no veo el dinero y necesito ayuda.",devolución,normal,,d04,d04-c1
+m0256,Me cobraron el reloj pero nunca llegó. Gracias.,envío,ambiguo,facturación,x02,x02-c0
+m0257,Hola. El seguimiento del envío no se actualiza y nadie me responde.,envío,normal,,e03,e03-c2
+m0258,Pagué y el sistema dice que no hay pago. Es urgente. Gracias.,facturación,normal,,f09,f09-c4
+m0259,"Hola, me devolvieron menos dinero del que pagué. ¿Qué debo hacer?",devolución,normal,,d08,d08-c3
+m0260,Buenas tardes. Ya hice la devolución y no veo el dinero. ¿Qué debo hacer? Gracias.,devolución,normal,,d04,d04-c3
+m0261,"Buen día, el valor de la recibo no coincide con lo que pagué y necesito ayuda.",facturación,normal,,f03,f03-c1
+m0262,Buenas tardes. Quiero saber cuándo llega la licuadora. Es urgente.,envío,normal,,e04,e04-c4
+m0263,Hola. La lámpara llegó con daños. Es urgente. Por favor.,devolución,normal,,d09,d09-c4
+m0264,No me ha llegado la recibo del reloj. Gracias.,facturación,normal,,f04,f04-c0
+m0265,"Buen día, mi cuenta quedó bloqueada. Es urgente. Gracias.",acceso a la cuenta,normal,,a03,a03-c4
+m0266,El envio del libro esta retrasado y necesito ayuda. Por favor.,envío,normal,,e09,e09-c1
+m0267,Me cobraron el reloj pero nunca llegó y necesito ayuda.,envío,ambiguo,facturación,x02,x02-c1
+m0268,Hola. No reconozco un inicio de sesión en mi cuenta y necesito ayuda. ¿Me ayudan?,acceso a la cuenta,normal,,a11,a11-c1
+m0269,Hola. Dice que mi contraseña es incorrecta y nadie me responde. Por favor.,acceso a la cuenta,normal,,a07,a07-c2
+m0270,Buenas tardes. La guía de despacho no aparece y necesito ayuda.,envío,normal,,e12,e12-c1
+m0271,hola. la caja llegó abierta y falta uno de los productos. es urgente. quedo atento.,envío,ambiguo,devolución,x01,x01-c4
+m0272,Buenas tardes. La aplicación no me deja iniciar sesión. ¿Qué debo hacer? Por favor.,acceso a la cuenta,normal,,a05,a05-c3
+m0273,El despacho figura como entregado pero no lo recibi.,envío,normal,,e05,e05-c0
+m0274,hola. me descontaron un cobro extra y nadie me responde.,facturación,normal,,f08,f08-c2
+m0275,Buenas tardes. Necesito cambiar la dirección de entrega y nadie me responde. Gracias.,envío,normal,,e06,e06-c2
+m0276,"Buenas tardes. No quiero el reembolso, quiero saber dónde está el pedido. ¿Qué debo hacer? Quedo atento.",envío,negación,,n06,n06-c3
+m0277,Quiero que me devuelvan el dinero de la licuadora y nadie me responde. Gracias.,devolución,normal,,d11,d11-c2
+m0278,"Hola, quiero la factura electrónica del reloj. Quedo atento.",facturación,normal,,f10,f10-c0
+m0279,Mi cuenta quedo bloqueada. Gracias.,acceso a la cuenta,normal,,a03,a03-c0
+m0280,Buenas tardes. El reloj sigue en camino. Es urgente. ¿Me ayudan?,envío,normal,,e02,e02-c4
+m0281,La devolución de la mochila fue rechazada. Es urgente.,devolución,normal,,d12,d12-c4
+m0282,"Hola, el envío del reloj está retrasado. ¿Me ayudan?",envío,normal,,e09,e09-c0
+m0283,"Hola, quiero solicitar la devolucion de la mochila y nadie me responde. Quedo atento.",devolución,normal,,d07,d07-c2
+m0284,Buenas tardes. Quiero saber cuándo llega la licuadora y nadie me responde. ¿Me ayudan?,envío,normal,,e04,e04-c2
+m0285,Aparece un cargo que no reconozco. Gracias.,facturación,normal,,f02,f02-c0
+m0286,"Buen día, no puedo entrar a mi cuenta. Es urgente. Quedo atento.",acceso a la cuenta,normal,,a01,a01-c4
+m0287,"Hola, el envío del libro está retrasado y necesito ayuda.",envío,normal,,e09,e09-c1
+m0288,"hola, la caja llegó abierta y falta uno de los productos. es urgente.",envío,ambiguo,devolución,x01,x01-c4
+m0289,Buenas tardes. El teclado sigue en camino y nadie me responde.,envío,normal,,e02,e02-c2
+m0290,Quiero solicitar la devolucion de la licuadora y necesito ayuda. Quedo atento.,devolución,normal,,d07,d07-c1
+m0291,"Hola, el reloj sigue en camino y nadie me responde. Quedo atento.",envío,normal,,e02,e02-c2
+m0292,"Hola, me cobraron dos veces la mochila y necesito ayuda. Gracias.",facturación,normal,,f01,f01-c1
+m0293,Quiero devolver el libro y nadie me responde.,devolución,normal,,d01,d01-c2
+m0294,Buenas tardes. Ya pasó la fecha de entrega del libro. ¿Qué debo hacer? Por favor.,envío,normal,,e07,e07-c3
+m0295,Hola. Mi cuenta quedó bloqueada. ¿Qué debo hacer? ¿Me ayudan?,acceso a la cuenta,normal,,a03,a03-c3
+m0296,"Hola, el libro no ha llegado. ¿Qué debo hacer? Quedo atento.",envío,normal,,e01,e01-c3
+m0297,"hola, quiero saber cuánto tarda el reembolso. ¿me ayudan?",devolución,normal,,d03,d03-c0
+m0298,Olvidé la contraseña y no me llega el correo para recuperarla y nadie me responde.,acceso a la cuenta,normal,,a02,a02-c2
+m0299,"Hola, el repartidor no pasó. Gracias.",envío,normal,,e10,e10-c0
+m0300,"Hola, me devolvieron menos dinero del que pagué y necesito ayuda. Quedo atento.",devolución,normal,,d08,d08-c1
+m0301,Hola. Quiero la factura electronica del libro. Es urgente.,facturación,normal,,f10,f10-c4
+m0302,"Buen día, necesito cambiar el libro por otra referencia y nadie me responde. Gracias.",devolución,normal,,d05,d05-c2
+m0303,"Buen día, ya pasó la fecha de entrega de la mochila. Es urgente. Quedo atento.",envío,normal,,e07,e07-c4
+m0304,Buenas tardes. La aplicación no me deja iniciar sesión. ¿Qué debo hacer? ¿Me ayudan?,acceso a la cuenta,normal,,a05,a05-c3
+m0305,"Hola, olvidé la contraseña y no me llega el correo para recuperarla.",acceso a la cuenta,normal,,a02,a02-c0
+m0306,El valor de la factura no coincide con lo que pagué. ¿Qué debo hacer? Gracias.,facturación,normal,,f03,f03-c3
+m0307,Ya hice la devolucion y no veo el reembolso. ¿Que debo hacer?,devolución,normal,,d04,d04-c3
+m0308,Me cobraron de mas por la mochila. Quedo atento.,facturación,normal,,f06,f06-c0
+m0309,"Hola, no quiero el reembolso, quiero saber dónde está el pedido y necesito ayuda. Gracias.",envío,negación,,n06,n06-c1
+m0310,No puedo entrar a mi cuenta.,acceso a la cuenta,normal,,a01,a01-c0
+m0311,"Buen día, la aplicación no me deja iniciar sesión y necesito ayuda.",acceso a la cuenta,normal,,a05,a05-c1
+m0312,Buenas tardes. No me llega el código para iniciar sesión y necesito ayuda. ¿Me ayudan?,acceso a la cuenta,normal,,a09,a09-c1
+m0313,Hola. No puedo entrar a mi cuenta y nadie me responde. ¿Me ayudan?,acceso a la cuenta,normal,,a01,a01-c2
+m0314,El seguimiento del despacho no se actualiza y nadie me responde. Gracias.,envío,normal,,e03,e03-c2
+m0315,Necesito cambiar la dirección de entrega. Gracias.,envío,normal,,e06,e06-c0
+m0316,Olvidé la contraseña y no me llega el correo para recuperarla y necesito ayuda. Gracias.,acceso a la cuenta,normal,,a02,a02-c1
+m0317,La licuadora llego con danos. ¿Que debo hacer?,devolución,normal,,d09,d09-c3
+m0318,No me llega el código para iniciar sesión y necesito ayuda. Por favor.,acceso a la cuenta,normal,,a09,a09-c1
+m0319,Hola. No reconozco un inicio de sesión en mi cuenta. Es urgente.,acceso a la cuenta,normal,,a11,a11-c4
+m0320,Buenas tardes. No reconozco un inicio de sesion en mi cuenta. Por favor.,acceso a la cuenta,normal,,a11,a11-c0
+m0321,El repartidor no pasó y nadie me responde. Quedo atento.,envío,normal,,e10,e10-c2
+m0322,"Hola, no tengo problemas con la cuenta; el cobro está repetido. Es urgente. Quedo atento.",facturación,negación,,n05,n05-c4
+m0323,Hola. La guía de envío no aparece. Es urgente. Gracias.,envío,normal,,e12,e12-c4
+m0324,Buenas tardes. El cargo salió por un valor distinto y nadie me responde. Por favor.,facturación,normal,,f11,f11-c2
+m0325,Pagué y el sistema dice que no hay pago. Es urgente. Por favor.,facturación,normal,,f09,f09-c4
+m0326,"Buen día, necesito cambiar la tarjeta con la que pago. ¿Qué debo hacer?",facturación,normal,,f07,f07-c3
+m0327,"Hola, dice que mi contraseña es incorrecta. ¿Qué debo hacer? Gracias.",acceso a la cuenta,normal,,a07,a07-c3
+m0328,"Hola, no reconozco un inicio de sesión en mi cuenta y necesito ayuda.",acceso a la cuenta,normal,,a11,a11-c1
+m0329,"Buen día, me descontaron un cargo extra. ¿Qué debo hacer? Quedo atento.",facturación,normal,,f08,f08-c3
+m0330,La licuadora sigue en camino y necesito ayuda. Quedo atento.,envío,normal,,e02,e02-c1
+m0331,Aparece un cobro que no reconozco y necesito ayuda. Por favor.,facturación,normal,,f02,f02-c1
+m0332,hola. me cobraron dos veces el reloj y necesito ayuda. ¿me ayudan?,facturación,normal,,f01,f01-c1
+m0333,"Buen día, no es un problema de pago: no puedo entrar a mi cuenta. Por favor.",acceso a la cuenta,negación,,n02,n02-c0
+m0334,"Hola, quiero que me devuelvan el dinero de la mochila.",devolución,normal,,d11,d11-c0
+m0335,El despacho figura como entregado pero no lo recibi y necesito ayuda. Quedo atento.,envío,normal,,e05,e05-c1
+m0336,El seguimiento del despacho no se actualiza.,envío,normal,,e03,e03-c0
+m0337,"Buen día, me llegó un código de verificación que no pedí y necesito ayuda. Por favor.",acceso a la cuenta,normal,,a04,a04-c1
+m0338,Mi usuario aparece como inactivo y necesito ayuda.,acceso a la cuenta,normal,,a12,a12-c1
+m0339,Hola. Me descontaron un cobro extra. ¿Me ayudan?,facturación,normal,,f08,f08-c0
+m0340,Buenas tardes. No es un problema de pago: no puedo entrar a mi cuenta y necesito ayuda. Quedo atento.,acceso a la cuenta,negación,,n02,n02-c1
+m0341,hola. me llegó un código de verificación que no pedí y nadie me responde.,acceso a la cuenta,normal,,a04,a04-c2
+m0342,La transportadora no encontró mi dirección y nadie me responde. Quedo atento.,envío,normal,,e08,e08-c2
+m0343,La aplicación no me deja iniciar sesión. Por favor.,acceso a la cuenta,normal,,a05,a05-c0
+m0344,"Hola, quiero devolver el pedido. Es urgente. Gracias.",devolución,normal,,d01,d01-c4
+m0345,Hola. Necesito cambiar la mochila por otra referencia. Es urgente. Quedo atento.,devolución,normal,,d05,d05-c4
+m0346,Buenas tardes. No tengo problemas con la cuenta; el cargo esta repetido y nadie me responde. Por favor.,facturación,negación,,n05,n05-c2
+m0347,"Hola, la mochila no es lo que pedí y nadie me responde. Gracias.",devolución,normal,,d06,d06-c2
+m0348,Mi cuenta quedo bloqueada. Es urgente. Gracias.,acceso a la cuenta,normal,,a03,a03-c4
+m0349,El reloj no ha llegado y nadie me responde.,envío,normal,,e01,e01-c2
+m0350,Quiero que me devuelvan el dinero de la licuadora. Quedo atento.,devolución,normal,,d11,d11-c0
+m0351,Hola. Me devolvieron menos dinero del que pagué y nadie me responde. Gracias.,devolución,normal,,d08,d08-c2
+m0352,"Buenas tardes. No quiero devolver nada, solo saber cuándo llega el libro y necesito ayuda. Gracias.",envío,negación,,n01,n01-c1
+m0353,Hola. La chaqueta no me sirvió y quiero hacer un cambio. Por favor.,devolución,normal,,d10,d10-c0
+m0354,Hola. Me cobraron de mas por la lampara. ¿Que debo hacer?,facturación,normal,,f06,f06-c3
+m0355,Buenas tardes. El cobro salió por un valor distinto. ¿Qué debo hacer? Quedo atento.,facturación,normal,,f11,f11-c3
+m0356,Buenas tardes. Quiero cambiar el correo de mi cuenta. Quedo atento.,acceso a la cuenta,normal,,a06,a06-c0
+m0357,el pedido llegó con un defecto y quiero la devolución. gracias.,devolución,normal,,d02,d02-c0
+m0358,quiero la factura electrónica del libro. ¿qué debo hacer? gracias.,facturación,normal,,f10,f10-c3
+m0359,"Buen día, la mochila llegó con daños. ¿Qué debo hacer? Por favor.",devolución,normal,,d09,d09-c3
+m0360,Necesito cambiar la tarjeta con la que pago. Es urgente.,facturación,normal,,f07,f07-c4
+m0361,Buenas tardes. No es un problema de pago: no puedo entrar a mi cuenta. Gracias.,acceso a la cuenta,negación,,n02,n02-c0
+m0362,Buenas tardes. Alguien entró a mi cuenta sin permiso. ¿Qué debo hacer? ¿Me ayudan?,acceso a la cuenta,normal,,a08,a08-c3
+m0363,Buenas tardes. Quiero saber cuándo llega la licuadora. Por favor.,envío,normal,,e04,e04-c0
+m0364,Dice que mi contraseña es incorrecta. ¿Qué debo hacer? ¿Me ayudan?,acceso a la cuenta,normal,,a07,a07-c3
+m0365,El cargo salió por un valor distinto. ¿Qué debo hacer? Por favor.,facturación,normal,,f11,f11-c3
+m0366,Buenas tardes. Necesito cambiar la direccion de entrega. Por favor.,envío,normal,,e06,e06-c0
+m0367,Buenas tardes. Necesito cambiar el libro por otra referencia. ¿Qué debo hacer?,devolución,normal,,d05,d05-c3
+m0368,El repartidor no pasó y nadie me responde.,envío,normal,,e10,e10-c2
+m0369,Buenas tardes. Quiero la factura electronica de la mochila. ¿Que debo hacer? Por favor.,facturación,normal,,f10,f10-c3
+m0370,Hola. Dice que mi contraseña es incorrecta. Es urgente. Por favor.,acceso a la cuenta,normal,,a07,a07-c4
+m0371,"Buen día, el valor de la factura no coincide con lo que pagué. Quedo atento.",facturación,normal,,f03,f03-c0
+m0372,Me cobraron de mas por el libro y nadie me responde. Quedo atento.,facturación,normal,,f06,f06-c2
+m0373,Buenas tardes. El despacho figura como entregado pero no lo recibí.,envío,normal,,e05,e05-c0
+m0374,"Hola, la guia de envio no aparece y necesito ayuda. Por favor.",envío,normal,,e12,e12-c1
+m0375,La licuadora no ha llegado. ¿Qué debo hacer? Por favor.,envío,normal,,e01,e01-c3
+m0376,La transportadora no encontró mi dirección. ¿Qué debo hacer? Quedo atento.,envío,normal,,e08,e08-c3
+m0377,El reloj no ha llegado. ¿Qué debo hacer?,envío,normal,,e01,e01-c3
+m0378,Hola. La chaqueta llegó con daños. ¿Qué debo hacer? ¿Me ayudan?,devolución,normal,,d09,d09-c3
+m0379,"Buen día, mi usuario aparece como inactivo y necesito ayuda.",acceso a la cuenta,normal,,a12,a12-c1
+m0380,Buenas tardes. El cobro salió por un valor distinto y necesito ayuda. Por favor.,facturación,normal,,f11,f11-c1
+m0381,El reloj no es lo que pedí.,devolución,normal,,d06,d06-c0
+m0382,el libro llego con danos. es urgente. gracias.,devolución,normal,,d09,d09-c4
+m0383,"Hola, ya hice la devolución y no veo el reembolso. ¿Qué debo hacer? Quedo atento.",devolución,normal,,d04,d04-c3
+m0384,quiero cambiar el correo de mi cuenta. por favor.,acceso a la cuenta,normal,,a06,a06-c0
+m0385,Buenas tardes. Me cobraron de más por la lámpara. ¿Qué debo hacer?,facturación,normal,,f06,f06-c3
+m0386,"Hola, quiero saber cuánto tarda el reembolso. ¿Qué debo hacer? Por favor.",devolución,normal,,d03,d03-c3
+m0387,"Hola, quiero que me devuelvan el dinero de la chaqueta. Es urgente. Por favor.",devolución,normal,,d11,d11-c4
+m0388,Buenas tardes. No me llega el código para iniciar sesión y nadie me responde. Por favor.,acceso a la cuenta,normal,,a09,a09-c2
+m0389,Hola. Me cobraron de mas por el teclado. ¿Me ayudan?,facturación,normal,,f06,f06-c0
+m0390,Hola. Me descontaron un cobro extra y necesito ayuda. Por favor.,facturación,normal,,f08,f08-c1
+m0391,"Hola, no tengo problemas con la cuenta; el cargo está repetido y nadie me responde. Gracias.",facturación,negación,,n05,n05-c2
+m0392,Hola. El valor de la factura no coincide con lo que pagué y necesito ayuda. Por favor.,facturación,normal,,f03,f03-c1
+m0393,No es un problema de pago: no puedo entrar a mi cuenta. ¿Qué debo hacer? Por favor.,acceso a la cuenta,negación,,n02,n02-c3
+m0394,"Hola, el valor de la recibo no coincide con lo que pagué. ¿Qué debo hacer? Por favor.",facturación,normal,,f03,f03-c3
+m0395,Hola. La transportadora no encontró mi dirección y nadie me responde.,envío,normal,,e08,e08-c2
+m0396,Hola. La guía de despacho no aparece. Gracias.,envío,normal,,e12,e12-c0
+m0397,"Buen día, el teclado llegó con daños. Gracias.",devolución,normal,,d09,d09-c0
+m0398,El pedido sigue en camino. ¿Qué debo hacer? Quedo atento.,envío,normal,,e02,e02-c3
+m0399,"Buenas tardes. No quiero el reembolso, quiero saber donde esta la lampara. Es urgente.",envío,negación,,n06,n06-c4
+m0400,no reconozco un inicio de sesión en mi cuenta y nadie me responde. por favor.,acceso a la cuenta,normal,,a11,a11-c2
+m0401,"hola, no puedo entrar a mi cuenta. es urgente. quedo atento.",acceso a la cuenta,normal,,a01,a01-c4
+m0402,hola. la guía de despacho no aparece. es urgente.,envío,normal,,e12,e12-c4
+m0403,"Hola, el seguimiento del despacho no se actualiza y nadie me responde. Quedo atento.",envío,normal,,e03,e03-c2
+m0404,El teclado quedó retenido en la bodega y necesito ayuda. Gracias.,envío,normal,,e11,e11-c1
+m0405,"Buen día, me cobraron de más por el teclado. ¿Qué debo hacer? Quedo atento.",facturación,normal,,f06,f06-c3
+m0406,El seguimiento del envío no se actualiza. Gracias.,envío,normal,,e03,e03-c0
+m0407,Necesito cambiar la dirección de entrega.,envío,normal,,e06,e06-c0
+m0408,"Hola, me cobraron dos veces la chaqueta.",facturación,normal,,f01,f01-c0
+m0409,Hola. Me cobraron dos veces el libro y nadie me responde. Gracias.,facturación,normal,,f01,f01-c2
+m0410,Hola. No reconozco un inicio de sesión en mi cuenta y necesito ayuda.,acceso a la cuenta,normal,,a11,a11-c1
+m0411,La licuadora no ha llegado y necesito ayuda.,envío,normal,,e01,e01-c1
+m0412,"Buen día, la transportadora no encontró mi dirección y nadie me responde. Gracias.",envío,normal,,e08,e08-c2
+m0413,el teclado llegó con daños y nadie me responde. por favor.,devolución,normal,,d09,d09-c2
+m0414,"hola, necesito cambiar la tarjeta con la que pago.",facturación,normal,,f07,f07-c0
+m0415,"hola, me llegó un código de verificación que no pedí y necesito ayuda. por favor.",acceso a la cuenta,normal,,a04,a04-c1
+m0416,"Hola, no me ha llegado la factura del libro y necesito ayuda. ¿Me ayudan?",facturación,normal,,f04,f04-c1
+m0417,buenas tardes. dice que mi contraseña es incorrecta.,acceso a la cuenta,normal,,a07,a07-c0
+m0418,No es un problema de pago: no puedo entrar a mi cuenta.,acceso a la cuenta,negación,,n02,n02-c0
+m0419,Me llego un codigo de verificacion que no pedi y necesito ayuda. ¿Me ayudan?,acceso a la cuenta,normal,,a04,a04-c1
+m0420,"Buen dia, el pedido no me sirvio y quiero hacer un cambio. ¿Que debo hacer? Gracias.",devolución,normal,,d10,d10-c3
+m0421,"Hola, el valor de la factura no coincide con lo que pagué. Gracias.",facturación,normal,,f03,f03-c0
+m0422,Necesito cambiar la licuadora por otra referencia y necesito ayuda. ¿Me ayudan?,devolución,normal,,d05,d05-c1
+m0423,"Buen día, ya hice la devolución y no veo el reembolso y nadie me responde. ¿Me ayudan?",devolución,normal,,d04,d04-c2
+m0424,El pedido sigue en camino. ¿Qué debo hacer? ¿Me ayudan?,envío,normal,,e02,e02-c3
+m0425,"Hola, mi usuario aparece como inactivo. Es urgente. Quedo atento.",acceso a la cuenta,normal,,a12,a12-c4
+m0426,La transportadora no encontró mi dirección. Es urgente. Por favor.,envío,normal,,e08,e08-c4
+m0427,La lámpara no me sirvió y quiero hacer un cambio y necesito ayuda.,devolución,normal,,d10,d10-c1
+m0428,"Hola, pagué y el sistema dice que no hay pago y nadie me responde. Quedo atento.",facturación,normal,,f09,f09-c2
+m0429,No me ha llegado la recibo de la licuadora y nadie me responde. Quedo atento.,facturación,normal,,f04,f04-c2
+m0430,Buenas tardes. No puedo entrar a mi cuenta. ¿Qué debo hacer? Gracias.,acceso a la cuenta,normal,,a01,a01-c3
+m0431,La licuadora no es lo que pedi. ¿Que debo hacer? Gracias.,devolución,normal,,d06,d06-c3
+m0432,Hola. La devolución de la chaqueta fue rechazada. ¿Qué debo hacer? Por favor.,devolución,normal,,d12,d12-c3
+m0433,Hola. El pago del libro sigue pendiente y nadie me responde. ¿Me ayudan?,facturación,normal,,f05,f05-c2
+m0434,La aplicacion no me deja iniciar sesion. Es urgente. Quedo atento.,acceso a la cuenta,normal,,a05,a05-c4
+m0435,El pedido quedó retenido en la bodega y nadie me responde.,envío,normal,,e11,e11-c2
+m0436,Necesito cambiar el libro por otra referencia y nadie me responde. Gracias.,devolución,normal,,d05,d05-c2
+m0437,buenas tardes. el teclado quedó retenido en la bodega. es urgente.,envío,normal,,e11,e11-c4
+m0438,"Hola, no tengo problemas con la cuenta; el cobro está repetido y necesito ayuda.",facturación,negación,,n05,n05-c1
+m0439,"Buen día, no reconozco un inicio de sesión en mi cuenta. ¿Me ayudan?",acceso a la cuenta,normal,,a11,a11-c0
+m0440,Hola. La devolución de la lámpara fue rechazada. ¿Qué debo hacer? Gracias.,devolución,normal,,d12,d12-c3
+m0441,Olvide la contrasena y no me llega el correo para recuperarla. ¿Que debo hacer? Por favor.,acceso a la cuenta,normal,,a02,a02-c3
+m0442,"Buen día, quiero saber cuándo llega la mochila y nadie me responde. Gracias.",envío,normal,,e04,e04-c2
+m0443,"buen día, pagué y el sistema dice que no hay pago. es urgente. quedo atento.",facturación,normal,,f09,f09-c4
+m0444,No puedo entrar a mi cuenta. Es urgente.,acceso a la cuenta,normal,,a01,a01-c4
+m0445,Buenas tardes. Quiero que me devuelvan el dinero de la lámpara y necesito ayuda.,devolución,normal,,d11,d11-c1
+m0446,"Buen día, dice que mi contraseña es incorrecta.",acceso a la cuenta,normal,,a07,a07-c0
+m0447,"Hola, la devolución de la licuadora fue rechazada. Es urgente. ¿Me ayudan?",devolución,normal,,d12,d12-c4
+m0448,El seguimiento del envío no se actualiza y nadie me responde. Quedo atento.,envío,normal,,e03,e03-c2
+m0449,"Hola, no me llega el codigo para iniciar sesion. ¿Que debo hacer? Por favor.",acceso a la cuenta,normal,,a09,a09-c3
+m0450,"Buen día, quiero saber cuándo llega la licuadora y nadie me responde.",envío,normal,,e04,e04-c2
+m0451,"buen día, me devolvieron menos dinero del que pagué.",devolución,normal,,d08,d08-c0
+m0452,"Hola, mi cuenta quedó bloqueada y necesito ayuda. ¿Me ayudan?",acceso a la cuenta,normal,,a03,a03-c1
+m0453,"Buen día, ya pasó la fecha de entrega del reloj y nadie me responde.",envío,normal,,e07,e07-c2
+m0454,"buen día, quiero devolver el teclado y nadie me responde.",devolución,normal,,d01,d01-c2
+m0455,La aplicación no me deja iniciar sesión y nadie me responde. Quedo atento.,acceso a la cuenta,normal,,a05,a05-c2
+m0456,Buenas tardes. Me descontaron un cargo extra y nadie me responde.,facturación,normal,,f08,f08-c2
+m0457,Hola. No es un problema de pago: no puedo entrar a mi cuenta. Es urgente.,acceso a la cuenta,negación,,n02,n02-c4
+m0458,Hola. El pago del reloj sigue pendiente. ¿Qué debo hacer?,facturación,normal,,f05,f05-c3
+m0459,Buenas tardes. Necesito cambiar la tarjeta con la que pago y necesito ayuda.,facturación,normal,,f07,f07-c1
+m0460,Buenas tardes. No es un problema de pago: no puedo entrar a mi cuenta y nadie me responde. ¿Me ayudan?,acceso a la cuenta,negación,,n02,n02-c2
+m0461,"Hola, no me ha llegado la factura de la mochila. Es urgente. Quedo atento.",facturación,normal,,f04,f04-c4
+m0462,"Buenas tardes. No quiero el reembolso, quiero saber dónde está la lámpara. ¿Qué debo hacer? Quedo atento.",envío,negación,,n06,n06-c3
+m0463,"Buen día, el reloj no es lo que pedí.",devolución,normal,,d06,d06-c0
+m0464,Buenas tardes. La guía de envío no aparece. ¿Qué debo hacer? Gracias.,envío,normal,,e12,e12-c3
+m0465,"Hola, aparece un cargo que no reconozco y nadie me responde. Quedo atento.",facturación,normal,,f02,f02-c2
+m0466,Quiero saber cuándo llega el libro y nadie me responde.,envío,normal,,e04,e04-c2
+m0467,El pedido no me sirvió y quiero hacer un cambio y necesito ayuda. Quedo atento.,devolución,normal,,d10,d10-c1
+m0468,"Hola, el reloj llegó con daños y necesito ayuda. ¿Me ayudan?",devolución,normal,,d09,d09-c1
+m0469,Necesito cambiar la tarjeta con la que pago y nadie me responde. Por favor.,facturación,normal,,f07,f07-c2
+m0470,"Buen dia, pague y el sistema dice que no hay pago.",facturación,normal,,f09,f09-c0
+m0471,Hola. Alguien entro a mi cuenta sin permiso. ¿Que debo hacer? Gracias.,acceso a la cuenta,normal,,a08,a08-c3
+m0472,Buenas tardes. Quiero cancelar la compra y que no me cobren y nadie me responde.,facturación,ambiguo,devolución,x03,x03-c2
+m0473,Hola. El envío de la mochila está retrasado. ¿Qué debo hacer?,envío,normal,,e09,e09-c3
+m0474,Hola. Necesito cambiar el libro por otra referencia y necesito ayuda. Gracias.,devolución,normal,,d05,d05-c1
+m0475,No es un problema de pago: no puedo entrar a mi cuenta y necesito ayuda. Gracias.,acceso a la cuenta,negación,,n02,n02-c1
+m0476,"hola. no quiero devolver nada, solo saber cuándo llega el teclado y nadie me responde.",envío,negación,,n01,n01-c2
+m0477,Hola. La mochila no me sirvió y quiero hacer un cambio. ¿Qué debo hacer? Quedo atento.,devolución,normal,,d10,d10-c3
+m0478,Buenas tardes. Mi usuario aparece como inactivo. Es urgente.,acceso a la cuenta,normal,,a12,a12-c4
+m0479,Hola. Pagué y el sistema dice que no hay pago y nadie me responde. Gracias.,facturación,normal,,f09,f09-c2
+m0480,"Buen día, la sesión se cierra sola y necesito ayuda.",acceso a la cuenta,normal,,a10,a10-c1
+m0481,"Buen día, no es un problema de pago: no puedo entrar a mi cuenta. ¿Me ayudan?",acceso a la cuenta,negación,,n02,n02-c0
+m0482,"no quiero el reembolso, quiero saber dónde está el teclado y nadie me responde.",envío,negación,,n06,n06-c2
+m0483,Buenas tardes. Mi usuario aparece como inactivo y nadie me responde.,acceso a la cuenta,normal,,a12,a12-c2
+m0484,Me llegó un código de verificación que no pedí. Es urgente. Por favor.,acceso a la cuenta,normal,,a04,a04-c4
+m0485,Quiero la factura electrónica de la lámpara. Es urgente. Gracias.,facturación,normal,,f10,f10-c4
+m0486,La mochila sigue en camino. ¿Qué debo hacer? Por favor.,envío,normal,,e02,e02-c3
+m0487,Quiero devolver la licuadora. Es urgente. Quedo atento.,devolución,normal,,d01,d01-c4
+m0488,El libro no ha llegado y necesito ayuda.,envío,normal,,e01,e01-c1
+m0489,La transportadora no encontró mi dirección y necesito ayuda.,envío,normal,,e08,e08-c1
+m0490,"Buen día, me devolvieron menos dinero del que pagué y nadie me responde.",devolución,normal,,d08,d08-c2
+m0491,"Buen día, necesito cambiar la mochila por otra referencia. Gracias.",devolución,normal,,d05,d05-c0
+m0492,"Hola, la guia de envio no aparece.",envío,normal,,e12,e12-c0
+m0493,Hola. No me llega el código para iniciar sesión. ¿Qué debo hacer?,acceso a la cuenta,normal,,a09,a09-c3
+m0494,"Hola, necesito cambiar la dirección de entrega. Es urgente. Quedo atento.",envío,normal,,e06,e06-c4
+m0495,"Hola, no me ha llegado la factura de la mochila y nadie me responde. Por favor.",facturación,normal,,f04,f04-c2
+m0496,"Hola, quiero saber cuánto tarda el dinero y nadie me responde. Por favor.",devolución,normal,,d03,d03-c2
+m0497,Mi usuario aparece como inactivo. Es urgente. Por favor.,acceso a la cuenta,normal,,a12,a12-c4
+m0498,La chaqueta sigue en camino. ¿Qué debo hacer? ¿Me ayudan?,envío,normal,,e02,e02-c3
+m0499,Hola. La mochila llegó con un defecto y quiero la devolución y necesito ayuda. Por favor.,devolución,normal,,d02,d02-c1
+m0500,"Hola, necesito cambiar la tarjeta con la que pago. ¿Que debo hacer?",facturación,normal,,f07,f07-c3
+m0501,"Hola, no reconozco un inicio de sesión en mi cuenta. ¿Qué debo hacer? Quedo atento.",acceso a la cuenta,normal,,a11,a11-c3
+m0502,Buenas tardes. Necesito cambiar la tarjeta con la que pago y necesito ayuda. ¿Me ayudan?,facturación,normal,,f07,f07-c1
+m0503,buenas tardes. la guía de envío no aparece y necesito ayuda.,envío,normal,,e12,e12-c1
+m0504,Buenas tardes. Ya pasó la fecha de entrega de la mochila y nadie me responde.,envío,normal,,e07,e07-c2
+m0505,El seguimiento del despacho no se actualiza y nadie me responde.,envío,normal,,e03,e03-c2
+m0506,No tengo problemas con la cuenta; el cargo está repetido.,facturación,negación,,n05,n05-c0
+m0507,Buenas tardes. Pagué y el sistema dice que no hay pago y nadie me responde. Gracias.,facturación,normal,,f09,f09-c2
+m0508,Olvidé la contraseña y no me llega el correo para recuperarla. ¿Qué debo hacer? ¿Me ayudan?,acceso a la cuenta,normal,,a02,a02-c3
+m0509,"Hola, la chaqueta llego con un defecto y quiero la devolucion y necesito ayuda. Por favor.",devolución,normal,,d02,d02-c1
+m0510,"Hola, me cobraron de más por la lámpara y nadie me responde. Por favor.",facturación,normal,,f06,f06-c2
+m0511,Buenas tardes. El libro llegó con daños. Es urgente.,devolución,normal,,d09,d09-c4
+m0512,Hola. Necesito cambiar la tarjeta con la que pago. Es urgente.,facturación,normal,,f07,f07-c4
+m0513,La guía de despacho no aparece y nadie me responde.,envío,normal,,e12,e12-c2
+m0514,Hola. No me ha llegado la recibo de la mochila y nadie me responde. Gracias.,facturación,normal,,f04,f04-c2
+m0515,Quiero que me devuelvan el dinero del teclado y necesito ayuda. Por favor.,devolución,normal,,d11,d11-c1
+m0516,"hola, necesito cambiar la tarjeta con la que pago. es urgente. quedo atento.",facturación,normal,,f07,f07-c4
+m0517,El valor de la factura no coincide con lo que pagué y nadie me responde. Por favor.,facturación,normal,,f03,f03-c2
+m0518,Buenas tardes. Quiero cambiar el correo de mi cuenta.,acceso a la cuenta,normal,,a06,a06-c0
+m0519,"Buen día, quiero solicitar la devolución del libro y nadie me responde. Por favor.",devolución,normal,,d07,d07-c2
+m0520,Mi usuario aparece como inactivo.,acceso a la cuenta,normal,,a12,a12-c0
+m0521,"No necesito cambiar la dirección, necesito la recibo de la mochila y necesito ayuda. Quedo atento.",facturación,negación,,n03,n03-c1
+m0522,"buen día, el envío figura como entregado pero no lo recibí. ¿qué debo hacer?",envío,normal,,e05,e05-c3
+m0523,Buenas tardes. El valor de la recibo no coincide con lo que pagué y necesito ayuda. ¿Me ayudan?,facturación,normal,,f03,f03-c1
+m0524,"Buen día, la mochila sigue en camino. ¿Qué debo hacer? Quedo atento.",envío,normal,,e02,e02-c3
+m0525,Dice que mi contraseña es incorrecta y necesito ayuda. Por favor.,acceso a la cuenta,normal,,a07,a07-c1
+m0526,"Hola, pagué y el sistema dice que no hay pago. Por favor.",facturación,normal,,f09,f09-c0
+m0527,"Hola, el valor de la recibo no coincide con lo que pagué. ¿Qué debo hacer? Gracias.",facturación,normal,,f03,f03-c3
+m0528,Hola. Ya pasó la fecha de entrega de la lámpara y necesito ayuda.,envío,normal,,e07,e07-c1
+m0529,Buenas tardes. Me descontaron un cobro extra. Es urgente.,facturación,normal,,f08,f08-c4
+m0530,Hola. Me cobraron de más por el pedido. ¿Qué debo hacer? Gracias.,facturación,normal,,f06,f06-c3
+m0531,Buenas tardes. Me devolvieron menos dinero del que pagué. ¿Qué debo hacer? Gracias.,devolución,normal,,d08,d08-c3
+m0532,Hola. Mi cuenta quedó bloqueada.,acceso a la cuenta,normal,,a03,a03-c0
+m0533,Hola. Me descontaron un cobro extra y nadie me responde.,facturación,normal,,f08,f08-c2
+m0534,"Hola, no me llega el codigo para iniciar sesion y nadie me responde. Gracias.",acceso a la cuenta,normal,,a09,a09-c2
+m0535,Me descontaron un cobro extra. ¿Qué debo hacer? Por favor.,facturación,normal,,f08,f08-c3
+m0536,Quiero que me devuelvan el dinero de la mochila. Es urgente. Gracias.,devolución,normal,,d11,d11-c4
+m0537,Buenas tardes. Me cobraron dos veces el libro. Quedo atento.,facturación,normal,,f01,f01-c0
+m0538,"hola, el cargo salió por un valor distinto. es urgente. ¿me ayudan?",facturación,normal,,f11,f11-c4
+m0539,Hola. El cargo salió por un valor distinto y necesito ayuda.,facturación,normal,,f11,f11-c1
+m0540,La transportadora no encontró mi dirección. Por favor.,envío,normal,,e08,e08-c0
+m0541,"No necesito cambiar la dirección, necesito la recibo de la chaqueta y necesito ayuda.",facturación,negación,,n03,n03-c1
+m0542,Buenas tardes. Necesito cambiar la tarjeta con la que pago. Es urgente. Quedo atento.,facturación,normal,,f07,f07-c4
+m0543,"buen día, dice que mi contraseña es incorrecta. es urgente. gracias.",acceso a la cuenta,normal,,a07,a07-c4
+m0544,"Hola, quiero cambiar el correo de mi cuenta y necesito ayuda. Gracias.",acceso a la cuenta,normal,,a06,a06-c1
+m0545,El teclado llegó con un defecto y quiero la devolución. Es urgente. Quedo atento.,devolución,normal,,d02,d02-c4
+m0546,"Hola, no me ha llegado la recibo del teclado. Es urgente.",facturación,normal,,f04,f04-c4
+m0547,Ya paso la fecha de entrega de la lampara y necesito ayuda. Quedo atento.,envío,normal,,e07,e07-c1
+m0548,"Hola, la mochila no me sirvió y quiero hacer un cambio. ¿Qué debo hacer? ¿Me ayudan?",devolución,normal,,d10,d10-c3
+m0549,"Hola, no entiendo un cobro de 8.500 pesos y necesito ayuda.",facturación,normal,,f12,f12-c1
+m0550,hola. la mochila quedó retenido en la bodega. gracias.,envío,normal,,e11,e11-c0
+m0551,Hola. El despacho figura como entregado pero no lo recibí y nadie me responde.,envío,normal,,e05,e05-c2
+m0552,"Buen día, me descontaron un cargo extra. ¿Qué debo hacer? Gracias.",facturación,normal,,f08,f08-c3
+m0553,"Hola, me cobraron dos veces la mochila y necesito ayuda. ¿Me ayudan?",facturación,normal,,f01,f01-c1
+m0554,Buenas tardes. El valor de la factura no coincide con lo que pagué y necesito ayuda. Quedo atento.,facturación,normal,,f03,f03-c1
+m0555,El cobro salió por un valor distinto. ¿Qué debo hacer? Por favor.,facturación,normal,,f11,f11-c3
+m0556,el libro no me sirvio y quiero hacer un cambio. ¿que debo hacer?,devolución,normal,,d10,d10-c3
+m0557,Quiero que me devuelvan el dinero del pedido y necesito ayuda. Gracias.,devolución,normal,,d11,d11-c1
+m0558,"Hola, alguien entró a mi cuenta sin permiso. ¿Qué debo hacer?",acceso a la cuenta,normal,,a08,a08-c3
+m0559,"Buen día, mi cuenta quedó bloqueada. Es urgente. Por favor.",acceso a la cuenta,normal,,a03,a03-c4
+m0560,"Buen día, el valor de la factura no coincide con lo que pagué y necesito ayuda. Gracias.",facturación,normal,,f03,f03-c1
+m0561,La licuadora no es lo que pedí y nadie me responde.,devolución,normal,,d06,d06-c2
+m0562,Buenas tardes. Quiero saber cuanto tarda el dinero y nadie me responde.,devolución,normal,,d03,d03-c2
+m0563,"Hola, no me llega el codigo para iniciar sesion y nadie me responde.",acceso a la cuenta,normal,,a09,a09-c2
+m0564,hola. el libro quedó retenido en la bodega y nadie me responde.,envío,normal,,e11,e11-c2
+m0565,La caja llegó abierta y falta uno de los productos. ¿Qué debo hacer?,envío,ambiguo,devolución,x01,x01-c3
+m0566,"Buen día, alguien entró a mi cuenta sin permiso y nadie me responde. Por favor.",acceso a la cuenta,normal,,a08,a08-c2
+m0567,Hola. Me descontaron un cargo extra y nadie me responde. ¿Me ayudan?,facturación,normal,,f08,f08-c2
+m0568,Me devolvieron menos dinero del que pagué y nadie me responde. Por favor.,devolución,normal,,d08,d08-c2
+m0569,La licuadora quedó retenido en la bodega. ¿Qué debo hacer?,envío,normal,,e11,e11-c3
+m0570,Buenas tardes. El repartidor no pasó. Es urgente. Gracias.,envío,normal,,e10,e10-c4
+m0571,"Hola, necesito cambiar la tarjeta con la que pago y nadie me responde. Quedo atento.",facturación,normal,,f07,f07-c2
+m0572,no me llega el código para iniciar sesión. es urgente. gracias.,acceso a la cuenta,normal,,a09,a09-c4
+m0573,"Buen día, me cobraron de más por la licuadora. Quedo atento.",facturación,normal,,f06,f06-c0
+m0574,"Buen día, mi usuario aparece como inactivo. ¿Qué debo hacer?",acceso a la cuenta,normal,,a12,a12-c3
+m0575,Hola. Ya pasó la fecha de entrega del teclado y necesito ayuda. ¿Me ayudan?,envío,normal,,e07,e07-c1
+m0576,"Buen día, el pago de la mochila sigue pendiente y nadie me responde. ¿Me ayudan?",facturación,normal,,f05,f05-c2
+m0577,"Buen día, el cobro salió por un valor distinto. ¿Qué debo hacer?",facturación,normal,,f11,f11-c3
+m0578,Hola. No me ha llegado la factura del reloj y nadie me responde.,facturación,normal,,f04,f04-c2
+m0579,El libro no me sirvió y quiero hacer un cambio. ¿Qué debo hacer? ¿Me ayudan?,devolución,normal,,d10,d10-c3
+m0580,"buen día, la devolución del reloj fue rechazada. ¿qué debo hacer? por favor.",devolución,normal,,d12,d12-c3
+m0581,Buenas tardes. Me cobraron de mas por el pedido y necesito ayuda.,facturación,normal,,f06,f06-c1
+m0582,"Hola, no es un problema de pago: no puedo entrar a mi cuenta. Es urgente.",acceso a la cuenta,negación,,n02,n02-c4
+m0583,Hola. El seguimiento del despacho no se actualiza. Por favor.,envío,normal,,e03,e03-c0
+m0584,hola. no puedo entrar a mi cuenta y nadie me responde. por favor.,acceso a la cuenta,normal,,a01,a01-c2
+m0585,pagué y el sistema dice que no hay pago.,facturación,normal,,f09,f09-c0
+m0586,El valor de la recibo no coincide con lo que pagué. Quedo atento.,facturación,normal,,f03,f03-c0
+m0587,Hola. El pago del teclado sigue pendiente. ¿Qué debo hacer?,facturación,normal,,f05,f05-c3
+m0588,"Hola, no llegó tarde: llegó con daños y quiero la devolución. Es urgente. ¿Me ayudan?",devolución,negación,,n04,n04-c4
+m0589,"Hola, no puedo entrar a mi cuenta y nadie me responde. ¿Me ayudan?",acceso a la cuenta,normal,,a01,a01-c2
+m0590,mi cuenta quedó bloqueada y necesito ayuda. ¿me ayudan?,acceso a la cuenta,normal,,a03,a03-c1
+m0591,Quiero devolver la lámpara. ¿Qué debo hacer? Por favor.,devolución,normal,,d01,d01-c3
+m0592,"Buen día, no entiendo un cobro de 19.900 pesos y nadie me responde.",facturación,normal,,f12,f12-c2
+m0593,Buenas tardes. Quiero cambiar el correo de mi cuenta y nadie me responde. Gracias.,acceso a la cuenta,normal,,a06,a06-c2
+m0594,Aparece un cobro que no reconozco y nadie me responde. Por favor.,facturación,normal,,f02,f02-c2
+m0595,"Buen día, quiero saber cuándo llega la mochila y nadie me responde. Quedo atento.",envío,normal,,e04,e04-c2
+m0596,Me descontaron un cobro extra. ¿Qué debo hacer? ¿Me ayudan?,facturación,normal,,f08,f08-c3
+m0597,"Hola, dice que mi contraseña es incorrecta. Es urgente. ¿Me ayudan?",acceso a la cuenta,normal,,a07,a07-c4
+m0598,"Hola, quiero saber cuándo llega la licuadora y nadie me responde. ¿Me ayudan?",envío,normal,,e04,e04-c2
+m0599,"Hola, la mochila no ha llegado y nadie me responde. Por favor.",envío,normal,,e01,e01-c2
+m0600,Quiero devolver la chaqueta y nadie me responde.,devolución,normal,,d01,d01-c2
+m0601,Dice que mi contraseña es incorrecta. ¿Me ayudan?,acceso a la cuenta,normal,,a07,a07-c0
+m0602,Buenas tardes. La mochila quedó retenido en la bodega. ¿Qué debo hacer? Por favor.,envío,normal,,e11,e11-c3
+m0603,Buenas tardes. El cargo salió por un valor distinto y nadie me responde. Gracias.,facturación,normal,,f11,f11-c2
+m0604,Necesito cambiar la chaqueta por otra referencia. Por favor.,devolución,normal,,d05,d05-c0
+m0605,Alguien entró a mi cuenta sin permiso. ¿Qué debo hacer? Gracias.,acceso a la cuenta,normal,,a08,a08-c3
+m0606,"Buen día, el pedido no me sirvió y quiero hacer un cambio y nadie me responde. Quedo atento.",devolución,normal,,d10,d10-c2
+m0607,La chaqueta llegó con daños y nadie me responde. Gracias.,devolución,normal,,d09,d09-c2
+m0608,Me llegó un código de verificación que no pedí. Quedo atento.,acceso a la cuenta,normal,,a04,a04-c0
+m0609,"Buen día, el pago de la chaqueta sigue pendiente. Es urgente. ¿Me ayudan?",facturación,normal,,f05,f05-c4
+m0610,Quiero que me devuelvan el dinero del reloj y necesito ayuda. Por favor.,devolución,normal,,d11,d11-c1
+m0611,Hola. El reloj llegó con un defecto y quiero la devolución y necesito ayuda.,devolución,normal,,d02,d02-c1
+m0612,Buenas tardes. La sesion se cierra sola y nadie me responde.,acceso a la cuenta,normal,,a10,a10-c2
+m0613,"Hola, olvidé la contraseña y no me llega el correo para recuperarla y necesito ayuda. Quedo atento.",acceso a la cuenta,normal,,a02,a02-c1
+m0614,Hola. Mi usuario aparece como inactivo y nadie me responde. Quedo atento.,acceso a la cuenta,normal,,a12,a12-c2
+m0615,Buenas tardes. El valor de la recibo no coincide con lo que pagué y nadie me responde.,facturación,normal,,f03,f03-c2
+m0616,Buenas tardes. No reconozco un inicio de sesión en mi cuenta. ¿Qué debo hacer? Quedo atento.,acceso a la cuenta,normal,,a11,a11-c3
+m0617,Hola. El seguimiento del envío no se actualiza. Es urgente. Por favor.,envío,normal,,e03,e03-c4
+m0618,Me cobraron de mas por la lampara. Es urgente. Por favor.,facturación,normal,,f06,f06-c4
+m0619,La caja llegó abierta y falta uno de los productos. ¿Qué debo hacer? ¿Me ayudan?,envío,ambiguo,devolución,x01,x01-c3
+m0620,"hola, no reconozco un inicio de sesión en mi cuenta y necesito ayuda. por favor.",acceso a la cuenta,normal,,a11,a11-c1
+m0621,Quiero que me devuelvan el dinero del reloj. ¿Qué debo hacer? Quedo atento.,devolución,normal,,d11,d11-c3
+m0622,Quiero la recibo electrónica de la chaqueta y necesito ayuda. Gracias.,facturación,normal,,f10,f10-c1
+m0623,Mi usuario aparece como inactivo. ¿Qué debo hacer?,acceso a la cuenta,normal,,a12,a12-c3
+m0624,El pago del libro sigue pendiente. ¿Me ayudan?,facturación,normal,,f05,f05-c0
+m0625,Hola. Ya hice la devolución y no veo el reembolso y necesito ayuda. ¿Me ayudan?,devolución,normal,,d04,d04-c1
+m0626,Buenas tardes. El despacho figura como entregado pero no lo recibí. Es urgente. Gracias.,envío,normal,,e05,e05-c4
+m0627,Quiero que me devuelvan el dinero de la chaqueta. Por favor.,devolución,normal,,d11,d11-c0
+m0628,"Buen día, quiero solicitar la devolución de la lámpara y necesito ayuda. Gracias.",devolución,normal,,d07,d07-c1
+m0629,El envío figura como entregado pero no lo recibí y necesito ayuda. Quedo atento.,envío,normal,,e05,e05-c1
+m0630,Aparece un cargo que no reconozco. ¿Qué debo hacer?,facturación,normal,,f02,f02-c3
+m0631,No reconozco un inicio de sesión en mi cuenta y nadie me responde. ¿Me ayudan?,acceso a la cuenta,normal,,a11,a11-c2
+m0632,Buenas tardes. Olvidé la contraseña y no me llega el correo para recuperarla y necesito ayuda. Gracias.,acceso a la cuenta,normal,,a02,a02-c1
+m0633,El envío del teclado está retrasado y necesito ayuda. ¿Me ayudan?,envío,normal,,e09,e09-c1
+m0634,"Hola, olvidé la contraseña y no me llega el correo para recuperarla. Gracias.",acceso a la cuenta,normal,,a02,a02-c0
+m0635,"Hola, el despacho figura como entregado pero no lo recibí y necesito ayuda. Gracias.",envío,normal,,e05,e05-c1
+m0636,buenas tardes. no tengo problemas con la cuenta; el cargo está repetido y nadie me responde.,facturación,negación,,n05,n05-c2
+m0637,Hola. Mi cuenta quedó bloqueada y necesito ayuda.,acceso a la cuenta,normal,,a03,a03-c1
+m0638,"Buen día, me descontaron un cobro extra. Quedo atento.",facturación,normal,,f08,f08-c0
+m0639,"hola, el teclado no me sirvió y quiero hacer un cambio y necesito ayuda. gracias.",devolución,normal,,d10,d10-c1
+m0640,"Hola, la guía de envío no aparece y necesito ayuda.",envío,normal,,e12,e12-c1
+m0641,"Hola, la transportadora no encontró mi dirección. Por favor.",envío,normal,,e08,e08-c0
+m0642,"Hola, el repartidor no pasó y necesito ayuda. Gracias.",envío,normal,,e10,e10-c1
+m0643,me devolvieron menos dinero del que pagué y necesito ayuda. por favor.,devolución,normal,,d08,d08-c1
+m0644,Buenas tardes. Quiero solicitar la devolucion de la lampara y necesito ayuda. Quedo atento.,devolución,normal,,d07,d07-c1
+m0645,Buenas tardes. El cargo salió por un valor distinto y necesito ayuda. Gracias.,facturación,normal,,f11,f11-c1
+m0646,"Hola, la guía de envío no aparece.",envío,normal,,e12,e12-c0
+m0647,Buenas tardes. El valor de la recibo no coincide con lo que pagué y nadie me responde. Por favor.,facturación,normal,,f03,f03-c2
+m0648,Me cobraron de más por el libro y necesito ayuda. ¿Me ayudan?,facturación,normal,,f06,f06-c1
+m0649,"Hola, no me llega el código para iniciar sesión y nadie me responde. Por favor.",acceso a la cuenta,normal,,a09,a09-c2
+m0650,"Hola, el libro no ha llegado y necesito ayuda. ¿Me ayudan?",envío,normal,,e01,e01-c1
+m0651,Buenas tardes. La guía de despacho no aparece y necesito ayuda. Quedo atento.,envío,normal,,e12,e12-c1
+m0652,Me cobraron de más por el pedido y nadie me responde. Gracias.,facturación,normal,,f06,f06-c2
+m0653,Buenas tardes. El despacho figura como entregado pero no lo recibí. ¿Me ayudan?,envío,normal,,e05,e05-c0
+m0654,Buenas tardes. Quiero la factura electrónica del libro y necesito ayuda. Quedo atento.,facturación,normal,,f10,f10-c1
+m0655,buenas tardes. quiero devolver la mochila y necesito ayuda. por favor.,devolución,normal,,d01,d01-c1
+m0656,Hola. Mi cuenta quedó bloqueada. ¿Qué debo hacer? Quedo atento.,acceso a la cuenta,normal,,a03,a03-c3
+m0657,el libro no es lo que pedí. ¿qué debo hacer? ¿me ayudan?,devolución,normal,,d06,d06-c3
+m0658,El seguimiento del envío no se actualiza. Es urgente. Quedo atento.,envío,normal,,e03,e03-c4
+m0659,La transportadora no encontró mi dirección y nadie me responde. Gracias.,envío,normal,,e08,e08-c2
+m0660,Quiero solicitar la devolución de la mochila. Es urgente.,devolución,normal,,d07,d07-c4
+m0661,Buenas tardes. El teclado no ha llegado y nadie me responde.,envío,normal,,e01,e01-c2
+m0662,"Buen día, quiero saber cuánto tarda el reembolso. Es urgente. ¿Me ayudan?",devolución,normal,,d03,d03-c4
+m0663,Buenas tardes. Dice que mi contraseña es incorrecta. Es urgente. Gracias.,acceso a la cuenta,normal,,a07,a07-c4
+m0664,Pague y el sistema dice que no hay pago y nadie me responde.,facturación,normal,,f09,f09-c2
+m0665,Buenas tardes. Me cobraron el teclado pero nunca llegó y nadie me responde.,envío,ambiguo,facturación,x02,x02-c2
+m0666,La chaqueta llegó con daños. Es urgente.,devolución,normal,,d09,d09-c4
+m0667,Buenas tardes. La aplicación no me deja iniciar sesión y necesito ayuda. Gracias.,acceso a la cuenta,normal,,a05,a05-c1
+m0668,"Hola, ya hice la devolucion y no veo el dinero y necesito ayuda.",devolución,normal,,d04,d04-c1
+m0669,Buenas tardes. El despacho de la lámpara está retrasado. ¿Qué debo hacer?,envío,normal,,e09,e09-c3
+m0670,buenas tardes. no entiendo un cobro de 19.900 pesos. ¿qué debo hacer? ¿me ayudan?,facturación,normal,,f12,f12-c3
+m0671,Hola. Necesito cambiar la dirección de entrega. Es urgente.,envío,normal,,e06,e06-c4
+m0672,"Hola, el reloj llegó con un defecto y quiero la devolución. Es urgente. Gracias.",devolución,normal,,d02,d02-c4
+m0673,El teclado no ha llegado y necesito ayuda. Por favor.,envío,normal,,e01,e01-c1
+m0674,Olvidé la contraseña y no me llega el correo para recuperarla. Es urgente. Quedo atento.,acceso a la cuenta,normal,,a02,a02-c4
+m0675,"Buen día, aparece un cargo que no reconozco. Es urgente. Por favor.",facturación,normal,,f02,f02-c4
+m0676,Quiero solicitar la devolución del teclado. ¿Qué debo hacer? ¿Me ayudan?,devolución,normal,,d07,d07-c3
+m0677,"Hola, no tengo problemas con la cuenta; el cargo está repetido. ¿Me ayudan?",facturación,negación,,n05,n05-c0
+m0678,Hola. Necesito cambiar la chaqueta por otra referencia. Es urgente.,devolución,normal,,d05,d05-c4
+m0679,El despacho figura como entregado pero no lo recibí y necesito ayuda.,envío,normal,,e05,e05-c1
+m0680,"Buen día, la licuadora sigue en camino y nadie me responde. ¿Me ayudan?",envío,normal,,e02,e02-c2
+m0681,Necesito cambiar la direccion de entrega. Es urgente. Gracias.,envío,normal,,e06,e06-c4
+m0682,El teclado llegó con daños. ¿Qué debo hacer? Gracias.,devolución,normal,,d09,d09-c3
+m0683,"Buen dia, mi usuario aparece como inactivo. ¿Que debo hacer?",acceso a la cuenta,normal,,a12,a12-c3
+m0684,Me cobraron dos veces la licuadora.,facturación,normal,,f01,f01-c0
+m0685,hola. alguien entró a mi cuenta sin permiso. gracias.,acceso a la cuenta,normal,,a08,a08-c0
+m0686,Buenas tardes. El cargo salió por un valor distinto. Es urgente. ¿Me ayudan?,facturación,normal,,f11,f11-c4
+m0687,pagué y el sistema dice que no hay pago. ¿qué debo hacer?,facturación,normal,,f09,f09-c3
+m0688,No es un problema de pago: no puedo entrar a mi cuenta y nadie me responde.,acceso a la cuenta,negación,,n02,n02-c2
+m0689,"Hola, olvidé la contraseña y no me llega el correo para recuperarla y nadie me responde.",acceso a la cuenta,normal,,a02,a02-c2
+m0690,Buenas tardes. Me cobraron de más por la mochila. ¿Qué debo hacer? Quedo atento.,facturación,normal,,f06,f06-c3
+m0691,"Buen día, me cobraron la mochila pero nunca llegó y necesito ayuda.",envío,ambiguo,facturación,x02,x02-c1
+m0692,"Hola, quiero que me devuelvan el dinero del teclado. Por favor.",devolución,normal,,d11,d11-c0
+m0693,El cobro salió por un valor distinto. Es urgente. ¿Me ayudan?,facturación,normal,,f11,f11-c4
+m0694,No llegó tarde: llegó con daños y quiero la devolución. Por favor.,devolución,negación,,n04,n04-c0
+m0695,Buenas tardes. Me llegó un código de verificación que no pedí. Es urgente. Por favor.,acceso a la cuenta,normal,,a04,a04-c4
+m0696,Hola. El reloj sigue en camino y nadie me responde. Por favor.,envío,normal,,e02,e02-c2
+m0697,Buenas tardes. La mochila llegó con daños y necesito ayuda.,devolución,normal,,d09,d09-c1
+m0698,Olvide la contrasena y no me llega el correo para recuperarla. ¿Me ayudan?,acceso a la cuenta,normal,,a02,a02-c0
+m0699,Quiero la recibo electrónica de la licuadora y necesito ayuda. Quedo atento.,facturación,normal,,f10,f10-c1
+m0700,Buenas tardes. El repartidor no pasó.,envío,normal,,e10,e10-c0
+m0701,Buenas tardes. Dice que mi contraseña es incorrecta.,acceso a la cuenta,normal,,a07,a07-c0
+m0702,Buenas tardes. El libro no ha llegado. ¿Me ayudan?,envío,normal,,e01,e01-c0
+m0703,"Buen día, el seguimiento del despacho no se actualiza y necesito ayuda. ¿Me ayudan?",envío,normal,,e03,e03-c1
+m0704,"Buen día, el repartidor no pasó y necesito ayuda.",envío,normal,,e10,e10-c1
+m0705,La lámpara llegó con un defecto y quiero la devolución. ¿Qué debo hacer? Gracias.,devolución,normal,,d02,d02-c3
+m0706,El teclado llegó con un defecto y quiero la devolución.,devolución,normal,,d02,d02-c0
+m0707,El pago del teclado sigue pendiente. Es urgente. Quedo atento.,facturación,normal,,f05,f05-c4
+m0708,El pedido no me sirvió y quiero hacer un cambio. Es urgente. Gracias.,devolución,normal,,d10,d10-c4
+m0709,"Buen día, mi cuenta quedó bloqueada y nadie me responde.",acceso a la cuenta,normal,,a03,a03-c2
+m0710,Buenas tardes. Quiero solicitar la devolución del libro.,devolución,normal,,d07,d07-c0
+m0711,Ya hice la devolución y no veo el dinero y nadie me responde. ¿Me ayudan?,devolución,normal,,d04,d04-c2
+m0712,buenas tardes. el despacho figura como entregado pero no lo recibí y nadie me responde. por favor.,envío,normal,,e05,e05-c2
+m0713,Hola. La mochila no me sirvió y quiero hacer un cambio. Por favor.,devolución,normal,,d10,d10-c0
+m0714,"Hola, quiero cambiar el correo de mi cuenta y necesito ayuda.",acceso a la cuenta,normal,,a06,a06-c1
+m0715,Dice que mi contrasena es incorrecta y necesito ayuda.,acceso a la cuenta,normal,,a07,a07-c1
+m0716,"Hola, el envío figura como entregado pero no lo recibí y necesito ayuda.",envío,normal,,e05,e05-c1
+m0717,Buenas tardes. La chaqueta quedó retenido en la bodega y nadie me responde.,envío,normal,,e11,e11-c2
+m0718,"Hola, no puedo entrar a mi cuenta. Es urgente.",acceso a la cuenta,normal,,a01,a01-c4
+m0719,"Hola, me cobraron de más por la chaqueta. Por favor.",facturación,normal,,f06,f06-c0
+m0720,Quiero cambiar el correo de mi cuenta y nadie me responde. ¿Me ayudan?,acceso a la cuenta,normal,,a06,a06-c2
+m0721,el pedido quedó retenido en la bodega. ¿qué debo hacer? quedo atento.,envío,normal,,e11,e11-c3
+m0722,La aplicación no me deja iniciar sesión. Gracias.,acceso a la cuenta,normal,,a05,a05-c0
+m0723,"Buen día, ya hice la devolución y no veo el dinero y necesito ayuda. ¿Me ayudan?",devolución,normal,,d04,d04-c1
+m0724,Pagué y el sistema dice que no hay pago. ¿Qué debo hacer? Quedo atento.,facturación,normal,,f09,f09-c3
+m0725,El libro llegó con un defecto y quiero la devolución y necesito ayuda. Quedo atento.,devolución,normal,,d02,d02-c1
+m0726,"Hola, la devolución del reloj fue rechazada. Es urgente. ¿Me ayudan?",devolución,normal,,d12,d12-c4
+m0727,"Hola, alguien entro a mi cuenta sin permiso. Es urgente. ¿Me ayudan?",acceso a la cuenta,normal,,a08,a08-c4
+m0728,El valor de la recibo no coincide con lo que pague. Es urgente. Gracias.,facturación,normal,,f03,f03-c4
+m0729,Buenas tardes. Dice que mi contraseña es incorrecta y necesito ayuda. Gracias.,acceso a la cuenta,normal,,a07,a07-c1
+m0730,Hola. Me descontaron un cargo extra y necesito ayuda. Por favor.,facturación,normal,,f08,f08-c1
+m0731,"Buen día, me llegó un código de verificación que no pedí. Es urgente. Por favor.",acceso a la cuenta,normal,,a04,a04-c4
+m0732,Buenas tardes. El pago del libro sigue pendiente y necesito ayuda. Gracias.,facturación,normal,,f05,f05-c1
+m0733,Buenas tardes. El repartidor no paso y necesito ayuda.,envío,normal,,e10,e10-c1
+m0734,Buenas tardes. Me descontaron un cargo extra.,facturación,normal,,f08,f08-c0
+m0735,No me llega el código para iniciar sesión. ¿Qué debo hacer? Gracias.,acceso a la cuenta,normal,,a09,a09-c3
+m0736,La chaqueta no es lo que pedí y nadie me responde. Gracias.,devolución,normal,,d06,d06-c2
+m0737,"Hola, el envío figura como entregado pero no lo recibí. ¿Qué debo hacer? Quedo atento.",envío,normal,,e05,e05-c3
+m0738,"Hola, quiero que me devuelvan el dinero del reloj. Es urgente.",devolución,normal,,d11,d11-c4
+m0739,"No necesito cambiar la dirección, necesito la factura de la licuadora. ¿Qué debo hacer? Quedo atento.",facturación,negación,,n03,n03-c3
+m0740,Buenas tardes. El libro llego con danos. Es urgente. Gracias.,devolución,normal,,d09,d09-c4
+m0741,"Buen día, no quiero el reembolso, quiero saber dónde está la mochila. Es urgente. Gracias.",envío,negación,,n06,n06-c4
+m0742,Ya hice la devolución y no veo el dinero. ¿Qué debo hacer? Gracias.,devolución,normal,,d04,d04-c3
+m0743,hola. el repartidor no pasó y necesito ayuda. por favor.,envío,normal,,e10,e10-c1
+m0744,Me devolvieron menos dinero del que pagué. ¿Qué debo hacer?,devolución,normal,,d08,d08-c3
+m0745,"Buen día, el valor de la recibo no coincide con lo que pagué y necesito ayuda. Por favor.",facturación,normal,,f03,f03-c1
+m0746,"Buen día, la transportadora no encontró mi dirección. Es urgente.",envío,normal,,e08,e08-c4
+m0747,No es un problema de pago: no puedo entrar a mi cuenta. Es urgente. ¿Me ayudan?,acceso a la cuenta,negación,,n02,n02-c4
+m0748,Necesito cambiar la dirección de entrega y nadie me responde.,envío,normal,,e06,e06-c2
+m0749,Me cobraron dos veces el teclado. Es urgente. ¿Me ayudan?,facturación,normal,,f01,f01-c4
+m0750,"Hola, necesito cambiar el pedido por otra referencia y nadie me responde. Quedo atento.",devolución,normal,,d05,d05-c2
+m0751,No llegó tarde: llegó con daños y quiero la devolución y necesito ayuda. Gracias.,devolución,negación,,n04,n04-c1
+m0752,Hola. No puedo entrar a mi cuenta. ¿Qué debo hacer?,acceso a la cuenta,normal,,a01,a01-c3
+m0753,Buenas tardes. Me cobraron de más por la chaqueta. ¿Qué debo hacer?,facturación,normal,,f06,f06-c3
+m0754,Hola. La chaqueta no me sirvió y quiero hacer un cambio y nadie me responde. Quedo atento.,devolución,normal,,d10,d10-c2
+m0755,Buenas tardes. La transportadora no encontró mi dirección y necesito ayuda. Gracias.,envío,normal,,e08,e08-c1
+m0756,Me cobraron de más por el libro y necesito ayuda.,facturación,normal,,f06,f06-c1
+m0757,"Buen día, el seguimiento del despacho no se actualiza. Es urgente. Quedo atento.",envío,normal,,e03,e03-c4
+m0758,Buenas tardes. Me llegó un código de verificación que no pedí y nadie me responde. Quedo atento.,acceso a la cuenta,normal,,a04,a04-c2
+m0759,Mi cuenta quedó bloqueada y necesito ayuda.,acceso a la cuenta,normal,,a03,a03-c1
+m0760,"Buen día, quiero solicitar la devolución del reloj. Es urgente. ¿Me ayudan?",devolución,normal,,d07,d07-c4
+m0761,No tengo problemas con la cuenta; el cargo está repetido. Es urgente.,facturación,negación,,n05,n05-c4
+m0762,"hola, la sesión se cierra sola y necesito ayuda. gracias.",acceso a la cuenta,normal,,a10,a10-c1
+m0763,No llegó tarde: llegó con daños y quiero la devolución. ¿Qué debo hacer?,devolución,negación,,n04,n04-c3
+m0764,"Hola, necesito cambiar la tarjeta con la que pago.",facturación,normal,,f07,f07-c0
+m0765,Mi cuenta quedó bloqueada. ¿Me ayudan?,acceso a la cuenta,normal,,a03,a03-c0
+m0766,Buenas tardes. No me llega el código para iniciar sesión. ¿Qué debo hacer?,acceso a la cuenta,normal,,a09,a09-c3
+m0767,"Buen día, la guía de despacho no aparece y necesito ayuda. Quedo atento.",envío,normal,,e12,e12-c1
+m0768,"Hola, pagué y el sistema dice que no hay pago. ¿Me ayudan?",facturación,normal,,f09,f09-c0
+m0769,Buenas tardes. El cobro salió por un valor distinto y nadie me responde. Gracias.,facturación,normal,,f11,f11-c2
+m0770,no me ha llegado la recibo del teclado. es urgente. ¿me ayudan?,facturación,normal,,f04,f04-c4
+m0771,"Hola, ya pasó la fecha de entrega del reloj.",envío,normal,,e07,e07-c0
+m0772,El seguimiento del envío no se actualiza y nadie me responde. ¿Me ayudan?,envío,normal,,e03,e03-c2
+m0773,"Hola, me cobraron de más por el reloj y necesito ayuda. ¿Me ayudan?",facturación,normal,,f06,f06-c1
+m0774,Buenas tardes. No me ha llegado la factura de la chaqueta y necesito ayuda. Por favor.,facturación,normal,,f04,f04-c1
+m0775,Buenas tardes. Quiero saber cuándo llega la lámpara. ¿Qué debo hacer?,envío,normal,,e04,e04-c3
+m0776,Hola. Me llegó un código de verificación que no pedí. Gracias.,acceso a la cuenta,normal,,a04,a04-c0
+m0777,Buenas tardes. Necesito cambiar la dirección de entrega y necesito ayuda.,envío,normal,,e06,e06-c1
+m0778,Aparece un cargo que no reconozco. Es urgente. Gracias.,facturación,normal,,f02,f02-c4
+m0779,Me cobraron dos veces la licuadora. Quedo atento.,facturación,normal,,f01,f01-c0
+m0780,Buenas tardes. Quiero cambiar el correo de mi cuenta y necesito ayuda.,acceso a la cuenta,normal,,a06,a06-c1
+m0781,"Buen dia, la sesion se cierra sola.",acceso a la cuenta,normal,,a10,a10-c0
+m0782,Hola. Pagué y el sistema dice que no hay pago. ¿Qué debo hacer? ¿Me ayudan?,facturación,normal,,f09,f09-c3
+m0783,Hola. El envio de la lampara esta retrasado. ¿Me ayudan?,envío,normal,,e09,e09-c0
+m0784,"Buen día, me cobraron de más por el reloj y nadie me responde. Por favor.",facturación,normal,,f06,f06-c2
+m0785,Dice que mi contraseña es incorrecta y necesito ayuda. ¿Me ayudan?,acceso a la cuenta,normal,,a07,a07-c1
+m0786,"Buen dia, el cobro salio por un valor distinto y necesito ayuda. Gracias.",facturación,normal,,f11,f11-c1
+m0787,No me llega el código para iniciar sesión y nadie me responde. Gracias.,acceso a la cuenta,normal,,a09,a09-c2
+m0788,La devolución de la licuadora fue rechazada y necesito ayuda.,devolución,normal,,d12,d12-c1
+m0789,Hola. Quiero saber cuánto tarda el dinero.,devolución,normal,,d03,d03-c0
+m0790,La guía de despacho no aparece y nadie me responde. Quedo atento.,envío,normal,,e12,e12-c2
+m0791,"Hola, olvidé la contraseña y no me llega el correo para recuperarla y necesito ayuda. ¿Me ayudan?",acceso a la cuenta,normal,,a02,a02-c1
+m0792,"Buen día, el cargo salió por un valor distinto. ¿Qué debo hacer? ¿Me ayudan?",facturación,normal,,f11,f11-c3
+m0793,"Buen dia, necesito cambiar la tarjeta con la que pago. Gracias.",facturación,normal,,f07,f07-c0
+m0794,Quiero saber cuándo llega la licuadora y necesito ayuda. Quedo atento.,envío,normal,,e04,e04-c1
+m0795,"Buen día, no entiendo un cargo de 8.500 pesos y necesito ayuda.",facturación,normal,,f12,f12-c1
+m0796,"Buen día, la caja llegó abierta y falta uno de los productos y necesito ayuda. Por favor.",envío,ambiguo,devolución,x01,x01-c1
+m0797,Hola. Me descontaron un cargo extra. ¿Qué debo hacer? Quedo atento.,facturación,normal,,f08,f08-c3
+m0798,"Hola, quiero la factura electrónica de la mochila y nadie me responde. ¿Me ayudan?",facturación,normal,,f10,f10-c2
+m0799,hola. no entiendo un cobro de 45.000 pesos y nadie me responde. ¿me ayudan?,facturación,normal,,f12,f12-c2
+m0800,La licuadora llegó con un defecto y quiero la devolución. ¿Qué debo hacer?,devolución,normal,,d02,d02-c3
+m0801,"Hola, me devolvieron menos dinero del que pagué. ¿Me ayudan?",devolución,normal,,d08,d08-c0
+m0802,Buenas tardes. El pago del libro sigue pendiente. Es urgente. Por favor.,facturación,normal,,f05,f05-c4
+m0803,Hola. La aplicación no me deja iniciar sesión.,acceso a la cuenta,normal,,a05,a05-c0
+m0804,"Buen día, no quiero devolver nada, solo saber cuándo llega el teclado y necesito ayuda.",envío,negación,,n01,n01-c1
+m0805,"Hola, me cobraron de más por el reloj y necesito ayuda. Por favor.",facturación,normal,,f06,f06-c1
+m0806,"Buen dia, ya paso la fecha de entrega del pedido. Es urgente. Quedo atento.",envío,normal,,e07,e07-c4
+m0807,La aplicacion no me deja iniciar sesion y nadie me responde. Quedo atento.,acceso a la cuenta,normal,,a05,a05-c2
+m0808,Buenas tardes. No reconozco un inicio de sesión en mi cuenta. ¿Qué debo hacer? Por favor.,acceso a la cuenta,normal,,a11,a11-c3
+m0809,Buenas tardes. El despacho figura como entregado pero no lo recibí. Es urgente. ¿Me ayudan?,envío,normal,,e05,e05-c4
+m0810,Buenas tardes. Quiero que me devuelvan el dinero del pedido. ¿Qué debo hacer? ¿Me ayudan?,devolución,normal,,d11,d11-c3
+m0811,Hola. No llegó tarde: llegó con daños y quiero la devolución y nadie me responde. Por favor.,devolución,negación,,n04,n04-c2
+m0812,"Hola, el pedido sigue en camino. Es urgente.",envío,normal,,e02,e02-c4
+m0813,"Buen día, aparece un cobro que no reconozco. Es urgente.",facturación,normal,,f02,f02-c4
+m0814,Quiero solicitar la devolución del libro y necesito ayuda.,devolución,normal,,d07,d07-c1
+m0815,"Buen día, el pedido no me sirvió y quiero hacer un cambio. ¿Qué debo hacer? ¿Me ayudan?",devolución,normal,,d10,d10-c3
+m0816,Buenas tardes. La transportadora no encontró mi dirección y nadie me responde. Gracias.,envío,normal,,e08,e08-c2
+m0817,Me llegó un código de verificación que no pedí. ¿Qué debo hacer? Gracias.,acceso a la cuenta,normal,,a04,a04-c3
+m0818,Hola. No me ha llegado la factura del teclado. ¿Que debo hacer?,facturación,normal,,f04,f04-c3
+m0819,"Hola, la sesión se cierra sola y necesito ayuda.",acceso a la cuenta,normal,,a10,a10-c1
+m0820,Hola. Olvidé la contraseña y no me llega el correo para recuperarla. ¿Qué debo hacer?,acceso a la cuenta,normal,,a02,a02-c3
+m0821,Buenas tardes. El repartidor no pasó. Quedo atento.,envío,normal,,e10,e10-c0
+m0822,hola. el pago de la licuadora sigue pendiente. ¿qué debo hacer? por favor.,facturación,normal,,f05,f05-c3
+m0823,"Hola, olvidé la contraseña y no me llega el correo para recuperarla. Quedo atento.",acceso a la cuenta,normal,,a02,a02-c0
+m0824,La chaqueta no me sirvió y quiero hacer un cambio. ¿Qué debo hacer?,devolución,normal,,d10,d10-c3
+m0825,Me devolvieron menos dinero del que pagué. ¿Qué debo hacer? Gracias.,devolución,normal,,d08,d08-c3
+m0826,Hola. El pedido no ha llegado. Es urgente. Gracias.,envío,normal,,e01,e01-c4
+m0827,Buenas tardes. La aplicación no me deja iniciar sesión y nadie me responde.,acceso a la cuenta,normal,,a05,a05-c2
+m0828,"Buen día, la lámpara no ha llegado. Es urgente.",envío,normal,,e01,e01-c4
+m0829,buenas tardes. el repartidor no pasó. es urgente. por favor.,envío,normal,,e10,e10-c4
+m0830,Hola. La guía de despacho no aparece. Es urgente. Gracias.,envío,normal,,e12,e12-c4
+m0831,buenas tardes. no llegó tarde: llegó con daños y quiero la devolución.,devolución,negación,,n04,n04-c0
+m0832,No tengo problemas con la cuenta; el cobro está repetido.,facturación,negación,,n05,n05-c0
+m0833,Hola. La licuadora sigue en camino y nadie me responde. ¿Me ayudan?,envío,normal,,e02,e02-c2
+m0834,Olvidé la contraseña y no me llega el correo para recuperarla. ¿Qué debo hacer?,acceso a la cuenta,normal,,a02,a02-c3
+m0835,Hola. Dice que mi contraseña es incorrecta. Es urgente. ¿Me ayudan?,acceso a la cuenta,normal,,a07,a07-c4
+m0836,el seguimiento del despacho no se actualiza y nadie me responde. gracias.,envío,normal,,e03,e03-c2
+m0837,"Buen día, no llegó tarde: llegó con daños y quiero la devolución y necesito ayuda. Quedo atento.",devolución,negación,,n04,n04-c1
+m0838,"No quiero el reembolso, quiero saber dónde está la lámpara.",envío,negación,,n06,n06-c0
+m0839,Hola. La chaqueta no me sirvió y quiero hacer un cambio y nadie me responde.,devolución,normal,,d10,d10-c2
+m0840,"Buen día, el despacho del reloj está retrasado y necesito ayuda.",envío,normal,,e09,e09-c1
+m0841,Hola. El pago de la mochila sigue pendiente. Por favor.,facturación,normal,,f05,f05-c0
+m0842,no tengo problemas con la cuenta; el cobro esta repetido y nadie me responde.,facturación,negación,,n05,n05-c2
+m0843,Hola. Quiero la recibo electrónica de la chaqueta y nadie me responde.,facturación,normal,,f10,f10-c2
+m0844,La mochila llegó con daños y nadie me responde.,devolución,normal,,d09,d09-c2
+m0845,Quiero solicitar la devolución del teclado. Es urgente.,devolución,normal,,d07,d07-c4
+m0846,"Buenas tardes. No quiero devolver nada, solo saber cuándo llega la mochila. Es urgente. Por favor.",envío,negación,,n01,n01-c4
+m0847,El pedido llegó con daños y nadie me responde.,devolución,normal,,d09,d09-c2
+m0848,Hola. Quiero saber cuánto tarda el reembolso.,devolución,normal,,d03,d03-c0
+m0849,Buenas tardes. Quiero que me devuelvan el dinero de la lámpara. Es urgente. Por favor.,devolución,normal,,d11,d11-c4
+m0850,"Buen día, necesito cambiar la tarjeta con la que pago y nadie me responde. Quedo atento.",facturación,normal,,f07,f07-c2
+m0851,El despacho de la mochila está retrasado y necesito ayuda. ¿Me ayudan?,envío,normal,,e09,e09-c1
+m0852,Necesito cambiar la dirección de entrega y nadie me responde. ¿Me ayudan?,envío,normal,,e06,e06-c2
+m0853,Buenas tardes. La mochila no es lo que pedí. Es urgente. ¿Me ayudan?,devolución,normal,,d06,d06-c4
+m0854,"Hola, la guía de despacho no aparece.",envío,normal,,e12,e12-c0
+m0855,"Hola, el envío de la mochila está retrasado y nadie me responde. ¿Me ayudan?",envío,normal,,e09,e09-c2
+m0856,No reconozco un inicio de sesión en mi cuenta y nadie me responde. Quedo atento.,acceso a la cuenta,normal,,a11,a11-c2
+m0857,Buenas tardes. La sesión se cierra sola. ¿Qué debo hacer? Gracias.,acceso a la cuenta,normal,,a10,a10-c3
+m0858,Quiero que me devuelvan el dinero de la lámpara y nadie me responde. Quedo atento.,devolución,normal,,d11,d11-c2
+m0859,El pago de la chaqueta sigue pendiente. ¿Qué debo hacer?,facturación,normal,,f05,f05-c3
+m0860,Hola. La guia de despacho no aparece y necesito ayuda. ¿Me ayudan?,envío,normal,,e12,e12-c1
+m0861,Hola. La mochila no ha llegado y nadie me responde.,envío,normal,,e01,e01-c2
+m0862,El despacho del libro está retrasado y nadie me responde. Por favor.,envío,normal,,e09,e09-c2
+m0863,"buen día, me cobraron de más por el pedido. ¿qué debo hacer? ¿me ayudan?",facturación,normal,,f06,f06-c3
+m0864,Quiero saber cuándo llega el pedido. Es urgente.,envío,normal,,e04,e04-c4
+m0865,Buenas tardes. La chaqueta no me sirvió y quiero hacer un cambio. Es urgente.,devolución,normal,,d10,d10-c4
+m0866,Quiero que me devuelvan el dinero del pedido. ¿Qué debo hacer?,devolución,normal,,d11,d11-c3
+m0867,El teclado llegó con daños. ¿Qué debo hacer? Quedo atento.,devolución,normal,,d09,d09-c3
+m0868,Hola. El libro llegó con daños. ¿Qué debo hacer? Quedo atento.,devolución,normal,,d09,d09-c3
+m0869,Hola. El cobro salio por un valor distinto. Gracias.,facturación,normal,,f11,f11-c0
+m0870,"Hola, necesito cambiar la tarjeta con la que pago. ¿Qué debo hacer? Gracias.",facturación,normal,,f07,f07-c3
+m0871,"buen día, no reconozco un inicio de sesión en mi cuenta. ¿qué debo hacer? por favor.",acceso a la cuenta,normal,,a11,a11-c3
+m0872,Hola. Me devolvieron menos dinero del que pagué. ¿Qué debo hacer? ¿Me ayudan?,devolución,normal,,d08,d08-c3
+m0873,El valor de la factura no coincide con lo que pagué. Es urgente. Gracias.,facturación,normal,,f03,f03-c4
+m0874,olvidé la contraseña y no me llega el correo para recuperarla. ¿qué debo hacer?,acceso a la cuenta,normal,,a02,a02-c3
+m0875,"Hola, la lámpara no ha llegado y nadie me responde.",envío,normal,,e01,e01-c2
+m0876,Hola. La mochila quedó retenido en la bodega y nadie me responde.,envío,normal,,e11,e11-c2
+m0877,La mochila no es lo que pedí. Gracias.,devolución,normal,,d06,d06-c0
+m0878,Me llegó un código de verificación que no pedí. Es urgente. Gracias.,acceso a la cuenta,normal,,a04,a04-c4
+m0879,El libro no es lo que pedí y necesito ayuda. Por favor.,devolución,normal,,d06,d06-c1
+m0880,"Hola, el pago de la mochila sigue pendiente y necesito ayuda. ¿Me ayudan?",facturación,normal,,f05,f05-c1
+m0881,"Buen día, el repartidor no pasó y nadie me responde. Por favor.",envío,normal,,e10,e10-c2
+m0882,Quiero solicitar la devolución del teclado. ¿Qué debo hacer? Por favor.,devolución,normal,,d07,d07-c3
+m0883,Hola. La guía de despacho no aparece y necesito ayuda. Quedo atento.,envío,normal,,e12,e12-c1
+m0884,Hola. Me cobraron dos veces el libro y nadie me responde.,facturación,normal,,f01,f01-c2
+m0885,"Buen día, mi cuenta quedó bloqueada. Gracias.",acceso a la cuenta,normal,,a03,a03-c0
+m0886,"Buen día, la aplicación no me deja iniciar sesión. ¿Qué debo hacer? Gracias.",acceso a la cuenta,normal,,a05,a05-c3
+m0887,Buenas tardes. La devolución del reloj fue rechazada. ¿Me ayudan?,devolución,normal,,d12,d12-c0
+m0888,"Hola, me cobraron de mas por el libro y nadie me responde. Quedo atento.",facturación,normal,,f06,f06-c2
+m0889,Buenas tardes. Necesito cambiar la licuadora por otra referencia y necesito ayuda.,devolución,normal,,d05,d05-c1
+m0890,"Buen día, aparece un cobro que no reconozco. Es urgente. ¿Me ayudan?",facturación,normal,,f02,f02-c4
+m0891,"hola, olvidé la contraseña y no me llega el correo para recuperarla y necesito ayuda. ¿me ayudan?",acceso a la cuenta,normal,,a02,a02-c1
+m0892,"Hola, el reloj quedo retenido en la bodega. ¿Me ayudan?",envío,normal,,e11,e11-c0
+m0893,No llegó tarde: llegó con daños y quiero la devolución. Quedo atento.,devolución,negación,,n04,n04-c0
+m0894,Alguien entró a mi cuenta sin permiso y necesito ayuda. Quedo atento.,acceso a la cuenta,normal,,a08,a08-c1
+m0895,la mochila no me sirvió y quiero hacer un cambio. es urgente. gracias.,devolución,normal,,d10,d10-c4
+m0896,Ya hice la devolución y no veo el reembolso y necesito ayuda. Quedo atento.,devolución,normal,,d04,d04-c1
+m0897,Ya pasó la fecha de entrega de la chaqueta. ¿Qué debo hacer? Quedo atento.,envío,normal,,e07,e07-c3
+m0898,"Hola, quiero devolver la mochila.",devolución,normal,,d01,d01-c0
+m0899,Me cobraron la chaqueta pero nunca llegó. Es urgente. ¿Me ayudan?,envío,ambiguo,facturación,x02,x02-c4
+m0900,La guia de envio no aparece. Es urgente.,envío,normal,,e12,e12-c4

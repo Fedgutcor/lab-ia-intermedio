@@ -1,0 +1,701 @@
+id,opinion,sentimiento,dificultad,frase,grupo
+o0001,vale lo que cuesta y llegó antes de lo esperado. lo compré hace un mes.,positiva,normal,precio-pos0,precio-pos0+envio-pos1
+o0002,Es económico para lo que ofrece y los materiales se sienten resistentes.,positiva,normal,precio-pos2,precio-pos2+calidad-pos2
+o0003,Falla todo el tiempo.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0004,Sobre la licuadora: funciona perfecto.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0005,Sobre la lámpara: respondieron rápido mis preguntas y llegó rápido. Lo compré hace un mes.,positiva,normal,atencion-pos1,atencion-pos1+envio-pos0
+o0006,Compré el reloj. No tengo ninguna queja. Es mi segunda compra.,positiva,negación,r02,r02
+o0007,Tiene muy buenos acabados.,positiva,normal,calidad-pos1,calidad-pos1
+o0008,compré el libro. los materiales son baratos.,negativa,normal,calidad-neg2,calidad-neg2
+o0009,No es tan bueno como dicen.,negativa,negación,r04,r04
+o0010,Opinion sincera: no lo recomiendo. Es mi segunda compra.,negativa,negación,r05,r05
+o0011,Sobre la lámpara: nadie responde los mensajes.,negativa,normal,atencion-neg0,atencion-neg0
+o0012,Opinión sincera: dejó de funcionar a la semana y se siente frágil. Es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+calidad-neg1
+o0013,Nadie responde los mensajes. Compra hecha en linea.,negativa,normal,atencion-neg0,atencion-neg0
+o0014,Nadie responde los mensajes. Lo compré hace un mes.,negativa,normal,atencion-neg0,atencion-neg0
+o0015,Sobre la licuadora: dejó de funcionar a la semana. Compra hecha en línea.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0016,La atención fue amable. Compra hecha en línea.,positiva,normal,atencion-pos0,atencion-pos0
+o0017,Compré el reloj. El precio es exagerado.,negativa,normal,precio-neg1,precio-neg1
+o0018,Compré el libro. Se siente frágil y la atención fue grosera.,negativa,normal,calidad-neg1,calidad-neg1+atencion-neg1
+o0019,Sobre el libro: no volvería a comprar aquí. Lo compré hace un mes.,negativa,negación,r06,r06
+o0020,"Opinión sincera: qué maravilla, se rompió el primer día.",negativa,ironía,s03,s03
+o0021,Compré el teclado. La atención fue grosera y se siente frágil. Lo compré hace un mes.,negativa,normal,atencion-neg1,atencion-neg1+calidad-neg1
+o0022,Compré la mochila. La calidad deja mucho que desear. Compra hecha en línea.,negativa,normal,calidad-neg0,calidad-neg0
+o0023,Sobre el reloj: no tengo ninguna queja.,positiva,negación,r02,r02
+o0024,La calidad es excelente y funciona perfecto. Lo compré hace un mes.,positiva,normal,calidad-pos0,calidad-pos0+funcionamiento-pos0
+o0025,No está nada mal para el precio. Lo compré hace un mes.,positiva,negación,r01,r01
+o0026,opinión sincera: no es tan bueno como dicen.,negativa,negación,r04,r04
+o0027,Opinión sincera: la atención fue amable y no ha fallado ni una vez.,positiva,normal,atencion-pos0,atencion-pos0+funcionamiento-pos2
+o0028,Sobre la licuadora: no ha fallado ni una vez y la calidad es excelente. Compra hecha en línea.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+calidad-pos0
+o0029,La atención fue amable. Lo compré hace un mes.,positiva,normal,atencion-pos0,atencion-pos0
+o0030,Me ayudaron con un cambio sin problema y los materiales se sienten resistentes. Es mi segunda compra.,positiva,normal,atencion-pos2,atencion-pos2+calidad-pos2
+o0031,Sobre la licuadora: no ha fallado ni una vez. Es mi segunda compra.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0032,Sobre la mochila: llegó con buen empaque.,positiva,normal,envio-pos2,envio-pos2
+o0033,Sobre el teclado: la atención fue amable y funciona perfecto. Es mi segunda compra.,positiva,normal,atencion-pos0,atencion-pos0+funcionamiento-pos0
+o0034,Los materiales se sienten resistentes y vale lo que cuesta. Compra hecha en línea.,positiva,normal,calidad-pos2,calidad-pos2+precio-pos0
+o0035,Llegó con buen empaque.,positiva,normal,envio-pos2,envio-pos2
+o0036,"Opinión sincera: qué maravilla, se rompió el primer día. Lo compré hace un mes.",negativa,ironía,s03,s03
+o0037,Opinión sincera: la atención fue amable y los materiales se sienten resistentes.,positiva,normal,atencion-pos0,atencion-pos0+calidad-pos2
+o0038,Opinión sincera: se siente frágil.,negativa,normal,calidad-neg1,calidad-neg1
+o0039,compré la lámpara. no tengo ninguna queja. compra hecha en línea.,positiva,negación,r02,r02
+o0040,"Qué maravilla, se rompió el primer día.",negativa,ironía,s03,s03
+o0041,Sobre el reloj: llegó con buen empaque y el precio es justo. Lo compré hace un mes.,positiva,normal,envio-pos2,envio-pos2+precio-pos1
+o0042,no es tan bueno como dicen.,negativa,negación,r04,r04
+o0043,"Sobre la licuadora: qué maravilla, se rompió el primer día. Lo compré hace un mes.",negativa,ironía,s03,s03
+o0044,No volvería a comprar aquí. Lo compré hace un mes.,negativa,negación,r06,r06
+o0045,Opinión sincera: llegó con buen empaque y me ayudaron con un cambio sin problema. Lo compré hace un mes.,positiva,normal,envio-pos2,envio-pos2+atencion-pos2
+o0046,El precio es justo.,positiva,normal,precio-pos1,precio-pos1
+o0047,Llegó tarde.,negativa,normal,envio-neg0,envio-neg0
+o0048,Opinión sincera: llegó tarde.,negativa,normal,envio-neg0,envio-neg0
+o0049,Llegó tarde. Es mi segunda compra.,negativa,normal,envio-neg0,envio-neg0
+o0050,Llegó con buen empaque. Es mi segunda compra.,positiva,normal,envio-pos2,envio-pos2
+o0051,Opinión sincera: el precio es exagerado y falla todo el tiempo.,negativa,normal,precio-neg1,precio-neg1+funcionamiento-neg1
+o0052,Sobre el teclado: la calidad deja mucho que desear.,negativa,normal,calidad-neg0,calidad-neg0
+o0053,Hace ruidos extraños y llegó tarde. Compra hecha en línea.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+envio-neg0
+o0054,Compré el libro. El precio es exagerado.,negativa,normal,precio-neg1,precio-neg1
+o0055,sobre la licuadora: llego con la caja rota. lo compre hace un mes.,negativa,normal,envio-neg1,envio-neg1
+o0056,Compré el libro. Nunca resolvieron mi reclamo y llegó con la caja rota.,negativa,normal,atencion-neg2,atencion-neg2+envio-neg1
+o0057,No lo recomiendo.,negativa,negación,r05,r05
+o0058,Sobre la licuadora: hace exactamente lo que promete. Lo compré hace un mes.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0059,Compré el teclado. Respondieron rápido mis preguntas. Compra hecha en línea.,positiva,normal,atencion-pos1,atencion-pos1
+o0060,"Sobre la licuadora: excelente: llegó roto, justo lo que quería. Lo compré hace un mes.",negativa,ironía,s01,s01
+o0061,El precio es justo y me ayudaron con un cambio sin problema.,positiva,normal,precio-pos1,precio-pos1+atencion-pos2
+o0062,Compré el reloj. No lo recomiendo.,negativa,negación,r05,r05
+o0063,Compré el libro. Es económico para lo que ofrece y me ayudaron con un cambio sin problema. Es mi segunda compra.,positiva,normal,precio-pos2,precio-pos2+atencion-pos2
+o0064,Compré la mochila. Se siente frágil y llegó con la caja rota. Compra hecha en línea.,negativa,normal,calidad-neg1,calidad-neg1+envio-neg1
+o0065,opinión sincera: llegó tarde y dejó de funcionar a la semana. lo compré hace un mes.,negativa,normal,envio-neg0,envio-neg0+funcionamiento-neg0
+o0066,Sobre el teclado: es economico para lo que ofrece.,positiva,normal,precio-pos2,precio-pos2
+o0067,Sobre el reloj: la atención fue grosera y falla todo el tiempo.,negativa,normal,atencion-neg1,atencion-neg1+funcionamiento-neg1
+o0068,Funciona perfecto. Compra hecha en línea.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0069,Compre la licuadora. Tardo tres semanas en llegar. Compra hecha en linea.,negativa,normal,envio-neg2,envio-neg2
+o0070,Opinión sincera: no está nada mal para el precio.,positiva,negación,r01,r01
+o0071,Respondieron rápido mis preguntas y hace exactamente lo que promete.,positiva,normal,atencion-pos1,atencion-pos1+funcionamiento-pos1
+o0072,Opinión sincera: hace exactamente lo que promete.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0073,Respondieron rapido mis preguntas.,positiva,normal,atencion-pos1,atencion-pos1
+o0074,Compre el libro. Los materiales son baratos.,negativa,normal,calidad-neg2,calidad-neg2
+o0075,sobre el teclado: llego rapido.,positiva,normal,envio-pos0,envio-pos0
+o0076,Falla todo el tiempo y la atencion fue grosera.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+atencion-neg1
+o0077,Respondieron rápido mis preguntas y los materiales se sienten resistentes. Lo compré hace un mes.,positiva,normal,atencion-pos1,atencion-pos1+calidad-pos2
+o0078,Vale lo que cuesta. Compra hecha en línea.,positiva,normal,precio-pos0,precio-pos0
+o0079,Opinión sincera: no volvería a comprar aquí. Lo compré hace un mes.,negativa,negación,r06,r06
+o0080,Sobre el reloj: no lo recomiendo.,negativa,negación,r05,r05
+o0081,"Genial, tres semanas esperando para nada.",negativa,ironía,s02,s02
+o0082,Dejo de funcionar a la semana. Compra hecha en linea.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0083,Compré la mochila. Es económico para lo que ofrece y no ha fallado ni una vez.,positiva,normal,precio-pos2,precio-pos2+funcionamiento-pos2
+o0084,Opinión sincera: el precio es exagerado y nadie responde los mensajes.,negativa,normal,precio-neg1,precio-neg1+atencion-neg0
+o0085,Sobre la mochila: los materiales son baratos.,negativa,normal,calidad-neg2,calidad-neg2
+o0086,"Compré el teclado. Qué maravilla, se rompió el primer día.",negativa,ironía,s03,s03
+o0087,Compre el reloj. No es tan bueno como dicen.,negativa,negación,r04,r04
+o0088,No tengo ninguna queja.,positiva,negación,r02,r02
+o0089,sobre la mochila: no es tan bueno como dicen. es mi segunda compra.,negativa,negación,r04,r04
+o0090,Dejó de funcionar a la semana y la atención fue grosera. Es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+atencion-neg1
+o0091,Llegó con buen empaque y la calidad es excelente. Es mi segunda compra.,positiva,normal,envio-pos2,envio-pos2+calidad-pos0
+o0092,No volvería a comprar aquí.,negativa,negación,r06,r06
+o0093,Compré la mochila. El precio es justo y los materiales se sienten resistentes. Compra hecha en línea.,positiva,normal,precio-pos1,precio-pos1+calidad-pos2
+o0094,los materiales se sienten resistentes y me ayudaron con un cambio sin problema. es mi segunda compra.,positiva,normal,calidad-pos2,calidad-pos2+atencion-pos2
+o0095,Sobre la lámpara: no está nada mal para el precio.,positiva,negación,r01,r01
+o0096,Sobre la chaqueta: la atención fue amable y la calidad es excelente. Lo compré hace un mes.,positiva,normal,atencion-pos0,atencion-pos0+calidad-pos0
+o0097,Sobre la chaqueta: no es tan bueno como dicen.,negativa,negación,r04,r04
+o0098,No me arrepiento de la compra. Compra hecha en línea.,positiva,negación,r03,r03
+o0099,Vale lo que cuesta.,positiva,normal,precio-pos0,precio-pos0
+o0100,Sobre la lámpara: no lo recomiendo. Compra hecha en línea.,negativa,negación,r05,r05
+o0101,Compré el reloj. Llegó tarde. Lo compré hace un mes.,negativa,normal,envio-neg0,envio-neg0
+o0102,Sobre la lámpara: es caro para lo que ofrece y llegó tarde.,negativa,normal,precio-neg0,precio-neg0+envio-neg0
+o0103,Llegó antes de lo esperado y la calidad es excelente.,positiva,normal,envio-pos1,envio-pos1+calidad-pos0
+o0104,La atención fue grosera. Es mi segunda compra.,negativa,normal,atencion-neg1,atencion-neg1
+o0105,Compre la licuadora. Es caro para lo que ofrece. Es mi segunda compra.,negativa,normal,precio-neg0,precio-neg0
+o0106,Sobre la mochila: no lo recomiendo.,negativa,negación,r05,r05
+o0107,no lo recomiendo.,negativa,negación,r05,r05
+o0108,sobre el teclado: nunca resolvieron mi reclamo y es caro para lo que ofrece. compra hecha en línea.,negativa,normal,atencion-neg2,atencion-neg2+precio-neg0
+o0109,Hace ruidos extraños y tardó tres semanas en llegar. Lo compré hace un mes.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+envio-neg2
+o0110,Compré el libro. La atención fue grosera y es caro para lo que ofrece. Lo compré hace un mes.,negativa,normal,atencion-neg1,atencion-neg1+precio-neg0
+o0111,"Compre la lampara. Genial, tres semanas esperando para nada. Es mi segunda compra.",negativa,ironía,s02,s02
+o0112,Compré la mochila. No me arrepiento de la compra. Lo compré hace un mes.,positiva,negación,r03,r03
+o0113,Sobre la lámpara: nunca resolvieron mi reclamo y es caro para lo que ofrece.,negativa,normal,atencion-neg2,atencion-neg2+precio-neg0
+o0114,"Sobre la licuadora: qué maravilla, se rompió el primer día. Compra hecha en línea.",negativa,ironía,s03,s03
+o0115,Opinión sincera: llegó rápido.,positiva,normal,envio-pos0,envio-pos0
+o0116,Sobre la chaqueta: no ha fallado ni una vez y la atención fue amable.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+atencion-pos0
+o0117,Nadie responde los mensajes.,negativa,normal,atencion-neg0,atencion-neg0
+o0118,"Sobre la licuadora: genial, tres semanas esperando para nada. Compra hecha en línea.",negativa,ironía,s02,s02
+o0119,Opinion sincera: no volveria a comprar aqui. Es mi segunda compra.,negativa,negación,r06,r06
+o0120,La calidad deja mucho que desear y tardó tres semanas en llegar. Lo compré hace un mes.,negativa,normal,calidad-neg0,calidad-neg0+envio-neg2
+o0121,el precio es justo. compra hecha en linea.,positiva,normal,precio-pos1,precio-pos1
+o0122,Hace ruidos extranos. Lo compre hace un mes.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0123,Compre el libro. No volveria a comprar aqui.,negativa,negación,r06,r06
+o0124,La calidad deja mucho que desear. Compra hecha en linea.,negativa,normal,calidad-neg0,calidad-neg0
+o0125,Compré el libro. Llegó con la caja rota.,negativa,normal,envio-neg1,envio-neg1
+o0126,Sobre el libro: no me arrepiento de la compra. Compra hecha en línea.,positiva,negación,r03,r03
+o0127,Compre el teclado. No me arrepiento de la compra. Lo compre hace un mes.,positiva,negación,r03,r03
+o0128,Compré la lámpara. La atención fue grosera.,negativa,normal,atencion-neg1,atencion-neg1
+o0129,compré la lámpara. es caro para lo que ofrece y llegó con la caja rota. compra hecha en línea.,negativa,normal,precio-neg0,precio-neg0+envio-neg1
+o0130,Opinión sincera: se siente frágil y llegó con la caja rota.,negativa,normal,calidad-neg1,calidad-neg1+envio-neg1
+o0131,No esta nada mal para el precio. Lo compre hace un mes.,positiva,negación,r01,r01
+o0132,Compré la licuadora. Llegó antes de lo esperado y el precio es justo.,positiva,normal,envio-pos1,envio-pos1+precio-pos1
+o0133,la atención fue grosera y hace ruidos extraños. compra hecha en línea.,negativa,normal,atencion-neg1,atencion-neg1+funcionamiento-neg2
+o0134,Sobre la lámpara: no volvería a comprar aquí. Es mi segunda compra.,negativa,negación,r06,r06
+o0135,Compré la lámpara. Funciona perfecto y la atención fue amable. Lo compré hace un mes.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+atencion-pos0
+o0136,Compré el reloj. No ha fallado ni una vez y llegó antes de lo esperado. Lo compré hace un mes.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+envio-pos1
+o0137,Hace exactamente lo que promete.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0138,Opinión sincera: falla todo el tiempo.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0139,Compré la licuadora. Dejó de funcionar a la semana.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0140,Compré la chaqueta. Llegó rápido y el precio es justo.,positiva,normal,envio-pos0,envio-pos0+precio-pos1
+o0141,Llegó con buen empaque y es económico para lo que ofrece.,positiva,normal,envio-pos2,envio-pos2+precio-pos2
+o0142,Opinión sincera: no está nada mal para el precio. Lo compré hace un mes.,positiva,negación,r01,r01
+o0143,Sobre la chaqueta: pagué demasiado. Compra hecha en línea.,negativa,normal,precio-neg2,precio-neg2
+o0144,Los materiales son baratos. Lo compré hace un mes.,negativa,normal,calidad-neg2,calidad-neg2
+o0145,Sobre la chaqueta: no tengo ninguna queja. Compra hecha en línea.,positiva,negación,r02,r02
+o0146,Se siente frágil.,negativa,normal,calidad-neg1,calidad-neg1
+o0147,No tengo ninguna queja. Compra hecha en línea.,positiva,negación,r02,r02
+o0148,Sobre la licuadora: la calidad deja mucho que desear y nunca resolvieron mi reclamo.,negativa,normal,calidad-neg0,calidad-neg0+atencion-neg2
+o0149,Sobre el libro: no tengo ninguna queja. Es mi segunda compra.,positiva,negación,r02,r02
+o0150,opinión sincera: dejó de funcionar a la semana y los materiales son baratos.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+calidad-neg2
+o0151,tardó tres semanas en llegar. lo compré hace un mes.,negativa,normal,envio-neg2,envio-neg2
+o0152,Compré la lámpara. Me ayudaron con un cambio sin problema. Es mi segunda compra.,positiva,normal,atencion-pos2,atencion-pos2
+o0153,Hace exactamente lo que promete y la atención fue amable.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+atencion-pos0
+o0154,Compré el libro. No me arrepiento de la compra. Compra hecha en línea.,positiva,negación,r03,r03
+o0155,opinión sincera: me ayudaron con un cambio sin problema y es económico para lo que ofrece. lo compré hace un mes.,positiva,normal,atencion-pos2,atencion-pos2+precio-pos2
+o0156,Compré la mochila. Dejó de funcionar a la semana.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0157,Opinión sincera: los materiales son baratos y hace ruidos extraños.,negativa,normal,calidad-neg2,calidad-neg2+funcionamiento-neg2
+o0158,Compré la licuadora. Tiene muy buenos acabados.,positiva,normal,calidad-pos1,calidad-pos1
+o0159,Nadie responde los mensajes y el precio es exagerado.,negativa,normal,atencion-neg0,atencion-neg0+precio-neg1
+o0160,Sobre la mochila: respondieron rápido mis preguntas. Es mi segunda compra.,positiva,normal,atencion-pos1,atencion-pos1
+o0161,Sobre el reloj: vale lo que cuesta y la calidad es excelente. Lo compré hace un mes.,positiva,normal,precio-pos0,precio-pos0+calidad-pos0
+o0162,Opinión sincera: tardó tres semanas en llegar.,negativa,normal,envio-neg2,envio-neg2
+o0163,opinión sincera: llegó con buen empaque y respondieron rápido mis preguntas. compra hecha en línea.,positiva,normal,envio-pos2,envio-pos2+atencion-pos1
+o0164,Opinión sincera: el precio es justo y la atención fue amable.,positiva,normal,precio-pos1,precio-pos1+atencion-pos0
+o0165,Opinión sincera: hace exactamente lo que promete y me ayudaron con un cambio sin problema. Lo compré hace un mes.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+atencion-pos2
+o0166,"Qué maravilla, se rompió el primer día. Compra hecha en línea.",negativa,ironía,s03,s03
+o0167,Sobre la chaqueta: el precio es justo y hace exactamente lo que promete.,positiva,normal,precio-pos1,precio-pos1+funcionamiento-pos1
+o0168,Opinión sincera: es económico para lo que ofrece y tiene muy buenos acabados.,positiva,normal,precio-pos2,precio-pos2+calidad-pos1
+o0169,compré el libro. es económico para lo que ofrece y llegó con buen empaque.,positiva,normal,precio-pos2,precio-pos2+envio-pos2
+o0170,Sobre la chaqueta: llegó con la caja rota. Compra hecha en línea.,negativa,normal,envio-neg1,envio-neg1
+o0171,No lo recomiendo. Es mi segunda compra.,negativa,negación,r05,r05
+o0172,Se siente frágil y llegó tarde. Es mi segunda compra.,negativa,normal,calidad-neg1,calidad-neg1+envio-neg0
+o0173,Tiene muy buenos acabados. Es mi segunda compra.,positiva,normal,calidad-pos1,calidad-pos1
+o0174,Opinión sincera: llegó con la caja rota.,negativa,normal,envio-neg1,envio-neg1
+o0175,Hace exactamente lo que promete y los materiales se sienten resistentes.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+calidad-pos2
+o0176,El precio es exagerado.,negativa,normal,precio-neg1,precio-neg1
+o0177,Dejó de funcionar a la semana y la calidad deja mucho que desear.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+calidad-neg0
+o0178,Compré el teclado. La calidad deja mucho que desear y nadie responde los mensajes.,negativa,normal,calidad-neg0,calidad-neg0+atencion-neg0
+o0179,no me arrepiento de la compra.,positiva,negación,r03,r03
+o0180,Opinión sincera: funciona perfecto.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0181,Compre la mochila. Llego tarde y hace ruidos extranos. Lo compre hace un mes.,negativa,normal,envio-neg0,envio-neg0+funcionamiento-neg2
+o0182,Sobre el teclado: hace exactamente lo que promete y llegó con buen empaque. Compra hecha en línea.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+envio-pos2
+o0183,No ha fallado ni una vez y el precio es justo.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+precio-pos1
+o0184,Hace ruidos extraños. Es mi segunda compra.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0185,Sobre la lámpara: respondieron rápido mis preguntas.,positiva,normal,atencion-pos1,atencion-pos1
+o0186,Opinión sincera: se siente frágil y el precio es exagerado.,negativa,normal,calidad-neg1,calidad-neg1+precio-neg1
+o0187,El precio es justo y respondieron rápido mis preguntas.,positiva,normal,precio-pos1,precio-pos1+atencion-pos1
+o0188,Opinión sincera: no ha fallado ni una vez y me ayudaron con un cambio sin problema. Lo compré hace un mes.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+atencion-pos2
+o0189,Nadie responde los mensajes y los materiales son baratos. Compra hecha en línea.,negativa,normal,atencion-neg0,atencion-neg0+calidad-neg2
+o0190,Es económico para lo que ofrece y no ha fallado ni una vez.,positiva,normal,precio-pos2,precio-pos2+funcionamiento-pos2
+o0191,Sobre el reloj: no lo recomiendo. Lo compré hace un mes.,negativa,negación,r05,r05
+o0192,Compré la licuadora. Tiene muy buenos acabados y funciona perfecto. Es mi segunda compra.,positiva,normal,calidad-pos1,calidad-pos1+funcionamiento-pos0
+o0193,Funciona perfecto y llegó con buen empaque.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+envio-pos2
+o0194,Opinión sincera: falla todo el tiempo y el precio es exagerado. Es mi segunda compra.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+precio-neg1
+o0195,Sobre el teclado: el precio es exagerado. Compra hecha en línea.,negativa,normal,precio-neg1,precio-neg1
+o0196,Opinión sincera: los materiales se sienten resistentes y llegó rápido.,positiva,normal,calidad-pos2,calidad-pos2+envio-pos0
+o0197,"Sobre la lámpara: genial, tres semanas esperando para nada. Compra hecha en línea.",negativa,ironía,s02,s02
+o0198,Me ayudaron con un cambio sin problema. Lo compré hace un mes.,positiva,normal,atencion-pos2,atencion-pos2
+o0199,Me ayudaron con un cambio sin problema y vale lo que cuesta. Compra hecha en linea.,positiva,normal,atencion-pos2,atencion-pos2+precio-pos0
+o0200,Compré la chaqueta. Hace ruidos extraños.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0201,Sobre el libro: nadie responde los mensajes y tardó tres semanas en llegar.,negativa,normal,atencion-neg0,atencion-neg0+envio-neg2
+o0202,Opinión sincera: no ha fallado ni una vez.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0203,Opinión sincera: llegó antes de lo esperado. Lo compré hace un mes.,positiva,normal,envio-pos1,envio-pos1
+o0204,Los materiales se sienten resistentes y vale lo que cuesta. Lo compré hace un mes.,positiva,normal,calidad-pos2,calidad-pos2+precio-pos0
+o0205,"Compré el reloj. Genial, tres semanas esperando para nada.",negativa,ironía,s02,s02
+o0206,Opinion sincera: es economico para lo que ofrece. Compra hecha en linea.,positiva,normal,precio-pos2,precio-pos2
+o0207,Vale lo que cuesta y llegó con buen empaque.,positiva,normal,precio-pos0,precio-pos0+envio-pos2
+o0208,Sobre la mochila: los materiales se sienten resistentes. Compra hecha en línea.,positiva,normal,calidad-pos2,calidad-pos2
+o0209,Opinión sincera: vale lo que cuesta. Es mi segunda compra.,positiva,normal,precio-pos0,precio-pos0
+o0210,Tiene muy buenos acabados y llegó antes de lo esperado. Es mi segunda compra.,positiva,normal,calidad-pos1,calidad-pos1+envio-pos1
+o0211,Dejó de funcionar a la semana y llegó con la caja rota. Compra hecha en línea.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+envio-neg1
+o0212,"Opinion sincera: que maravilla, se rompio el primer dia.",negativa,ironía,s03,s03
+o0213,La atención fue grosera.,negativa,normal,atencion-neg1,atencion-neg1
+o0214,Respondieron rápido mis preguntas.,positiva,normal,atencion-pos1,atencion-pos1
+o0215,Me ayudaron con un cambio sin problema y es economico para lo que ofrece.,positiva,normal,atencion-pos2,atencion-pos2+precio-pos2
+o0216,Opinión sincera: tiene muy buenos acabados y hace exactamente lo que promete.,positiva,normal,calidad-pos1,calidad-pos1+funcionamiento-pos1
+o0217,compré la mochila. los materiales son baratos y tardó tres semanas en llegar.,negativa,normal,calidad-neg2,calidad-neg2+envio-neg2
+o0218,Compré la licuadora. No lo recomiendo.,negativa,negación,r05,r05
+o0219,hace ruidos extraños.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0220,Sobre el reloj: el precio es justo.,positiva,normal,precio-pos1,precio-pos1
+o0221,Compre la chaqueta. La atencion fue amable y es economico para lo que ofrece. Lo compre hace un mes.,positiva,normal,atencion-pos0,atencion-pos0+precio-pos2
+o0222,Compré la chaqueta. Nunca resolvieron mi reclamo. Es mi segunda compra.,negativa,normal,atencion-neg2,atencion-neg2
+o0223,opinion sincera: dejo de funcionar a la semana. es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0224,Opinion sincera: funciona perfecto y la calidad es excelente. Es mi segunda compra.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+calidad-pos0
+o0225,Llegó antes de lo esperado y tiene muy buenos acabados.,positiva,normal,envio-pos1,envio-pos1+calidad-pos1
+o0226,funciona perfecto y me ayudaron con un cambio sin problema. es mi segunda compra.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+atencion-pos2
+o0227,Sobre la chaqueta: llego rapido y la calidad es excelente.,positiva,normal,envio-pos0,envio-pos0+calidad-pos0
+o0228,Compré la mochila. Llegó tarde.,negativa,normal,envio-neg0,envio-neg0
+o0229,La calidad deja mucho que desear y llegó con la caja rota. Es mi segunda compra.,negativa,normal,calidad-neg0,calidad-neg0+envio-neg1
+o0230,Compré la lámpara. Llegó con la caja rota. Lo compré hace un mes.,negativa,normal,envio-neg1,envio-neg1
+o0231,Sobre el reloj: tardó tres semanas en llegar.,negativa,normal,envio-neg2,envio-neg2
+o0232,Opinión sincera: falla todo el tiempo y tardó tres semanas en llegar.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+envio-neg2
+o0233,Falla todo el tiempo y los materiales son baratos.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+calidad-neg2
+o0234,Pagué demasiado.,negativa,normal,precio-neg2,precio-neg2
+o0235,Opinión sincera: tardó tres semanas en llegar. Compra hecha en línea.,negativa,normal,envio-neg2,envio-neg2
+o0236,Opinion sincera: llego rapido.,positiva,normal,envio-pos0,envio-pos0
+o0237,Opinión sincera: no lo recomiendo.,negativa,negación,r05,r05
+o0238,Opinión sincera: respondieron rápido mis preguntas.,positiva,normal,atencion-pos1,atencion-pos1
+o0239,No ha fallado ni una vez.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0240,No es tan bueno como dicen. Compra hecha en línea.,negativa,negación,r04,r04
+o0241,La calidad deja mucho que desear y nadie responde los mensajes.,negativa,normal,calidad-neg0,calidad-neg0+atencion-neg0
+o0242,Compre la mochila. Es economico para lo que ofrece y funciona perfecto.,positiva,normal,precio-pos2,precio-pos2+funcionamiento-pos0
+o0243,opinión sincera: vale lo que cuesta y me ayudaron con un cambio sin problema. lo compré hace un mes.,positiva,normal,precio-pos0,precio-pos0+atencion-pos2
+o0244,Opinión sincera: llegó con la caja rota y la calidad deja mucho que desear. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1+calidad-neg0
+o0245,Opinión sincera: llegó con la caja rota y los materiales son baratos. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1+calidad-neg2
+o0246,Sobre la licuadora: hace ruidos extraños. Lo compré hace un mes.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0247,sobre el teclado: dejó de funcionar a la semana y pagué demasiado. compra hecha en línea.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+precio-neg2
+o0248,No volveria a comprar aqui.,negativa,negación,r06,r06
+o0249,"Excelente: llegó roto, justo lo que quería.",negativa,ironía,s01,s01
+o0250,Sobre la licuadora: nadie responde los mensajes y el precio es exagerado. Lo compré hace un mes.,negativa,normal,atencion-neg0,atencion-neg0+precio-neg1
+o0251,Sobre el reloj: vale lo que cuesta.,positiva,normal,precio-pos0,precio-pos0
+o0252,No volvería a comprar aquí. Es mi segunda compra.,negativa,negación,r06,r06
+o0253,Compré la chaqueta. No me arrepiento de la compra.,positiva,negación,r03,r03
+o0254,Compré el libro. Hace exactamente lo que promete. Es mi segunda compra.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0255,Compre el libro. El precio es justo.,positiva,normal,precio-pos1,precio-pos1
+o0256,Se siente frágil y llegó con la caja rota. Compra hecha en línea.,negativa,normal,calidad-neg1,calidad-neg1+envio-neg1
+o0257,Tiene muy buenos acabados. Compra hecha en línea.,positiva,normal,calidad-pos1,calidad-pos1
+o0258,Compré el libro. Tiene muy buenos acabados. Es mi segunda compra.,positiva,normal,calidad-pos1,calidad-pos1
+o0259,sobre el teclado: la calidad deja mucho que desear y tardó tres semanas en llegar. es mi segunda compra.,negativa,normal,calidad-neg0,calidad-neg0+envio-neg2
+o0260,Compre el reloj. Funciona perfecto y es economico para lo que ofrece. Compra hecha en linea.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+precio-pos2
+o0261,Compré la lámpara. Hace exactamente lo que promete. Compra hecha en línea.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0262,Compré la mochila. El precio es exagerado.,negativa,normal,precio-neg1,precio-neg1
+o0263,"Sobre la chaqueta: qué maravilla, se rompió el primer día. Es mi segunda compra.",negativa,ironía,s03,s03
+o0264,Sobre la licuadora: vale lo que cuesta y funciona perfecto.,positiva,normal,precio-pos0,precio-pos0+funcionamiento-pos0
+o0265,Los materiales se sienten resistentes. Compra hecha en línea.,positiva,normal,calidad-pos2,calidad-pos2
+o0266,Opinion sincera: el precio es exagerado y llego con la caja rota.,negativa,normal,precio-neg1,precio-neg1+envio-neg1
+o0267,Los materiales se sienten resistentes. Es mi segunda compra.,positiva,normal,calidad-pos2,calidad-pos2
+o0268,"Sobre el teclado: que maravilla, se rompio el primer dia.",negativa,ironía,s03,s03
+o0269,La atención fue grosera y pagué demasiado.,negativa,normal,atencion-neg1,atencion-neg1+precio-neg2
+o0270,"Compré el teclado. Genial, tres semanas esperando para nada. Lo compré hace un mes.",negativa,ironía,s02,s02
+o0271,Compré la lámpara. Funciona perfecto.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0272,Compré el libro. La atención fue amable y llegó antes de lo esperado.,positiva,normal,atencion-pos0,atencion-pos0+envio-pos1
+o0273,Opinión sincera: la atención fue amable y los materiales se sienten resistentes. Es mi segunda compra.,positiva,normal,atencion-pos0,atencion-pos0+calidad-pos2
+o0274,Compré la lámpara. No ha fallado ni una vez y el precio es justo. Compra hecha en línea.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+precio-pos1
+o0275,Compré el reloj. Es económico para lo que ofrece.,positiva,normal,precio-pos2,precio-pos2
+o0276,Compré el teclado. Hace ruidos extraños. Compra hecha en línea.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0277,Opinión sincera: la calidad es excelente.,positiva,normal,calidad-pos0,calidad-pos0
+o0278,"Opinion sincera: excelente: llego roto, justo lo que queria.",negativa,ironía,s01,s01
+o0279,Opinión sincera: es económico para lo que ofrece y funciona perfecto. Lo compré hace un mes.,positiva,normal,precio-pos2,precio-pos2+funcionamiento-pos0
+o0280,La calidad deja mucho que desear. Lo compré hace un mes.,negativa,normal,calidad-neg0,calidad-neg0
+o0281,No me arrepiento de la compra.,positiva,negación,r03,r03
+o0282,Compré la mochila. Respondieron rápido mis preguntas. Es mi segunda compra.,positiva,normal,atencion-pos1,atencion-pos1
+o0283,Llegó con la caja rota y nadie responde los mensajes. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1+atencion-neg0
+o0284,opinión sincera: no volvería a comprar aquí. compra hecha en línea.,negativa,negación,r06,r06
+o0285,Los materiales son baratos. Es mi segunda compra.,negativa,normal,calidad-neg2,calidad-neg2
+o0286,Compré el reloj. Es económico para lo que ofrece. Es mi segunda compra.,positiva,normal,precio-pos2,precio-pos2
+o0287,Sobre el libro: llegó con la caja rota. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1
+o0288,opinión sincera: nadie responde los mensajes.,negativa,normal,atencion-neg0,atencion-neg0
+o0289,Opinión sincera: llegó rápido y la atención fue amable. Es mi segunda compra.,positiva,normal,envio-pos0,envio-pos0+atencion-pos0
+o0290,No es tan bueno como dicen. Es mi segunda compra.,negativa,negación,r04,r04
+o0291,Nunca resolvieron mi reclamo y llego tarde.,negativa,normal,atencion-neg2,atencion-neg2+envio-neg0
+o0292,Opinión sincera: tiene muy buenos acabados y llegó con buen empaque.,positiva,normal,calidad-pos1,calidad-pos1+envio-pos2
+o0293,Opinión sincera: los materiales son baratos.,negativa,normal,calidad-neg2,calidad-neg2
+o0294,No está nada mal para el precio.,positiva,negación,r01,r01
+o0295,Compré la licuadora. La atención fue amable.,positiva,normal,atencion-pos0,atencion-pos0
+o0296,Opinion sincera: hace ruidos extranos y tardo tres semanas en llegar. Lo compre hace un mes.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+envio-neg2
+o0297,Compré la chaqueta. Llegó antes de lo esperado y el precio es justo. Lo compré hace un mes.,positiva,normal,envio-pos1,envio-pos1+precio-pos1
+o0298,sobre la chaqueta: hace exactamente lo que promete y llegó con buen empaque.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+envio-pos2
+o0299,Compré la chaqueta. Llegó con buen empaque.,positiva,normal,envio-pos2,envio-pos2
+o0300,Opinión sincera: vale lo que cuesta. Lo compré hace un mes.,positiva,normal,precio-pos0,precio-pos0
+o0301,compré el reloj. funciona perfecto. compra hecha en línea.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0302,Nunca resolvieron mi reclamo.,negativa,normal,atencion-neg2,atencion-neg2
+o0303,La calidad es excelente y hace exactamente lo que promete.,positiva,normal,calidad-pos0,calidad-pos0+funcionamiento-pos1
+o0304,Compré la licuadora. No volvería a comprar aquí. Es mi segunda compra.,negativa,negación,r06,r06
+o0305,Opinión sincera: el precio es justo y llegó rápido. Compra hecha en línea.,positiva,normal,precio-pos1,precio-pos1+envio-pos0
+o0306,compré el teclado. la calidad es excelente. es mi segunda compra.,positiva,normal,calidad-pos0,calidad-pos0
+o0307,Dejó de funcionar a la semana.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0308,Nunca resolvieron mi reclamo y la calidad deja mucho que desear. Compra hecha en línea.,negativa,normal,atencion-neg2,atencion-neg2+calidad-neg0
+o0309,Sobre la licuadora: no volvería a comprar aquí. Lo compré hace un mes.,negativa,negación,r06,r06
+o0310,Sobre el teclado: no lo recomiendo. Compra hecha en línea.,negativa,negación,r05,r05
+o0311,Sobre la licuadora: llegó tarde y la atención fue grosera.,negativa,normal,envio-neg0,envio-neg0+atencion-neg1
+o0312,opinión sincera: llegó con la caja rota.,negativa,normal,envio-neg1,envio-neg1
+o0313,Compré el reloj. Nunca resolvieron mi reclamo y tardó tres semanas en llegar. Compra hecha en línea.,negativa,normal,atencion-neg2,atencion-neg2+envio-neg2
+o0314,Sobre la chaqueta: el precio es justo. Compra hecha en línea.,positiva,normal,precio-pos1,precio-pos1
+o0315,Compré la chaqueta. No ha fallado ni una vez.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0316,Opinión sincera: es caro para lo que ofrece. Lo compré hace un mes.,negativa,normal,precio-neg0,precio-neg0
+o0317,Sobre la lámpara: falla todo el tiempo.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0318,la calidad deja mucho que desear. es mi segunda compra.,negativa,normal,calidad-neg0,calidad-neg0
+o0319,Me ayudaron con un cambio sin problema y llegó antes de lo esperado.,positiva,normal,atencion-pos2,atencion-pos2+envio-pos1
+o0320,Sobre el libro: los materiales son baratos y nunca resolvieron mi reclamo. Compra hecha en línea.,negativa,normal,calidad-neg2,calidad-neg2+atencion-neg2
+o0321,llegó tarde y hace ruidos extraños.,negativa,normal,envio-neg0,envio-neg0+funcionamiento-neg2
+o0322,Compré la chaqueta. No es tan bueno como dicen.,negativa,negación,r04,r04
+o0323,No esta nada mal para el precio.,positiva,negación,r01,r01
+o0324,Opinión sincera: hace ruidos extraños.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0325,"Opinión sincera: genial, tres semanas esperando para nada. Compra hecha en línea.",negativa,ironía,s02,s02
+o0326,Compré la licuadora. Los materiales se sienten resistentes.,positiva,normal,calidad-pos2,calidad-pos2
+o0327,Compré la mochila. La calidad es excelente y llegó con buen empaque.,positiva,normal,calidad-pos0,calidad-pos0+envio-pos2
+o0328,los materiales se sienten resistentes y respondieron rápido mis preguntas. es mi segunda compra.,positiva,normal,calidad-pos2,calidad-pos2+atencion-pos1
+o0329,opinión sincera: funciona perfecto y llegó rápido.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+envio-pos0
+o0330,sobre la licuadora: la atención fue amable.,positiva,normal,atencion-pos0,atencion-pos0
+o0331,No ha fallado ni una vez. Lo compre hace un mes.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0332,La calidad es excelente y vale lo que cuesta. Es mi segunda compra.,positiva,normal,calidad-pos0,calidad-pos0+precio-pos0
+o0333,Compré el teclado. La calidad deja mucho que desear y pagué demasiado. Lo compré hace un mes.,negativa,normal,calidad-neg0,calidad-neg0+precio-neg2
+o0334,Sobre el reloj: llegó antes de lo esperado.,positiva,normal,envio-pos1,envio-pos1
+o0335,Llegó con la caja rota y nunca resolvieron mi reclamo. Compra hecha en línea.,negativa,normal,envio-neg1,envio-neg1+atencion-neg2
+o0336,Opinión sincera: llegó antes de lo esperado y es económico para lo que ofrece. Compra hecha en línea.,positiva,normal,envio-pos1,envio-pos1+precio-pos2
+o0337,Opinión sincera: funciona perfecto y la atención fue amable. Es mi segunda compra.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+atencion-pos0
+o0338,Compré la lámpara. Se siente frágil y nadie responde los mensajes.,negativa,normal,calidad-neg1,calidad-neg1+atencion-neg0
+o0339,Sobre la licuadora: vale lo que cuesta y me ayudaron con un cambio sin problema.,positiva,normal,precio-pos0,precio-pos0+atencion-pos2
+o0340,Opinión sincera: nunca resolvieron mi reclamo. Compra hecha en línea.,negativa,normal,atencion-neg2,atencion-neg2
+o0341,Opinión sincera: no es tan bueno como dicen.,negativa,negación,r04,r04
+o0342,No volvería a comprar aquí. Compra hecha en línea.,negativa,negación,r06,r06
+o0343,Compré la lámpara. La atención fue amable y no ha fallado ni una vez. Es mi segunda compra.,positiva,normal,atencion-pos0,atencion-pos0+funcionamiento-pos2
+o0344,Hace exactamente lo que promete y llegó antes de lo esperado. Lo compré hace un mes.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+envio-pos1
+o0345,Sobre el reloj: llegó con la caja rota. Lo compré hace un mes.,negativa,normal,envio-neg1,envio-neg1
+o0346,Hace ruidos extraños y la atención fue grosera. Lo compré hace un mes.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+atencion-neg1
+o0347,"Compré el libro. Excelente: llegó roto, justo lo que quería. Compra hecha en línea.",negativa,ironía,s01,s01
+o0348,No ha fallado ni una vez y la calidad es excelente. Es mi segunda compra.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+calidad-pos0
+o0349,Sobre la mochila: la calidad es excelente.,positiva,normal,calidad-pos0,calidad-pos0
+o0350,Llegó con buen empaque y respondieron rápido mis preguntas.,positiva,normal,envio-pos2,envio-pos2+atencion-pos1
+o0351,Compré el libro. Vale lo que cuesta.,positiva,normal,precio-pos0,precio-pos0
+o0352,Sobre la chaqueta: la atención fue grosera.,negativa,normal,atencion-neg1,atencion-neg1
+o0353,"Opinión sincera: qué maravilla, se rompió el primer día. Es mi segunda compra.",negativa,ironía,s03,s03
+o0354,Sobre el libro: nadie responde los mensajes y se siente frágil. Lo compré hace un mes.,negativa,normal,atencion-neg0,atencion-neg0+calidad-neg1
+o0355,Sobre el libro: el precio es exagerado y nunca resolvieron mi reclamo. Es mi segunda compra.,negativa,normal,precio-neg1,precio-neg1+atencion-neg2
+o0356,Opinión sincera: se siente frágil y nadie responde los mensajes.,negativa,normal,calidad-neg1,calidad-neg1+atencion-neg0
+o0357,Opinión sincera: hace exactamente lo que promete y tiene muy buenos acabados. Compra hecha en línea.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+calidad-pos1
+o0358,Es caro para lo que ofrece. Lo compré hace un mes.,negativa,normal,precio-neg0,precio-neg0
+o0359,Compré el teclado. Llegó antes de lo esperado.,positiva,normal,envio-pos1,envio-pos1
+o0360,sobre la mochila: se siente frágil y hace ruidos extraños. lo compré hace un mes.,negativa,normal,calidad-neg1,calidad-neg1+funcionamiento-neg2
+o0361,Sobre la lampara: la atencion fue amable y los materiales se sienten resistentes. Lo compre hace un mes.,positiva,normal,atencion-pos0,atencion-pos0+calidad-pos2
+o0362,"Sobre el teclado: qué maravilla, se rompió el primer día. Lo compré hace un mes.",negativa,ironía,s03,s03
+o0363,Opinión sincera: no lo recomiendo. Es mi segunda compra.,negativa,negación,r05,r05
+o0364,"Genial, tres semanas esperando para nada. Compra hecha en línea.",negativa,ironía,s02,s02
+o0365,El precio es justo y llego antes de lo esperado.,positiva,normal,precio-pos1,precio-pos1+envio-pos1
+o0366,Compré el libro. Se siente frágil. Es mi segunda compra.,negativa,normal,calidad-neg1,calidad-neg1
+o0367,Tiene muy buenos acabados y vale lo que cuesta. Compra hecha en línea.,positiva,normal,calidad-pos1,calidad-pos1+precio-pos0
+o0368,Opinión sincera: nadie responde los mensajes. Es mi segunda compra.,negativa,normal,atencion-neg0,atencion-neg0
+o0369,Compré la licuadora. La calidad deja mucho que desear.,negativa,normal,calidad-neg0,calidad-neg0
+o0370,Sobre el reloj: se siente frágil.,negativa,normal,calidad-neg1,calidad-neg1
+o0371,sobre la mochila: no tengo ninguna queja. es mi segunda compra.,positiva,negación,r02,r02
+o0372,Compré el teclado. Hace exactamente lo que promete.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0373,Sobre el reloj: respondieron rápido mis preguntas y los materiales se sienten resistentes. Lo compré hace un mes.,positiva,normal,atencion-pos1,atencion-pos1+calidad-pos2
+o0374,Compré el libro. Nadie responde los mensajes. Compra hecha en línea.,negativa,normal,atencion-neg0,atencion-neg0
+o0375,Opinion sincera: tardo tres semanas en llegar. Lo compre hace un mes.,negativa,normal,envio-neg2,envio-neg2
+o0376,Es económico para lo que ofrece. Lo compré hace un mes.,positiva,normal,precio-pos2,precio-pos2
+o0377,"Sobre el libro: qué maravilla, se rompió el primer día.",negativa,ironía,s03,s03
+o0378,Opinión sincera: me ayudaron con un cambio sin problema y llegó rápido. Lo compré hace un mes.,positiva,normal,atencion-pos2,atencion-pos2+envio-pos0
+o0379,Vale lo que cuesta. Compra hecha en linea.,positiva,normal,precio-pos0,precio-pos0
+o0380,Compré el reloj. No está nada mal para el precio.,positiva,negación,r01,r01
+o0381,Compré la licuadora. Los materiales son baratos.,negativa,normal,calidad-neg2,calidad-neg2
+o0382,Opinion sincera: pague demasiado. Es mi segunda compra.,negativa,normal,precio-neg2,precio-neg2
+o0383,Funciona perfecto.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0384,"Opinión sincera: genial, tres semanas esperando para nada. Lo compré hace un mes.",negativa,ironía,s02,s02
+o0385,Sobre el libro: llegó antes de lo esperado.,positiva,normal,envio-pos1,envio-pos1
+o0386,Sobre la licuadora: es caro para lo que ofrece y nunca resolvieron mi reclamo.,negativa,normal,precio-neg0,precio-neg0+atencion-neg2
+o0387,Opinión sincera: la atención fue grosera. Compra hecha en línea.,negativa,normal,atencion-neg1,atencion-neg1
+o0388,Compré el libro. La atención fue amable y llegó con buen empaque.,positiva,normal,atencion-pos0,atencion-pos0+envio-pos2
+o0389,Opinión sincera: llegó tarde y hace ruidos extraños.,negativa,normal,envio-neg0,envio-neg0+funcionamiento-neg2
+o0390,Hace ruidos extraños. Compra hecha en línea.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0391,Sobre el libro: la atención fue amable y los materiales se sienten resistentes. Es mi segunda compra.,positiva,normal,atencion-pos0,atencion-pos0+calidad-pos2
+o0392,tiene muy buenos acabados. compra hecha en línea.,positiva,normal,calidad-pos1,calidad-pos1
+o0393,Compre el reloj. Vale lo que cuesta y me ayudaron con un cambio sin problema.,positiva,normal,precio-pos0,precio-pos0+atencion-pos2
+o0394,Compré el libro. Nunca resolvieron mi reclamo y tardó tres semanas en llegar.,negativa,normal,atencion-neg2,atencion-neg2+envio-neg2
+o0395,La atención fue grosera y llegó con la caja rota.,negativa,normal,atencion-neg1,atencion-neg1+envio-neg1
+o0396,Pagué demasiado y falla todo el tiempo.,negativa,normal,precio-neg2,precio-neg2+funcionamiento-neg1
+o0397,Nadie responde los mensajes y tardó tres semanas en llegar. Compra hecha en línea.,negativa,normal,atencion-neg0,atencion-neg0+envio-neg2
+o0398,Opinión sincera: pagué demasiado. Compra hecha en línea.,negativa,normal,precio-neg2,precio-neg2
+o0399,Pagué demasiado y la atención fue grosera. Compra hecha en línea.,negativa,normal,precio-neg2,precio-neg2+atencion-neg1
+o0400,Sobre la mochila: llegó con la caja rota y nunca resolvieron mi reclamo.,negativa,normal,envio-neg1,envio-neg1+atencion-neg2
+o0401,Opinión sincera: los materiales son baratos. Lo compré hace un mes.,negativa,normal,calidad-neg2,calidad-neg2
+o0402,Compré la chaqueta. Llegó rápido y la calidad es excelente. Compra hecha en línea.,positiva,normal,envio-pos0,envio-pos0+calidad-pos0
+o0403,Compré la mochila. Pagué demasiado.,negativa,normal,precio-neg2,precio-neg2
+o0404,tardó tres semanas en llegar.,negativa,normal,envio-neg2,envio-neg2
+o0405,Opinión sincera: el precio es exagerado y hace ruidos extraños. Compra hecha en línea.,negativa,normal,precio-neg1,precio-neg1+funcionamiento-neg2
+o0406,Opinión sincera: la atención fue amable y llegó antes de lo esperado.,positiva,normal,atencion-pos0,atencion-pos0+envio-pos1
+o0407,Opinión sincera: vale lo que cuesta. Compra hecha en línea.,positiva,normal,precio-pos0,precio-pos0
+o0408,Sobre la chaqueta: llegó rápido.,positiva,normal,envio-pos0,envio-pos0
+o0409,Compré el teclado. Dejó de funcionar a la semana. Es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0410,Compré el libro. No volvería a comprar aquí.,negativa,negación,r06,r06
+o0411,"Sobre la chaqueta: excelente: llegó roto, justo lo que quería. Es mi segunda compra.",negativa,ironía,s01,s01
+o0412,Opinión sincera: llegó rápido. Es mi segunda compra.,positiva,normal,envio-pos0,envio-pos0
+o0413,Sobre el reloj: llegó con la caja rota y dejó de funcionar a la semana.,negativa,normal,envio-neg1,envio-neg1+funcionamiento-neg0
+o0414,Opinión sincera: falla todo el tiempo. Lo compré hace un mes.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0415,Compré el libro. Nunca resolvieron mi reclamo y los materiales son baratos.,negativa,normal,atencion-neg2,atencion-neg2+calidad-neg2
+o0416,Vale lo que cuesta y no ha fallado ni una vez. Es mi segunda compra.,positiva,normal,precio-pos0,precio-pos0+funcionamiento-pos2
+o0417,Sobre el libro: se siente frágil y hace ruidos extraños.,negativa,normal,calidad-neg1,calidad-neg1+funcionamiento-neg2
+o0418,Sobre el libro: tardo tres semanas en llegar y la atencion fue grosera. Es mi segunda compra.,negativa,normal,envio-neg2,envio-neg2+atencion-neg1
+o0419,Compré la lámpara. La calidad es excelente.,positiva,normal,calidad-pos0,calidad-pos0
+o0420,Compré la chaqueta. Falla todo el tiempo y los materiales son baratos. Lo compré hace un mes.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+calidad-neg2
+o0421,Opinión sincera: falla todo el tiempo y llegó con la caja rota.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+envio-neg1
+o0422,Compré la mochila. Me ayudaron con un cambio sin problema. Es mi segunda compra.,positiva,normal,atencion-pos2,atencion-pos2
+o0423,Opinión sincera: nunca resolvieron mi reclamo. Es mi segunda compra.,negativa,normal,atencion-neg2,atencion-neg2
+o0424,Llegó con la caja rota y los materiales son baratos. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1+calidad-neg2
+o0425,"Compré la lámpara. Qué maravilla, se rompió el primer día. Es mi segunda compra.",negativa,ironía,s03,s03
+o0426,La atención fue grosera y hace ruidos extraños.,negativa,normal,atencion-neg1,atencion-neg1+funcionamiento-neg2
+o0427,Sobre el libro: no esta nada mal para el precio. Lo compre hace un mes.,positiva,negación,r01,r01
+o0428,Opinión sincera: la calidad es excelente y llegó con buen empaque. Es mi segunda compra.,positiva,normal,calidad-pos0,calidad-pos0+envio-pos2
+o0429,Sobre el libro: dejo de funcionar a la semana y el precio es exagerado. Es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+precio-neg1
+o0430,No me arrepiento de la compra. Lo compré hace un mes.,positiva,negación,r03,r03
+o0431,Sobre el reloj: no me arrepiento de la compra. Compra hecha en línea.,positiva,negación,r03,r03
+o0432,Sobre el reloj: no lo recomiendo. Compra hecha en linea.,negativa,negación,r05,r05
+o0433,Compré la mochila. Llegó con la caja rota y pagué demasiado.,negativa,normal,envio-neg1,envio-neg1+precio-neg2
+o0434,Respondieron rápido mis preguntas y es económico para lo que ofrece.,positiva,normal,atencion-pos1,atencion-pos1+precio-pos2
+o0435,Opinión sincera: es caro para lo que ofrece.,negativa,normal,precio-neg0,precio-neg0
+o0436,Compré el libro. La calidad deja mucho que desear y es caro para lo que ofrece. Es mi segunda compra.,negativa,normal,calidad-neg0,calidad-neg0+precio-neg0
+o0437,Opinión sincera: no volvería a comprar aquí.,negativa,negación,r06,r06
+o0438,Sobre el libro: la calidad deja mucho que desear y falla todo el tiempo. Compra hecha en línea.,negativa,normal,calidad-neg0,calidad-neg0+funcionamiento-neg1
+o0439,compré la chaqueta. vale lo que cuesta y respondieron rápido mis preguntas. compra hecha en línea.,positiva,normal,precio-pos0,precio-pos0+atencion-pos1
+o0440,compré la chaqueta. no me arrepiento de la compra. es mi segunda compra.,positiva,negación,r03,r03
+o0441,Opinión sincera: la atención fue amable.,positiva,normal,atencion-pos0,atencion-pos0
+o0442,La atencion fue amable. Compra hecha en linea.,positiva,normal,atencion-pos0,atencion-pos0
+o0443,opinión sincera: el precio es exagerado y se siente frágil. compra hecha en línea.,negativa,normal,precio-neg1,precio-neg1+calidad-neg1
+o0444,Compré el reloj. Dejó de funcionar a la semana y la calidad deja mucho que desear. Es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+calidad-neg0
+o0445,Me ayudaron con un cambio sin problema.,positiva,normal,atencion-pos2,atencion-pos2
+o0446,Compré el libro. La atención fue grosera y el precio es exagerado.,negativa,normal,atencion-neg1,atencion-neg1+precio-neg1
+o0447,Sobre la licuadora: llegó tarde y nadie responde los mensajes. Lo compré hace un mes.,negativa,normal,envio-neg0,envio-neg0+atencion-neg0
+o0448,Sobre la lámpara: tiene muy buenos acabados.,positiva,normal,calidad-pos1,calidad-pos1
+o0449,sobre el reloj: no me arrepiento de la compra.,positiva,negación,r03,r03
+o0450,Sobre el teclado: funciona perfecto y llegó rápido. Compra hecha en línea.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+envio-pos0
+o0451,Compré la chaqueta. Nadie responde los mensajes y los materiales son baratos. Es mi segunda compra.,negativa,normal,atencion-neg0,atencion-neg0+calidad-neg2
+o0452,Opinión sincera: tardó tres semanas en llegar y los materiales son baratos.,negativa,normal,envio-neg2,envio-neg2+calidad-neg2
+o0453,Compré la licuadora. Falla todo el tiempo. Lo compré hace un mes.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0454,Opinión sincera: nunca resolvieron mi reclamo y el precio es exagerado. Es mi segunda compra.,negativa,normal,atencion-neg2,atencion-neg2+precio-neg1
+o0455,Sobre el reloj: vale lo que cuesta y hace exactamente lo que promete.,positiva,normal,precio-pos0,precio-pos0+funcionamiento-pos1
+o0456,El precio es justo y respondieron rápido mis preguntas. Es mi segunda compra.,positiva,normal,precio-pos1,precio-pos1+atencion-pos1
+o0457,Sobre el reloj: tiene muy buenos acabados y respondieron rápido mis preguntas.,positiva,normal,calidad-pos1,calidad-pos1+atencion-pos1
+o0458,Llegó tarde y pagué demasiado.,negativa,normal,envio-neg0,envio-neg0+precio-neg2
+o0459,Sobre el teclado: tiene muy buenos acabados y llego con buen empaque. Compra hecha en linea.,positiva,normal,calidad-pos1,calidad-pos1+envio-pos2
+o0460,Opinión sincera: el precio es exagerado. Es mi segunda compra.,negativa,normal,precio-neg1,precio-neg1
+o0461,"Excelente: llegó roto, justo lo que quería. Lo compré hace un mes.",negativa,ironía,s01,s01
+o0462,Vale lo que cuesta. Es mi segunda compra.,positiva,normal,precio-pos0,precio-pos0
+o0463,Sobre el libro: no me arrepiento de la compra.,positiva,negación,r03,r03
+o0464,Compré la mochila. Se siente frágil y nunca resolvieron mi reclamo.,negativa,normal,calidad-neg1,calidad-neg1+atencion-neg2
+o0465,Compré la chaqueta. No volvería a comprar aquí.,negativa,negación,r06,r06
+o0466,Pagué demasiado y la atención fue grosera.,negativa,normal,precio-neg2,precio-neg2+atencion-neg1
+o0467,la atención fue grosera y falla todo el tiempo. es mi segunda compra.,negativa,normal,atencion-neg1,atencion-neg1+funcionamiento-neg1
+o0468,Opinión sincera: no me arrepiento de la compra. Es mi segunda compra.,positiva,negación,r03,r03
+o0469,Compré el reloj. La atención fue grosera y se siente frágil.,negativa,normal,atencion-neg1,atencion-neg1+calidad-neg1
+o0470,Compré el libro. Hace ruidos extraños.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0471,Sobre el teclado: llego rapido y me ayudaron con un cambio sin problema. Compra hecha en linea.,positiva,normal,envio-pos0,envio-pos0+atencion-pos2
+o0472,Compré la licuadora. Tardó tres semanas en llegar.,negativa,normal,envio-neg2,envio-neg2
+o0473,Sobre el libro: llegó con la caja rota.,negativa,normal,envio-neg1,envio-neg1
+o0474,Sobre el reloj: la atención fue amable y vale lo que cuesta.,positiva,normal,atencion-pos0,atencion-pos0+precio-pos0
+o0475,Sobre la mochila: es caro para lo que ofrece.,negativa,normal,precio-neg0,precio-neg0
+o0476,Compré la chaqueta. La calidad es excelente.,positiva,normal,calidad-pos0,calidad-pos0
+o0477,Hace ruidos extraños.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2
+o0478,No esta nada mal para el precio. Es mi segunda compra.,positiva,negación,r01,r01
+o0479,Sobre la licuadora: el precio es exagerado y tardo tres semanas en llegar. Lo compre hace un mes.,negativa,normal,precio-neg1,precio-neg1+envio-neg2
+o0480,Opinión sincera: tardó tres semanas en llegar. Lo compré hace un mes.,negativa,normal,envio-neg2,envio-neg2
+o0481,"Opinión sincera: genial, tres semanas esperando para nada.",negativa,ironía,s02,s02
+o0482,sobre la mochila: se siente frágil.,negativa,normal,calidad-neg1,calidad-neg1
+o0483,"Excelente: llego roto, justo lo que queria. Es mi segunda compra.",negativa,ironía,s01,s01
+o0484,"sobre el libro: excelente: llegó roto, justo lo que quería.",negativa,ironía,s01,s01
+o0485,La atención fue amable y llegó rápido. Compra hecha en línea.,positiva,normal,atencion-pos0,atencion-pos0+envio-pos0
+o0486,opinion sincera: hace exactamente lo que promete y llego con buen empaque.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+envio-pos2
+o0487,vale lo que cuesta y la calidad es excelente.,positiva,normal,precio-pos0,precio-pos0+calidad-pos0
+o0488,Nunca resolvieron mi reclamo. Es mi segunda compra.,negativa,normal,atencion-neg2,atencion-neg2
+o0489,Sobre la lámpara: me ayudaron con un cambio sin problema. Compra hecha en línea.,positiva,normal,atencion-pos2,atencion-pos2
+o0490,Compré el teclado. No me arrepiento de la compra.,positiva,negación,r03,r03
+o0491,Sobre el libro: tiene muy buenos acabados y llegó con buen empaque. Compra hecha en línea.,positiva,normal,calidad-pos1,calidad-pos1+envio-pos2
+o0492,Es económico para lo que ofrece y me ayudaron con un cambio sin problema. Es mi segunda compra.,positiva,normal,precio-pos2,precio-pos2+atencion-pos2
+o0493,Opinion sincera: no tengo ninguna queja.,positiva,negación,r02,r02
+o0494,Opinión sincera: no me arrepiento de la compra.,positiva,negación,r03,r03
+o0495,Llegó rápido.,positiva,normal,envio-pos0,envio-pos0
+o0496,Sobre el reloj: dejó de funcionar a la semana. Es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0497,Llegó rápido. Lo compré hace un mes.,positiva,normal,envio-pos0,envio-pos0
+o0498,Compré el libro. No volvería a comprar aquí. Lo compré hace un mes.,negativa,negación,r06,r06
+o0499,Compré la lámpara. Respondieron rápido mis preguntas y llegó rápido.,positiva,normal,atencion-pos1,atencion-pos1+envio-pos0
+o0500,Compré la mochila. Vale lo que cuesta y llegó rápido. Compra hecha en línea.,positiva,normal,precio-pos0,precio-pos0+envio-pos0
+o0501,Es caro para lo que ofrece y tardó tres semanas en llegar. Lo compré hace un mes.,negativa,normal,precio-neg0,precio-neg0+envio-neg2
+o0502,Es caro para lo que ofrece y los materiales son baratos.,negativa,normal,precio-neg0,precio-neg0+calidad-neg2
+o0503,"Sobre la chaqueta: genial, tres semanas esperando para nada. Lo compré hace un mes.",negativa,ironía,s02,s02
+o0504,Sobre la licuadora: no me arrepiento de la compra.,positiva,negación,r03,r03
+o0505,Sobre la lámpara: no está nada mal para el precio. Compra hecha en línea.,positiva,negación,r01,r01
+o0506,Sobre la licuadora: tiene muy buenos acabados y me ayudaron con un cambio sin problema. Es mi segunda compra.,positiva,normal,calidad-pos1,calidad-pos1+atencion-pos2
+o0507,Compré la licuadora. Llegó con la caja rota y el precio es exagerado.,negativa,normal,envio-neg1,envio-neg1+precio-neg1
+o0508,No ha fallado ni una vez y respondieron rápido mis preguntas.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+atencion-pos1
+o0509,Sobre el libro: llegó con buen empaque. Compra hecha en línea.,positiva,normal,envio-pos2,envio-pos2
+o0510,hace ruidos extranos y llego con la caja rota. compra hecha en linea.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+envio-neg1
+o0511,"Sobre la lámpara: genial, tres semanas esperando para nada. Es mi segunda compra.",negativa,ironía,s02,s02
+o0512,Opinión sincera: la atención fue grosera. Es mi segunda compra.,negativa,normal,atencion-neg1,atencion-neg1
+o0513,Opinión sincera: no volvería a comprar aquí. Es mi segunda compra.,negativa,negación,r06,r06
+o0514,"Opinión sincera: genial, tres semanas esperando para nada. Es mi segunda compra.",negativa,ironía,s02,s02
+o0515,Opinión sincera: vale lo que cuesta.,positiva,normal,precio-pos0,precio-pos0
+o0516,El precio es exagerado. Es mi segunda compra.,negativa,normal,precio-neg1,precio-neg1
+o0517,Sobre la licuadora: vale lo que cuesta y respondieron rapido mis preguntas.,positiva,normal,precio-pos0,precio-pos0+atencion-pos1
+o0518,sobre la lámpara: vale lo que cuesta.,positiva,normal,precio-pos0,precio-pos0
+o0519,Compré el reloj. Nadie responde los mensajes y llegó con la caja rota.,negativa,normal,atencion-neg0,atencion-neg0+envio-neg1
+o0520,Sobre el libro: nunca resolvieron mi reclamo.,negativa,normal,atencion-neg2,atencion-neg2
+o0521,Falla todo el tiempo y es caro para lo que ofrece. Lo compré hace un mes.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+precio-neg0
+o0522,Opinión sincera: es caro para lo que ofrece. Es mi segunda compra.,negativa,normal,precio-neg0,precio-neg0
+o0523,Los materiales son baratos y falla todo el tiempo. Compra hecha en linea.,negativa,normal,calidad-neg2,calidad-neg2+funcionamiento-neg1
+o0524,Opinion sincera: no lo recomiendo.,negativa,negación,r05,r05
+o0525,Opinión sincera: la atención fue grosera y la calidad deja mucho que desear.,negativa,normal,atencion-neg1,atencion-neg1+calidad-neg0
+o0526,Sobre la chaqueta: los materiales son baratos y es caro para lo que ofrece. Lo compre hace un mes.,negativa,normal,calidad-neg2,calidad-neg2+precio-neg0
+o0527,Llegó con la caja rota y se siente frágil. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1+calidad-neg1
+o0528,Sobre la mochila: me ayudaron con un cambio sin problema y llegó con buen empaque. Compra hecha en línea.,positiva,normal,atencion-pos2,atencion-pos2+envio-pos2
+o0529,Compré la lámpara. El precio es exagerado y la atención fue grosera. Lo compré hace un mes.,negativa,normal,precio-neg1,precio-neg1+atencion-neg1
+o0530,La calidad deja mucho que desear y hace ruidos extranos.,negativa,normal,calidad-neg0,calidad-neg0+funcionamiento-neg2
+o0531,No lo recomiendo. Lo compré hace un mes.,negativa,negación,r05,r05
+o0532,sobre el libro: no ha fallado ni una vez.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0533,Opinión sincera: llegó rápido y el precio es justo. Compra hecha en línea.,positiva,normal,envio-pos0,envio-pos0+precio-pos1
+o0534,Opinión sincera: falla todo el tiempo. Es mi segunda compra.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0535,Sobre la mochila: es economico para lo que ofrece. Lo compre hace un mes.,positiva,normal,precio-pos2,precio-pos2
+o0536,Opinión sincera: me ayudaron con un cambio sin problema y no ha fallado ni una vez. Es mi segunda compra.,positiva,normal,atencion-pos2,atencion-pos2+funcionamiento-pos2
+o0537,Compré la chaqueta. Hace exactamente lo que promete.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0538,Sobre la licuadora: llegó con buen empaque.,positiva,normal,envio-pos2,envio-pos2
+o0539,Compré la chaqueta. El precio es justo. Es mi segunda compra.,positiva,normal,precio-pos1,precio-pos1
+o0540,Compré el teclado. Los materiales se sienten resistentes.,positiva,normal,calidad-pos2,calidad-pos2
+o0541,Vale lo que cuesta y me ayudaron con un cambio sin problema.,positiva,normal,precio-pos0,precio-pos0+atencion-pos2
+o0542,Opinión sincera: se siente frágil y dejó de funcionar a la semana.,negativa,normal,calidad-neg1,calidad-neg1+funcionamiento-neg0
+o0543,Sobre la mochila: tardó tres semanas en llegar. Lo compré hace un mes.,negativa,normal,envio-neg2,envio-neg2
+o0544,Me ayudaron con un cambio sin problema y el precio es justo.,positiva,normal,atencion-pos2,atencion-pos2+precio-pos1
+o0545,Sobre la licuadora: se siente frágil y es caro para lo que ofrece. Es mi segunda compra.,negativa,normal,calidad-neg1,calidad-neg1+precio-neg0
+o0546,Sobre la chaqueta: respondieron rápido mis preguntas y llegó con buen empaque. Lo compré hace un mes.,positiva,normal,atencion-pos1,atencion-pos1+envio-pos2
+o0547,Llegó antes de lo esperado y es económico para lo que ofrece. Lo compré hace un mes.,positiva,normal,envio-pos1,envio-pos1+precio-pos2
+o0548,Sobre la licuadora: hace exactamente lo que promete y llegó rápido.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+envio-pos0
+o0549,Opinión sincera: tardó tres semanas en llegar y pagué demasiado. Es mi segunda compra.,negativa,normal,envio-neg2,envio-neg2+precio-neg2
+o0550,Compré el libro. El precio es justo y la calidad es excelente. Es mi segunda compra.,positiva,normal,precio-pos1,precio-pos1+calidad-pos0
+o0551,Dejó de funcionar a la semana y es caro para lo que ofrece. Lo compré hace un mes.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+precio-neg0
+o0552,Opinión sincera: la atención fue amable. Compra hecha en línea.,positiva,normal,atencion-pos0,atencion-pos0
+o0553,no tengo ninguna queja. lo compré hace un mes.,positiva,negación,r02,r02
+o0554,falla todo el tiempo.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0555,Nunca resolvieron mi reclamo y los materiales son baratos.,negativa,normal,atencion-neg2,atencion-neg2+calidad-neg2
+o0556,Opinión sincera: la atención fue grosera.,negativa,normal,atencion-neg1,atencion-neg1
+o0557,Sobre el libro: falla todo el tiempo. Lo compré hace un mes.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0558,Tardo tres semanas en llegar.,negativa,normal,envio-neg2,envio-neg2
+o0559,Sobre el libro: pague demasiado y los materiales son baratos.,negativa,normal,precio-neg2,precio-neg2+calidad-neg2
+o0560,"Sobre el reloj: que maravilla, se rompio el primer dia.",negativa,ironía,s03,s03
+o0561,Compré el teclado. Nunca resolvieron mi reclamo y tardó tres semanas en llegar.,negativa,normal,atencion-neg2,atencion-neg2+envio-neg2
+o0562,Falla todo el tiempo y la atención fue grosera.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+atencion-neg1
+o0563,Sobre el reloj: los materiales se sienten resistentes y funciona perfecto. Es mi segunda compra.,positiva,normal,calidad-pos2,calidad-pos2+funcionamiento-pos0
+o0564,La atencion fue grosera y los materiales son baratos.,negativa,normal,atencion-neg1,atencion-neg1+calidad-neg2
+o0565,Respondieron rápido mis preguntas. Lo compré hace un mes.,positiva,normal,atencion-pos1,atencion-pos1
+o0566,Nunca resolvieron mi reclamo. Lo compré hace un mes.,negativa,normal,atencion-neg2,atencion-neg2
+o0567,Es economico para lo que ofrece y tiene muy buenos acabados.,positiva,normal,precio-pos2,precio-pos2+calidad-pos1
+o0568,Opinión sincera: llegó antes de lo esperado y no ha fallado ni una vez. Compra hecha en línea.,positiva,normal,envio-pos1,envio-pos1+funcionamiento-pos2
+o0569,Opinión sincera: hace exactamente lo que promete. Compra hecha en línea.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0570,Llegó con la caja rota.,negativa,normal,envio-neg1,envio-neg1
+o0571,Llegó con la caja rota y pagué demasiado.,negativa,normal,envio-neg1,envio-neg1+precio-neg2
+o0572,"Genial, tres semanas esperando para nada. Compra hecha en linea.",negativa,ironía,s02,s02
+o0573,Opinión sincera: nunca resolvieron mi reclamo y llegó tarde. Lo compré hace un mes.,negativa,normal,atencion-neg2,atencion-neg2+envio-neg0
+o0574,Sobre la licuadora: el precio es exagerado y falla todo el tiempo. Lo compré hace un mes.,negativa,normal,precio-neg1,precio-neg1+funcionamiento-neg1
+o0575,Sobre la mochila: es economico para lo que ofrece y llego con buen empaque.,positiva,normal,precio-pos2,precio-pos2+envio-pos2
+o0576,Compré la licuadora. Funciona perfecto y llegó antes de lo esperado. Lo compré hace un mes.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+envio-pos1
+o0577,Sobre el libro: hace exactamente lo que promete. Lo compré hace un mes.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0578,Opinión sincera: el precio es exagerado.,negativa,normal,precio-neg1,precio-neg1
+o0579,Sobre la mochila: la calidad deja mucho que desear y falla todo el tiempo.,negativa,normal,calidad-neg0,calidad-neg0+funcionamiento-neg1
+o0580,"Genial, tres semanas esperando para nada. Es mi segunda compra.",negativa,ironía,s02,s02
+o0581,"Sobre el teclado: qué maravilla, se rompió el primer día. Compra hecha en línea.",negativa,ironía,s03,s03
+o0582,Compré la mochila. No ha fallado ni una vez y vale lo que cuesta. Lo compré hace un mes.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+precio-pos0
+o0583,Sobre la chaqueta: hace exactamente lo que promete y vale lo que cuesta.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+precio-pos0
+o0584,Compré la lámpara. No tengo ninguna queja. Es mi segunda compra.,positiva,negación,r02,r02
+o0585,Compré la lámpara. Hace exactamente lo que promete. Es mi segunda compra.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0586,"Sobre la mochila: qué maravilla, se rompió el primer día.",negativa,ironía,s03,s03
+o0587,Compre el teclado. Me ayudaron con un cambio sin problema y funciona perfecto.,positiva,normal,atencion-pos2,atencion-pos2+funcionamiento-pos0
+o0588,La atención fue grosera y falla todo el tiempo. Es mi segunda compra.,negativa,normal,atencion-neg1,atencion-neg1+funcionamiento-neg1
+o0589,"Opinión sincera: excelente: llegó roto, justo lo que quería.",negativa,ironía,s01,s01
+o0590,Sobre el reloj: tiene muy buenos acabados y llegó rápido. Es mi segunda compra.,positiva,normal,calidad-pos1,calidad-pos1+envio-pos0
+o0591,Sobre el reloj: dejó de funcionar a la semana y llegó con la caja rota. Lo compré hace un mes.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+envio-neg1
+o0592,Sobre la lámpara: la atención fue grosera y la calidad deja mucho que desear.,negativa,normal,atencion-neg1,atencion-neg1+calidad-neg0
+o0593,Opinión sincera: llegó con buen empaque.,positiva,normal,envio-pos2,envio-pos2
+o0594,Opinión sincera: llegó con buen empaque y es económico para lo que ofrece.,positiva,normal,envio-pos2,envio-pos2+precio-pos2
+o0595,Compré la licuadora. Llegó antes de lo esperado y funciona perfecto.,positiva,normal,envio-pos1,envio-pos1+funcionamiento-pos0
+o0596,Sobre la licuadora: no tengo ninguna queja.,positiva,negación,r02,r02
+o0597,Es caro para lo que ofrece. Es mi segunda compra.,negativa,normal,precio-neg0,precio-neg0
+o0598,Sobre la mochila: hace ruidos extraños y llegó con la caja rota.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+envio-neg1
+o0599,Compré el libro. Vale lo que cuesta y no ha fallado ni una vez.,positiva,normal,precio-pos0,precio-pos0+funcionamiento-pos2
+o0600,Los materiales son baratos.,negativa,normal,calidad-neg2,calidad-neg2
+o0601,Opinión sincera: los materiales se sienten resistentes y el precio es justo.,positiva,normal,calidad-pos2,calidad-pos2+precio-pos1
+o0602,Compré la licuadora. Tiene muy buenos acabados y funciona perfecto.,positiva,normal,calidad-pos1,calidad-pos1+funcionamiento-pos0
+o0603,Nunca resolvieron mi reclamo y tardó tres semanas en llegar. Compra hecha en línea.,negativa,normal,atencion-neg2,atencion-neg2+envio-neg2
+o0604,Opinión sincera: se siente frágil. Compra hecha en línea.,negativa,normal,calidad-neg1,calidad-neg1
+o0605,Me ayudaron con un cambio sin problema. Compra hecha en línea.,positiva,normal,atencion-pos2,atencion-pos2
+o0606,Opinión sincera: se siente frágil y la atención fue grosera.,negativa,normal,calidad-neg1,calidad-neg1+atencion-neg1
+o0607,no volvería a comprar aquí. lo compré hace un mes.,negativa,negación,r06,r06
+o0608,Opinion sincera: es economico para lo que ofrece.,positiva,normal,precio-pos2,precio-pos2
+o0609,Me ayudaron con un cambio sin problema y llegó rápido.,positiva,normal,atencion-pos2,atencion-pos2+envio-pos0
+o0610,Compré el teclado. Respondieron rápido mis preguntas y llegó antes de lo esperado.,positiva,normal,atencion-pos1,atencion-pos1+envio-pos1
+o0611,Compre la mochila. Se siente fragil.,negativa,normal,calidad-neg1,calidad-neg1
+o0612,Sobre la licuadora: pagué demasiado y los materiales son baratos. Es mi segunda compra.,negativa,normal,precio-neg2,precio-neg2+calidad-neg2
+o0613,"Sobre la licuadora: excelente: llegó roto, justo lo que quería. Es mi segunda compra.",negativa,ironía,s01,s01
+o0614,Compré la mochila. Dejó de funcionar a la semana y nunca resolvieron mi reclamo. Compra hecha en línea.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+atencion-neg2
+o0615,La calidad es excelente.,positiva,normal,calidad-pos0,calidad-pos0
+o0616,Sobre el teclado: la atención fue amable y llegó antes de lo esperado. Compra hecha en línea.,positiva,normal,atencion-pos0,atencion-pos0+envio-pos1
+o0617,Compré la licuadora. La calidad es excelente y respondieron rápido mis preguntas. Es mi segunda compra.,positiva,normal,calidad-pos0,calidad-pos0+atencion-pos1
+o0618,Opinión sincera: los materiales son baratos. Es mi segunda compra.,negativa,normal,calidad-neg2,calidad-neg2
+o0619,Sobre la mochila: llego rapido y es economico para lo que ofrece.,positiva,normal,envio-pos0,envio-pos0+precio-pos2
+o0620,Compré la licuadora. Pagué demasiado y dejó de funcionar a la semana. Lo compré hace un mes.,negativa,normal,precio-neg2,precio-neg2+funcionamiento-neg0
+o0621,Sobre la lámpara: hace exactamente lo que promete. Lo compré hace un mes.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1
+o0622,Opinión sincera: me ayudaron con un cambio sin problema y el precio es justo.,positiva,normal,atencion-pos2,atencion-pos2+precio-pos1
+o0623,Sobre el libro: la atención fue amable.,positiva,normal,atencion-pos0,atencion-pos0
+o0624,Opinión sincera: llegó antes de lo esperado y vale lo que cuesta.,positiva,normal,envio-pos1,envio-pos1+precio-pos0
+o0625,Sobre el reloj: es económico para lo que ofrece.,positiva,normal,precio-pos2,precio-pos2
+o0626,Opinión sincera: falla todo el tiempo y nunca resolvieron mi reclamo. Compra hecha en línea.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1+atencion-neg2
+o0627,la atención fue grosera.,negativa,normal,atencion-neg1,atencion-neg1
+o0628,Compré la lámpara. Llegó con la caja rota. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1
+o0629,Tardó tres semanas en llegar y hace ruidos extraños.,negativa,normal,envio-neg2,envio-neg2+funcionamiento-neg2
+o0630,Opinión sincera: no ha fallado ni una vez y el precio es justo.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+precio-pos1
+o0631,Llegó antes de lo esperado y vale lo que cuesta.,positiva,normal,envio-pos1,envio-pos1+precio-pos0
+o0632,Sobre la chaqueta: tiene muy buenos acabados y hace exactamente lo que promete.,positiva,normal,calidad-pos1,calidad-pos1+funcionamiento-pos1
+o0633,La atencion fue grosera. Compra hecha en linea.,negativa,normal,atencion-neg1,atencion-neg1
+o0634,Sobre la chaqueta: me ayudaron con un cambio sin problema y los materiales se sienten resistentes.,positiva,normal,atencion-pos2,atencion-pos2+calidad-pos2
+o0635,Sobre el libro: los materiales se sienten resistentes. Compra hecha en línea.,positiva,normal,calidad-pos2,calidad-pos2
+o0636,Sobre la licuadora: llegó con buen empaque y tiene muy buenos acabados. Es mi segunda compra.,positiva,normal,envio-pos2,envio-pos2+calidad-pos1
+o0637,opinión sincera: el precio es exagerado y dejó de funcionar a la semana.,negativa,normal,precio-neg1,precio-neg1+funcionamiento-neg0
+o0638,"Que maravilla, se rompio el primer dia.",negativa,ironía,s03,s03
+o0639,sobre el libro: llego antes de lo esperado. es mi segunda compra.,positiva,normal,envio-pos1,envio-pos1
+o0640,Es económico para lo que ofrece.,positiva,normal,precio-pos2,precio-pos2
+o0641,Opinión sincera: pagué demasiado. Lo compré hace un mes.,negativa,normal,precio-neg2,precio-neg2
+o0642,Sobre la lámpara: nadie responde los mensajes y hace ruidos extraños.,negativa,normal,atencion-neg0,atencion-neg0+funcionamiento-neg2
+o0643,Llegó tarde. Lo compré hace un mes.,negativa,normal,envio-neg0,envio-neg0
+o0644,Se siente fragil y hace ruidos extranos. Compra hecha en linea.,negativa,normal,calidad-neg1,calidad-neg1+funcionamiento-neg2
+o0645,El precio es justo y llegó rápido. Lo compré hace un mes.,positiva,normal,precio-pos1,precio-pos1+envio-pos0
+o0646,Compré la mochila. No ha fallado ni una vez. Compra hecha en línea.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0647,Opinión sincera: los materiales son baratos. Compra hecha en línea.,negativa,normal,calidad-neg2,calidad-neg2
+o0648,Sobre la licuadora: no me arrepiento de la compra. Es mi segunda compra.,positiva,negación,r03,r03
+o0649,La atención fue amable y hace exactamente lo que promete. Es mi segunda compra.,positiva,normal,atencion-pos0,atencion-pos0+funcionamiento-pos1
+o0650,Compré la chaqueta. Tiene muy buenos acabados y el precio es justo.,positiva,normal,calidad-pos1,calidad-pos1+precio-pos1
+o0651,Sobre la lámpara: dejó de funcionar a la semana y los materiales son baratos.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0+calidad-neg2
+o0652,llegó con la caja rota. es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1
+o0653,Pagué demasiado y nunca resolvieron mi reclamo. Es mi segunda compra.,negativa,normal,precio-neg2,precio-neg2+atencion-neg2
+o0654,Opinión sincera: nadie responde los mensajes y el precio es exagerado. Compra hecha en línea.,negativa,normal,atencion-neg0,atencion-neg0+precio-neg1
+o0655,Es caro para lo que ofrece y llegó tarde.,negativa,normal,precio-neg0,precio-neg0+envio-neg0
+o0656,Compré el reloj. Funciona perfecto. Lo compré hace un mes.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0657,Compré el reloj. No tengo ninguna queja.,positiva,negación,r02,r02
+o0658,Opinión sincera: pagué demasiado y la atención fue grosera. Compra hecha en línea.,negativa,normal,precio-neg2,precio-neg2+atencion-neg1
+o0659,Sobre la lámpara: nadie responde los mensajes y pagué demasiado.,negativa,normal,atencion-neg0,atencion-neg0+precio-neg2
+o0660,Compré el teclado. No lo recomiendo. Compra hecha en línea.,negativa,negación,r05,r05
+o0661,Pagué demasiado. Lo compré hace un mes.,negativa,normal,precio-neg2,precio-neg2
+o0662,"Sobre la mochila: excelente: llegó roto, justo lo que quería. Compra hecha en línea.",negativa,ironía,s01,s01
+o0663,Compré el reloj. Funciona perfecto. Compra hecha en línea.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0
+o0664,Opinión sincera: los materiales se sienten resistentes. Lo compré hace un mes.,positiva,normal,calidad-pos2,calidad-pos2
+o0665,Dejó de funcionar a la semana. Es mi segunda compra.,negativa,normal,funcionamiento-neg0,funcionamiento-neg0
+o0666,Tiene muy buenos acabados y hace exactamente lo que promete.,positiva,normal,calidad-pos1,calidad-pos1+funcionamiento-pos1
+o0667,La calidad es excelente. Lo compré hace un mes.,positiva,normal,calidad-pos0,calidad-pos0
+o0668,Compré el libro. Hace ruidos extraños y tardó tres semanas en llegar.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+envio-neg2
+o0669,sobre el teclado: respondieron rápido mis preguntas. lo compré hace un mes.,positiva,normal,atencion-pos1,atencion-pos1
+o0670,Opinión sincera: respondieron rápido mis preguntas y vale lo que cuesta.,positiva,normal,atencion-pos1,atencion-pos1+precio-pos0
+o0671,Compré el reloj. Funciona perfecto y llegó rápido.,positiva,normal,funcionamiento-pos0,funcionamiento-pos0+envio-pos0
+o0672,Opinión sincera: hace exactamente lo que promete y la calidad es excelente. Lo compré hace un mes.,positiva,normal,funcionamiento-pos1,funcionamiento-pos1+calidad-pos0
+o0673,"compré la licuadora. excelente: llegó roto, justo lo que quería.",negativa,ironía,s01,s01
+o0674,Compré la mochila. No tengo ninguna queja.,positiva,negación,r02,r02
+o0675,Es caro para lo que ofrece y la calidad deja mucho que desear.,negativa,normal,precio-neg0,precio-neg0+calidad-neg0
+o0676,Compre la mochila. Tardo tres semanas en llegar y el precio es exagerado.,negativa,normal,envio-neg2,envio-neg2+precio-neg1
+o0677,Se siente fragil y tardo tres semanas en llegar. Es mi segunda compra.,negativa,normal,calidad-neg1,calidad-neg1+envio-neg2
+o0678,Compré la chaqueta. Se siente frágil y hace ruidos extraños.,negativa,normal,calidad-neg1,calidad-neg1+funcionamiento-neg2
+o0679,No ha fallado ni una vez y me ayudaron con un cambio sin problema.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2+atencion-pos2
+o0680,"Compré la lámpara. Genial, tres semanas esperando para nada. Compra hecha en línea.",negativa,ironía,s02,s02
+o0681,Sobre la chaqueta: no me arrepiento de la compra. Compra hecha en línea.,positiva,negación,r03,r03
+o0682,Compré el libro. Llegó con la caja rota. Es mi segunda compra.,negativa,normal,envio-neg1,envio-neg1
+o0683,Sobre la mochila: es caro para lo que ofrece. Es mi segunda compra.,negativa,normal,precio-neg0,precio-neg0
+o0684,Sobre el reloj: falla todo el tiempo.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0685,Falla todo el tiempo. Compra hecha en línea.,negativa,normal,funcionamiento-neg1,funcionamiento-neg1
+o0686,Sobre la lámpara: no ha fallado ni una vez.,positiva,normal,funcionamiento-pos2,funcionamiento-pos2
+o0687,Hace ruidos extraños y llegó tarde. Lo compré hace un mes.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+envio-neg0
+o0688,la calidad deja mucho que desear y es caro para lo que ofrece. lo compré hace un mes.,negativa,normal,calidad-neg0,calidad-neg0+precio-neg0
+o0689,"Opinión sincera: excelente: llegó roto, justo lo que quería. Compra hecha en línea.",negativa,ironía,s01,s01
+o0690,Sobre el libro: nadie responde los mensajes.,negativa,normal,atencion-neg0,atencion-neg0
+o0691,nunca resolvieron mi reclamo.,negativa,normal,atencion-neg2,atencion-neg2
+o0692,Opinión sincera: no me arrepiento de la compra. Lo compré hace un mes.,positiva,negación,r03,r03
+o0693,Compré la lámpara. Los materiales son baratos y nadie responde los mensajes. Compra hecha en línea.,negativa,normal,calidad-neg2,calidad-neg2+atencion-neg0
+o0694,La calidad es excelente y llegó con buen empaque.,positiva,normal,calidad-pos0,calidad-pos0+envio-pos2
+o0695,Sobre la licuadora: respondieron rápido mis preguntas y llegó antes de lo esperado.,positiva,normal,atencion-pos1,atencion-pos1+envio-pos1
+o0696,Sobre la chaqueta: no volveria a comprar aqui.,negativa,negación,r06,r06
+o0697,Compré la licuadora. Se siente frágil.,negativa,normal,calidad-neg1,calidad-neg1
+o0698,No me arrepiento de la compra. Es mi segunda compra.,positiva,negación,r03,r03
+o0699,Sobre el libro: hace ruidos extraños y la calidad deja mucho que desear. Es mi segunda compra.,negativa,normal,funcionamiento-neg2,funcionamiento-neg2+calidad-neg0
+o0700,Compré el teclado. El precio es exagerado y hace ruidos extraños. Es mi segunda compra.,negativa,normal,precio-neg1,precio-neg1+funcionamiento-neg2
