@@ -7,7 +7,7 @@ plantilla para tu proyecto. No hace falta instalar nada.
 
 ## Cómo empezar
 
-1. Elige una receta y pulsa **Abrir en Colab**.
+1. Elige una receta, pulsa **Abrir en Colab** e inicia sesión con tu cuenta de Google. Si Colab avisa que el notebook no es de Google, elige *Ejecutar de todos modos*.
 2. En Colab: *Entorno de ejecución → Ejecutar todo*.
 3. Busca la celda **«Cambia esto»**, modifica un valor y vuelve a ejecutar.
 
