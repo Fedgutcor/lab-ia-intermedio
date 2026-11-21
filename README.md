@@ -20,11 +20,12 @@ plantilla para tu proyecto. No hace falta instalar nada.
 | [03 · Transferencia y LoRA: adaptar sin empezar de cero](recetas/03_transferencia_y_lora.ipynb) | M3 · Ajuste fino y adaptación de modelos | [Abrir en Colab](https://colab.research.google.com/github/Fedgutcor/lab-ia-intermedio/blob/main/recetas/03_transferencia_y_lora.ipynb) |
 | [04 · Evaluar, registrar, guardar y servir un modelo](recetas/04_evaluar_guardar_servir.ipynb) | M4 · Evaluación, versionado y despliegue | [Abrir en Colab](https://colab.research.google.com/github/Fedgutcor/lab-ia-intermedio/blob/main/recetas/04_evaluar_guardar_servir.ipynb) |
 | [Plantilla de proyecto: de la pregunta a un modelo que se puede defender](proyecto/plantilla_proyecto.ipynb) | Proyecto | [Abrir en Colab](https://colab.research.google.com/github/Fedgutcor/lab-ia-intermedio/blob/main/proyecto/plantilla_proyecto.ipynb) |
-| [Encuentro 1 · Usar un modelo existente](encuentros/e01_usar_un_modelo_existente.ipynb) | Encuentro 1 | [Abrir en Colab](https://colab.research.google.com/github/Fedgutcor/lab-ia-intermedio/blob/main/encuentros/e01_usar_un_modelo_existente.ipynb) |
+| [Encuentro 1 · Usar un modelo que ya existe](encuentros/e01_usar_un_modelo_existente.ipynb) | Encuentro 1 | [Abrir en Colab](https://colab.research.google.com/github/Fedgutcor/lab-ia-intermedio/blob/main/encuentros/e01_usar_un_modelo_existente.ipynb) |
+| [Encuentro 3 · Cómo se convierte el texto en números](encuentros/e03_texto_a_numeros.ipynb) | Encuentro 3 | [Abrir en Colab](https://colab.research.google.com/github/Fedgutcor/lab-ia-intermedio/blob/main/encuentros/e03_texto_a_numeros.ipynb) |
 
 ## Datos
 
-Ver [`datos/LEEME.md`](datos/LEEME.md). Las recetas también usan Fashion-MNIST (incluido en
+Ver [`datos/LEEME.md`](datos/LEEME.md). El Encuentro 3 usa además la lista de palabras vacías de spaCy (licencia MIT). Las recetas también usan Fashion-MNIST (incluido en
 Keras, licencia MIT) y `flower_photos` de TensorFlow (CC BY 2.0, fotógrafos listados en su
 `LICENSE.txt`).
 
